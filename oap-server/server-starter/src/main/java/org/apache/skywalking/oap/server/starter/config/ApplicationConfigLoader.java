@@ -42,6 +42,7 @@ import java.util.Properties;
  * <p>
  * At last, override setting by system.properties and system.envs if the key matches moduleName.provideName.settingKey.
  */
+// ApplicationConfig Loader: 优先级最高的是 system.properties与system.env: properties 承载具体的key
 @Slf4j
 public class ApplicationConfigLoader implements ConfigLoader<ApplicationConfiguration> {
     private static final String DISABLE_SELECTOR = "-";

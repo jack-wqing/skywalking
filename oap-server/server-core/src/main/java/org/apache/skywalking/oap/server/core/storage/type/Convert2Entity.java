@@ -20,6 +20,7 @@ package org.apache.skywalking.oap.server.core.storage.type;
 
 /**
  * A function supplier to convert raw data from database to object defined in OAP
+ * storage to entity
  */
 public interface Convert2Entity {
     Object get(String fieldName);

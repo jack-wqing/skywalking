@@ -30,6 +30,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Metrics related DAO.
+ * Metric DAO
  */
 public interface IMetricsDAO extends DAO {
     /**

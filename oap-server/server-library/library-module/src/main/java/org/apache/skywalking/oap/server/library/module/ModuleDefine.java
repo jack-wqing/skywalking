@@ -28,6 +28,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * A module definition.
+ * 组成系统具体的Module定义
  */
 public abstract class ModuleDefine implements ModuleProviderHolder {
 
@@ -49,13 +50,13 @@ public abstract class ModuleDefine implements ModuleProviderHolder {
     }
 
     /**
-     * @return the {@link Service} provided by this module.
+     * @return the {@link Service} provided by this module. // module 需要的实现的服务
      */
     public abstract Class[] services();
 
     /**
      * Run the prepare stage for the module, including finding all potential providers, and asking them to prepare.
-     *
+     * prepare 寻找 ModuleProvider
      * @param moduleManager of this module
      * @param configuration of this module
      * @throws ProviderNotFoundException when even don't find a single one providers.

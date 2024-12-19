@@ -22,6 +22,8 @@ package org.apache.skywalking.oap.server.library.module;
  * The <code>Service</code> implementation is a service provided by its own modules.
  * <p>
  * And every {@link ModuleProvider} must provide all the given services of the {@link ModuleDefine}.
+ * 每个ModuleDefine具有一些 Service,每个Module的Provider 必须实现这些Service; Module的服务组件
  */
+// service
 public interface Service {
 }

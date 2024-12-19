@@ -142,7 +142,7 @@ core:
     # Notice: some of the configurations only available for kubernetes environments.
     enableHierarchy: ${SW_CORE_ENABLE_HIERARCHY:true}
 storage:
-  selector: ${SW_STORAGE:h2}
+  selector: ${SW_STORAGE:mysql}
   elasticsearch:
     namespace: ${SW_NAMESPACE:""}
     clusterNodes: ${SW_STORAGE_ES_CLUSTER_NODES:localhost:9200}
@@ -194,9 +194,9 @@ storage:
     asyncBatchPersistentPoolSize: ${SW_STORAGE_ASYNC_BATCH_PERSISTENT_POOL_SIZE:1}
   mysql:
     properties:
-      jdbcUrl: ${SW_JDBC_URL:"jdbc:mysql://localhost:3306/swtest?rewriteBatchedStatements=true&allowMultiQueries=true"}
+      jdbcUrl: ${SW_JDBC_URL:"jdbc:mysql://127.0.0.1:3306/skywalking?rewriteBatchedStatements=true&allowMultiQueries=true"}
       dataSource.user: ${SW_DATA_SOURCE_USER:root}
-      dataSource.password: ${SW_DATA_SOURCE_PASSWORD:root@1234}
+      dataSource.password: ${SW_DATA_SOURCE_PASSWORD:root}
       dataSource.cachePrepStmts: ${SW_DATA_SOURCE_CACHE_PREP_STMTS:true}
       dataSource.prepStmtCacheSize: ${SW_DATA_SOURCE_PREP_STMT_CACHE_SQL_SIZE:250}
       dataSource.prepStmtCacheSqlLimit: ${SW_DATA_SOURCE_PREP_STMT_CACHE_SQL_LIMIT:2048}

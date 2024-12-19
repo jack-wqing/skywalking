@@ -17,7 +17,7 @@
  */
 
 package org.apache.skywalking.oap.server.library.module;
-
+// ModuleProviderHolder: 管理Module定义的ModuleService的实现
 public interface ModuleProviderHolder {
 
     ModuleServiceHolder provider() throws DuplicateProviderException, ProviderNotFoundException;

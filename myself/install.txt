@@ -1,0 +1,17 @@
+jdk: 11/17/21
+
+第一步：编译代码:
+    需要的编译环境：https://skywalking.apache.org/docs/main/v10.1.0/en/guides/how-to-build/
+    backend-start-up-mode:
+        https://skywalking.apache.org/docs/main/v10.1.0/en/setup/backend/backend-start-up-mode/
+    backend-init-mode
+        https://skywalking.apache.org/docs/main/v10.1.0/en/setup/backend/backend-init-mode/
+第二部: storage= mysql
+     放置mysql-connector-java-8.0.29.jar到oap-libs中
+
+
+
+
+
+
+

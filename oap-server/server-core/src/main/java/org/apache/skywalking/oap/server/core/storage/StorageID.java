@@ -38,7 +38,7 @@ import org.apache.skywalking.oap.server.library.util.StringUtil;
  *
  * In the SQL database and ElasticSearch, the string ID is preferred.
  * In the BanyanDB, time series and entity ID(series ID) would be treated separately.
- *
+ * String id -> StorageID
  * @since 9.4.0 StorageID replaced the `string id()` method in the StorageData. An object-oriented ID provides a more
  * friendly interface for various database implementation.
  */

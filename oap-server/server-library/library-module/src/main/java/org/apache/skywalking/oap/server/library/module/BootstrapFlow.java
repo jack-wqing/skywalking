@@ -23,7 +23,7 @@ import java.util.List;
 import java.util.Map;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.skywalking.oap.server.library.util.CollectionUtils;
-
+// BootstrapFlow: 启动的Module之间可能存在module依赖，所以需要重新定义模块的启动顺序
 @Slf4j
 class BootstrapFlow {
     private Map<String, ModuleDefine> loadedModules;
@@ -35,10 +35,9 @@ class BootstrapFlow {
 
         makeSequence();
     }
-
+    // ModuleProvider.start启动关键的
     @SuppressWarnings("unchecked")
-    void start(
-        ModuleManager moduleManager) throws ModuleNotFoundException, ServiceNotProvidedException, ModuleStartException {
+    void start(ModuleManager moduleManager) throws ModuleNotFoundException, ServiceNotProvidedException, ModuleStartException {
         for (ModuleProvider provider : startupSequence) {
             log.info("start the provider {} in {} module.", provider.name(), provider.getModuleName());
             provider.requiredCheck(provider.getModule().services());
@@ -70,7 +69,7 @@ class BootstrapFlow {
 
             allProviders.add(module.provider());
         }
-
+        // 依赖module判断: 没存轮训，寻找依赖已经完成的module
         do {
             int numOfToBeSequenced = allProviders.size();
             for (int i = 0; i < allProviders.size(); i++) {

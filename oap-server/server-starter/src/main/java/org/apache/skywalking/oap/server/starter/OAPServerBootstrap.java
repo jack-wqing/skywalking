@@ -33,6 +33,7 @@ import static org.apache.skywalking.oap.server.library.module.TerminalFriendlyTa
 /**
  * Starter core. Load the core configuration file, and initialize the startup sequence through {@link ModuleManager}.
  */
+// OAPServerBootstrap: 服务具体的启动装配流程
 @Slf4j
 public class OAPServerBootstrap {
     public static void start() {
@@ -41,7 +42,7 @@ public class OAPServerBootstrap {
 
         String mode = System.getProperty("mode");
         RunningMode.setMode(mode);
-
+        // 引用配置的加载
         ApplicationConfigLoader configLoader = new ApplicationConfigLoader(bootingParameters);
 
         bootingParameters.addRow(new Row("Running Mode", mode));
@@ -49,7 +50,7 @@ public class OAPServerBootstrap {
 
         try {
             ApplicationConfiguration applicationConfiguration = configLoader.load();
-            manager.init(applicationConfiguration);
+            manager.init(applicationConfiguration); // 通过配置文件初始化各个Module
 
             manager.find(CoreModule.NAME)
                    .provider()

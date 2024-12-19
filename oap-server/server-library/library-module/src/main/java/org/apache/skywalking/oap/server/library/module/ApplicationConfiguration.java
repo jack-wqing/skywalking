@@ -25,6 +25,7 @@ import lombok.Getter;
 /**
  * Modularization configurations. The {@link ModuleManager} is going to start, lookup, start modules based on this.
  */
+// ApplicationConfiguration: Application -> Module -> Provider: 配置的初始和zipkin的属性处理差不多
 public class ApplicationConfiguration {
     private HashMap<String, ModuleConfiguration> modules = new HashMap<>();
 

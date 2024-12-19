@@ -16,7 +16,7 @@
  */
 
 package org.apache.skywalking.oap.server.library.client.request;
-
+// DAO InsertRequest
 public interface InsertRequest extends PrepareRequest {
     void onInsertCompleted();
 }

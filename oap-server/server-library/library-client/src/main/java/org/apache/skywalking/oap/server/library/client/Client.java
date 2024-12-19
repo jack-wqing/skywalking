@@ -19,7 +19,7 @@
 package org.apache.skywalking.oap.server.library.client;
 
 import java.io.IOException;
-
+// Client
 public interface Client {
 
     void connect() throws Exception;

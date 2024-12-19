@@ -1,0 +1,8 @@
+1、ModuleDefine与ModuleProvider:
+    ModuleDefine: 表示某个具体的模块需要的定义
+    ModuleProvider: 表示某种具体的ModuleDefine实现
+    两者是一对多的关系：但是具体运行时激活时一对一的关系
+
+2、以 ModuleDefine 的视角触发去寻找指定实现的 ModuleProvider
+   ModuleDefine通过自己类名和配置启动Provider找到ModuleProvider: 执行配置的拷贝然后prepare方法
+

@@ -28,6 +28,7 @@ import lombok.RequiredArgsConstructor;
  * TerminalFriendlyTable represents a two columns table, each column accepts the String type.
  * It provides the {@link #toString()} to return two aligned column tables for the terminal output.
  */
+// friendly key value Terminal
 @RequiredArgsConstructor
 public class TerminalFriendlyTable {
     private static final String LINE_SEPARATOR = System.getProperty("line.separator", "\n");

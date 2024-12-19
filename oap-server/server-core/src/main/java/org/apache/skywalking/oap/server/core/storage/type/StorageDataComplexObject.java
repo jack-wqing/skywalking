@@ -26,6 +26,7 @@ import java.io.IOException;
 
 /**
  * StorageDataComplexObject implementation supports String-Object interconversion.
+ * String <-> Object
  */
 @JsonSerialize(using = StorageDataComplexObject.Serializer.class)
 public interface StorageDataComplexObject<T> {

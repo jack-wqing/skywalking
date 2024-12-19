@@ -29,7 +29,7 @@ import org.apache.skywalking.oap.server.library.util.StringUtil;
 
 /**
  * HashMapConverter represents a HashMap based converter to hold the value.
- *
+ *  String 会被 Base64编码
  * This converter includes following converting rules.
  * 1. byte[] is converted to/from String through BASE64 encoder/decoder.
  */

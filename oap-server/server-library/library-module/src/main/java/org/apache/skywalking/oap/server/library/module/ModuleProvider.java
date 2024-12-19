@@ -28,6 +28,7 @@ import lombok.Setter;
  * <p>
  * And each moduleDefine can have one or more implementation, which depends on `application.yml`
  */
+// ModuleProvider
 public abstract class ModuleProvider implements ModuleServiceHolder {
     @Setter
     private ModuleManager manager;
@@ -50,18 +51,18 @@ public abstract class ModuleProvider implements ModuleServiceHolder {
     public abstract String name();
 
     /**
-     * @return the moduleDefine name
+     * @return the moduleDefine name: 是那个ModuleDefine的实现
      */
     public abstract Class<? extends ModuleDefine> module();
 
-    /**
+    /** // ModuleProvider: 需要的配置管理
      * Create a config creator to initialize this configuration of this module provider
      * @return creator instance to initialize the configuration with callback. Or return null if no config is required.
      */
     public abstract ConfigCreator<? extends ModuleConfig> newConfigCreator();
 
     /**
-     * Configuration creator to provide Module Config to initialize
+     * Configuration creator to provide Module Config to initialize // 管理各个moduleProvider需要的参数
      * @param <T> class type of the config
      */
     public interface ConfigCreator<T extends ModuleConfig> {
@@ -78,22 +79,22 @@ public abstract class ModuleProvider implements ModuleServiceHolder {
         void onInitialized(T initialized);
     }
 
-    /**
+    /** moduleDefine.prepare触发
      * In prepare stage, the moduleDefine should initialize things which are irrelative other modules.
      */
     public abstract void prepare() throws ServiceNotProvidedException, ModuleStartException;
 
-    /**
+    /** BootstrapFlow.start触发
      * In start stage, the moduleDefine has been ready for interop.
      */
     public abstract void start() throws ServiceNotProvidedException, ModuleStartException;
 
-    /**
+    /** // 启动完成的通知
      * This callback executes after all modules start up successfully.
      */
     public abstract void notifyAfterCompleted() throws ServiceNotProvidedException, ModuleStartException;
 
-    /**
+    /** // 模块依赖: moduleProvider得启动顺序
      * @return moduleDefine names which does this moduleDefine require?
      */
     public abstract String[] requiredModules();
@@ -113,7 +114,7 @@ public abstract class ModuleProvider implements ModuleServiceHolder {
 
     /**
      * Make sure all required services have been implemented.
-     *
+     * // moduleDefine定义的必须的组件检查
      * @param requiredServices must be implemented by the moduleDefine.
      * @throws ServiceNotProvidedException when exist unimplemented service.
      */

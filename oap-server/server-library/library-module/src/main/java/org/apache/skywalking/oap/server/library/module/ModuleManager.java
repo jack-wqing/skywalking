@@ -28,6 +28,8 @@ import lombok.Getter;
 /**
  * The <code>ModuleManager</code> takes charge of all {@link ModuleDefine}s in collector.
  */
+// ModuleManager take charge of all ModuleDefine
+// ModuleManager 和 BoostrapFlow两者配置: prepare-> ModuleDefine 和 start-> ModuleProvider
 public class ModuleManager implements ModuleDefineHolder {
     private boolean isInPrepareStage = true;
     private final Map<String, ModuleDefine> loadedModules = new HashMap<>();

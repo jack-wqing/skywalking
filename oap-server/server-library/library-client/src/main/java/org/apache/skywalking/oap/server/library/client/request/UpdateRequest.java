@@ -16,7 +16,7 @@
  */
 
 package org.apache.skywalking.oap.server.library.client.request;
-
+// DAO UpdateRequest
 public interface UpdateRequest extends PrepareRequest {
     void onUpdateFailure();
 }

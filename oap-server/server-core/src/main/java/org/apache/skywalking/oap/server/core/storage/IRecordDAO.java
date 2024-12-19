@@ -25,6 +25,7 @@ import org.apache.skywalking.oap.server.library.client.request.InsertRequest;
 
 /**
  * DAO specifically for {@link Record} implementations.
+ * RecordDAO
  */
 public interface IRecordDAO extends DAO {
     /**

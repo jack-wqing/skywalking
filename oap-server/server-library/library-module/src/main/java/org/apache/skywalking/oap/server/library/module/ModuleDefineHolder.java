@@ -17,7 +17,7 @@
  */
 
 package org.apache.skywalking.oap.server.library.module;
-
+// ModelDefineHolder: 管理Module的定义
 public interface ModuleDefineHolder {
 
     boolean has(String moduleName);

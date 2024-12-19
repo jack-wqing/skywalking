@@ -25,7 +25,7 @@ import org.apache.skywalking.oap.server.library.client.request.PrepareRequest;
 
 /**
  * IBatchDAO provides two modes of data persistence supported by most databases, including pure insert and batch hybrid
- * insert/update.
+ * insert/update.  // BatchDao
  */
 public interface IBatchDAO extends DAO {
     /**
@@ -48,7 +48,7 @@ public interface IBatchDAO extends DAO {
 
     /**
      * End of flush is an event to notify the whole flush period is ending.
-     * This provides a time point to do clean up works.
+     * This provides a time point to do clean up works. // time point hook
      *
      * @since 9.2.0
      */

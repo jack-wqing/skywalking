@@ -17,6 +17,6 @@
  */
 
 package org.apache.skywalking.oap.server.library.module;
-
+// 每个ModuleProvider实现需要的配置类，会在ModuleDefine.prepare进行新建，并且copy Application.yaml中的属性
 public abstract class ModuleConfig {
 }
