@@ -25,7 +25,7 @@ import org.apache.skywalking.oap.server.core.storage.annotation.Column;
 
 /**
  * Short column name unsupported for now. No define in @Column annotation. The storage implementation need to use name
- * to do match.
+ * to do match. ColumnName
  */
 @Slf4j
 @Getter

@@ -38,6 +38,7 @@ import java.util.Set;
 /**
  * JDBC Client uses HikariCP connection management lib to execute SQL.
  */
+// JDBC Client use HikariCP: 最原始的jdbc
 @Slf4j
 public class JDBCClient implements Client, HealthCheckable {
     private final HikariConfig hikariConfig;
@@ -149,8 +150,7 @@ public class JDBCClient implements Client, HealthCheckable {
         this.healthChecker.register(healthChecker);
     }
 
-    public boolean indexExists(final String table,
-                               final String index) throws SQLException {
+    public boolean indexExists(final String table, final String index) throws SQLException {
         try (final var connection = getConnection();
              final var resultSet = connection.getMetaData().getIndexInfo(connection.getCatalog(), connection.getSchema(), table, false, false)) {
             while (resultSet.next()) {

@@ -24,6 +24,7 @@ import lombok.Getter;
 import org.apache.skywalking.oap.server.library.util.CollectionUtils;
 
 /**
+ * SQLDatabaseExtension
  * @since 9.0.0
  */
 @Getter

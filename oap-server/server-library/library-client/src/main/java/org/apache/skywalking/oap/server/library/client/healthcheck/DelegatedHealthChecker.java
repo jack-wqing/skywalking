@@ -21,15 +21,17 @@ package org.apache.skywalking.oap.server.library.client.healthcheck;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicReference;
 import org.apache.skywalking.oap.server.library.util.HealthChecker;
-
+// DelegatedHealthChecker: 健康检查
 public class DelegatedHealthChecker implements HealthChecker {
     private final AtomicReference<HealthChecker> delegated = new AtomicReference<>();
 
-    @Override public void health() {
+    @Override
+    public void health() {
         Optional.ofNullable(delegated.get()).ifPresent(HealthChecker::health);
     }
 
-    @Override public void unHealth(Throwable t) {
+    @Override
+    public void unHealth(Throwable t) {
         Optional.ofNullable(delegated.get()).ifPresent(d -> d.unHealth(t));
     }
 

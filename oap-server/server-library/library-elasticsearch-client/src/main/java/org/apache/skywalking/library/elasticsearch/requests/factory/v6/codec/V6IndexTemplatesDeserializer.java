@@ -26,7 +26,7 @@ import java.util.Collections;
 import java.util.Map;
 import org.apache.skywalking.library.elasticsearch.response.IndexTemplate;
 import org.apache.skywalking.library.elasticsearch.response.IndexTemplates;
-
+// IndexTemplates
 final class V6IndexTemplatesDeserializer extends JsonDeserializer<IndexTemplates> {
     public static final TypeReference<Map<String, IndexTemplate>> TYPE_REFERENCE =
         new TypeReference<Map<String, IndexTemplate>>() {

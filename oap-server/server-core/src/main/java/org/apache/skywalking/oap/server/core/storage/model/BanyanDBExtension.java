@@ -24,7 +24,7 @@ import org.apache.skywalking.oap.server.core.storage.annotation.BanyanDB;
 
 /**
  * BanyanDBExtension represents extra metadata for columns, but specific for BanyanDB usages.
- *
+ * BanyanDBExtension
  * @since 9.1.0
  */
 @RequiredArgsConstructor

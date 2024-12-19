@@ -19,7 +19,7 @@ package org.apache.skywalking.library.elasticsearch.requests.factory;
 
 import com.linecorp.armeria.common.HttpRequest;
 import io.netty.buffer.ByteBuf;
-
+// Bulk: HttpRequest
 public interface BulkFactory {
     /**
      * Returns a request to perform multiple indexing or delete operations in a single API call.

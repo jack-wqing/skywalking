@@ -23,7 +23,7 @@ import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import java.io.IOException;
 import org.apache.skywalking.library.elasticsearch.requests.UpdateRequest;
-
+// ES6 UpdateRequest
 final class V6UpdateRequestSerializer extends JsonSerializer<UpdateRequest> {
     @Override
     public void serialize(final UpdateRequest value, final JsonGenerator gen,

@@ -29,6 +29,7 @@ import org.apache.skywalking.oap.server.library.module.ModuleManager;
 /**
  * The core module installation controller.
  */
+// ModelInstaller: 判断model，并且不存在的时候: CreatingListener
 @RequiredArgsConstructor
 @Slf4j
 public abstract class ModelInstaller implements ModelCreator.CreatingListener {

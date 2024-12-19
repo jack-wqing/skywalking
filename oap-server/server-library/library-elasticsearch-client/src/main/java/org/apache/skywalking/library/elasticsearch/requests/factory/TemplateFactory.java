@@ -20,7 +20,7 @@ package org.apache.skywalking.library.elasticsearch.requests.factory;
 import com.linecorp.armeria.common.HttpRequest;
 import java.util.Map;
 import org.apache.skywalking.library.elasticsearch.response.Mappings;
-
+// Template: HttpRequest
 public interface TemplateFactory {
     /**
      * Returns a request to check whether the template exists or not.

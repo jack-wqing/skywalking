@@ -24,7 +24,7 @@ import org.apache.skywalking.oap.server.core.storage.annotation.ElasticSearch;
 
 /**
  * ElasticSearchExtension represents extra metadata for columns, but specific for ElasticSearch usages.
- *
+ *  ElasticSearchExtension
  * @since 9.1.0
  */
 @Getter

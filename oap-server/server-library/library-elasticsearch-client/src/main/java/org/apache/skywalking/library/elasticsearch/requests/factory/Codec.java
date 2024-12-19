@@ -23,6 +23,7 @@ import java.io.InputStream;
 /**
  * Responsible to encode requests and decode responses.
  */
+// 不同的es版本: 编码请求，解码响应
 public interface Codec {
     byte[] encode(Object request) throws Exception;
 

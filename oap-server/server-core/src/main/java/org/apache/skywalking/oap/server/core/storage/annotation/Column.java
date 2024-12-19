@@ -27,6 +27,7 @@ import lombok.Getter;
 
 /**
  * Data column of all persistent entity.
+ * Data Column: @Column
  */
 @Target({ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)

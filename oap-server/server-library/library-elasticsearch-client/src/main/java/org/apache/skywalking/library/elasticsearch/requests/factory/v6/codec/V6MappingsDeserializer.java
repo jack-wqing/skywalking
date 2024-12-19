@@ -27,7 +27,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Optional;
 import org.apache.skywalking.library.elasticsearch.response.Mappings;
-
+// ES6 MappingsDeserializer
 final class V6MappingsDeserializer extends JsonDeserializer<Mappings> {
     @Override
     @SuppressWarnings("unchecked")

@@ -28,7 +28,7 @@ import org.apache.skywalking.library.elasticsearch.requests.factory.v7plus.V7Req
 import org.apache.skywalking.library.elasticsearch.requests.factory.v7plus.V81RequestFactory;
 import org.apache.skywalking.library.elasticsearch.requests.factory.v7plus.codec.V78Codec;
 import org.apache.skywalking.library.elasticsearch.requests.factory.v7plus.codec.V7Codec;
-
+// ES版本控制: 指定不同苹果api
 public final class ElasticSearchVersion {
     private final String distribution;
     private final int major;

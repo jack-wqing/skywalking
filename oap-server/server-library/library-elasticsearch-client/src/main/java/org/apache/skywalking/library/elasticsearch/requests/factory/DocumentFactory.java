@@ -23,7 +23,7 @@ import java.util.Map;
 import org.apache.skywalking.library.elasticsearch.requests.IndexRequest;
 import org.apache.skywalking.library.elasticsearch.requests.UpdateRequest;
 import org.apache.skywalking.library.elasticsearch.requests.search.Query;
-
+// Document: HttpRequest
 public interface DocumentFactory {
     /**
      * Returns a request to check whether the document exists in the {@code index} or not.

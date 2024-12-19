@@ -23,7 +23,7 @@ import java.util.Map;
 import java.util.Optional;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
-
+// ES IndexTemplate: 索引模版
 @Data
 @RequiredArgsConstructor
 public final class IndexTemplates implements Iterable<IndexTemplate> {

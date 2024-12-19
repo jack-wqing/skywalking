@@ -25,6 +25,7 @@ import org.apache.skywalking.oap.server.library.module.Service;
 /**
  * INewModel implementation supports creating a new module.
  */
+// ModelCreator
 public interface ModelCreator extends Service {
     /**
      * Add a new model

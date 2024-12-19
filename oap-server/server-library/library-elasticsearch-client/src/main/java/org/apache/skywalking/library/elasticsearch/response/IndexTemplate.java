@@ -21,7 +21,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
 import java.util.Map;
 import lombok.Data;
-
+// IndexTemplate
 @Data
 public final class IndexTemplate {
     private String name;

@@ -22,7 +22,7 @@ import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import java.io.IOException;
 import org.apache.skywalking.library.elasticsearch.response.Mappings;
-
+// ES6 Mapping
 final class V6MappingsSerializer extends JsonSerializer<Mappings> {
 
     @Override

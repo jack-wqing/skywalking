@@ -29,6 +29,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * SQLDatabaseModel: AdditionalTables, ExcludeColumns
  * @since 9.1.0
  */
 @Getter

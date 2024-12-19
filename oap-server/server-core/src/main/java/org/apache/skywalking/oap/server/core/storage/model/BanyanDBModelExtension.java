@@ -26,7 +26,7 @@ import java.util.List;
 
 /**
  * BanyanDBExtension represents extra metadata for models, but specific for BanyanDB usages.
- *
+ * BanyanDBExtension
  * @since 9.3.0
  */
 public class BanyanDBModelExtension {

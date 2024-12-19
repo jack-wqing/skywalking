@@ -20,7 +20,7 @@ package org.apache.skywalking.library.elasticsearch.requests.factory;
 import com.linecorp.armeria.common.HttpRequest;
 import java.util.Map;
 import org.apache.skywalking.library.elasticsearch.response.Mappings;
-
+// Index HttpRequest
 public interface IndexFactory {
     /**
      * Returns a request to check whether the {@code index} exists or not.

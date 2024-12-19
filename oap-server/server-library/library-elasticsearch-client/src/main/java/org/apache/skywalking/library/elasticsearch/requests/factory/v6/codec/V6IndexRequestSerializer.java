@@ -23,7 +23,7 @@ import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import java.io.IOException;
 import org.apache.skywalking.library.elasticsearch.requests.IndexRequest;
-
+//ES 6 IndexRequestSerializer
 final class V6IndexRequestSerializer extends JsonSerializer<IndexRequest> {
     @Override
     public void serialize(final IndexRequest value, final JsonGenerator gen,
