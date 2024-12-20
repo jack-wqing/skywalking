@@ -57,6 +57,7 @@ import org.apache.skywalking.oap.server.library.util.HealthChecker;
 /**
  * ElasticSearchClient connects to the ES server by using ES client APIs.
  */
+// ESClient client Es Server/ HTTP
 @Slf4j
 @RequiredArgsConstructor
 public class ElasticSearchClient implements Client, HealthCheckable {

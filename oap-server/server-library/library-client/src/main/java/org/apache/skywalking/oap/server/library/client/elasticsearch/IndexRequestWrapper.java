@@ -23,7 +23,7 @@ import java.util.Optional;
 import lombok.Getter;
 import org.apache.skywalking.library.elasticsearch.requests.IndexRequest;
 import org.apache.skywalking.oap.server.library.client.request.InsertRequest;
-
+// ES indexRequestWrapper
 @Getter
 public class IndexRequestWrapper implements InsertRequest {
     protected IndexRequest request;

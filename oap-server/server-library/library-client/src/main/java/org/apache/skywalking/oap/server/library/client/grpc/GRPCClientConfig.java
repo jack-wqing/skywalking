@@ -17,7 +17,7 @@
  */
 
 package org.apache.skywalking.oap.server.library.client.grpc;
-
+// GRPC: ClientConfig
 public abstract class GRPCClientConfig {
 
     private String host;

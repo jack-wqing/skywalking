@@ -20,7 +20,7 @@ package org.apache.skywalking.oap.server.library.client.elasticsearch;
 import java.util.Map;
 import lombok.Getter;
 import org.apache.skywalking.oap.server.library.client.request.UpdateRequest;
-
+// ES UpdateRequestWrapper
 @Getter
 public class UpdateRequestWrapper implements UpdateRequest {
     protected org.apache.skywalking.library.elasticsearch.requests.UpdateRequest request;

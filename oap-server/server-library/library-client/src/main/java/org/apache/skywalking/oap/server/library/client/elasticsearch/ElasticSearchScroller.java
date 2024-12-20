@@ -29,7 +29,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.function.Function;
-
+// 通过ScrollId进行滚动搜索
 @Builder
 @RequiredArgsConstructor
 public class ElasticSearchScroller<T> {
