@@ -21,7 +21,7 @@ package org.apache.skywalking.oap.server.library.datacarrier.consumer;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.skywalking.oap.server.library.datacarrier.buffer.QueueBuffer;
-
+// 消费者线程消费:简单小城消费队列的数据
 public class ConsumerThread<T> extends Thread {
     private volatile boolean running;
     private IConsumer<T> consumer;

@@ -20,7 +20,7 @@ package org.apache.skywalking.oap.server.library.datacarrier.consumer;
 
 import java.util.List;
 import java.util.Properties;
-
+// consumer 定义
 public interface IConsumer<T> {
     default void init(final Properties properties) {
     }

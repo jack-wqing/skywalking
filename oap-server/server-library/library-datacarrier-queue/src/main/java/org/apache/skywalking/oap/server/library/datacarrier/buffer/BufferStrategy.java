@@ -17,7 +17,7 @@
  */
 
 package org.apache.skywalking.oap.server.library.datacarrier.buffer;
-
+// Buffer Strategy
 public enum BufferStrategy {
     BLOCKING, IF_POSSIBLE
 }

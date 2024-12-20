@@ -19,7 +19,7 @@
 package org.apache.skywalking.oap.server.library.datacarrier.partition;
 
 import org.apache.skywalking.oap.server.library.datacarrier.buffer.BufferStrategy;
-
+// DataPartitioner
 public interface IDataPartitioner<T> {
     int partition(int total, T data);
 

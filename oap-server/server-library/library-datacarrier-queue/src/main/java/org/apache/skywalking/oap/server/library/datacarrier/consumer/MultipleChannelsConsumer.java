@@ -27,6 +27,7 @@ import org.apache.skywalking.oap.server.library.datacarrier.buffer.QueueBuffer;
  * MultipleChannelsConsumer represent a single consumer thread, but support multiple channels with their {@link
  * IConsumer}s
  */
+// MultipleChannelsConsumer
 public class MultipleChannelsConsumer extends Thread {
     private volatile boolean running;
     private volatile ArrayList<Group> consumeTargets;

@@ -31,6 +31,7 @@ import org.apache.skywalking.oap.server.library.datacarrier.partition.SimpleRoll
 /**
  * DataCarrier main class. use this instance to set Producer/Consumer Model.
  */
+// DataCarrier: IDriver 控制消费、单生成数据工具类: 通用的Producer/Consumer的模型测试
 public class DataCarrier<T> {
     private Channels<T> channels;
     private IDriver driver;

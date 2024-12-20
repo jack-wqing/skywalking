@@ -20,7 +20,7 @@ package org.apache.skywalking.oap.server.library.datacarrier.common;
 
 import java.io.Serializable;
 import java.util.concurrent.atomic.AtomicIntegerArray;
-
+// AtomicIntegerArray 实现线程安全的RangeInteger
 public class AtomicRangeInteger extends Number implements Serializable {
     private static final long serialVersionUID = -4099792402691141643L;
     private AtomicIntegerArray values;

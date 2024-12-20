@@ -30,6 +30,7 @@ import org.apache.skywalking.oap.server.library.datacarrier.buffer.Channels;
  * <p>
  * In typical case, the number of {@link MultipleChannelsConsumer} should be less than the number of channels.
  */
+// BulkConsumerPool
 public class BulkConsumePool implements ConsumerPool {
     private List<MultipleChannelsConsumer> allConsumers;
     private volatile boolean isStarted = false;
@@ -95,6 +96,7 @@ public class BulkConsumePool implements ConsumerPool {
     /**
      * The creator for {@link BulkConsumePool}.
      */
+    // BulkConsumerPool
     public static class Creator implements Callable<ConsumerPool> {
         private String name;
         private int size;

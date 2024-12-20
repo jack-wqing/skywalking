@@ -25,6 +25,7 @@ import org.apache.skywalking.oap.server.library.datacarrier.buffer.Channels;
  * The Consumer pool could support data consumer from multiple {@link DataCarrier}s, by using different consume thread
  * management models.
  */
+// Channels Consumer : ConsumerPool
 public interface ConsumerPool extends IDriver {
     void add(String name, Channels channels, IConsumer consumer);
 }

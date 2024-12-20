@@ -23,6 +23,7 @@ import java.util.List;
 /**
  * Queue buffer interface.
  */
+// Queue Buffer Interface
 public interface QueueBuffer<T> {
     /**
      * Save data into the queue;

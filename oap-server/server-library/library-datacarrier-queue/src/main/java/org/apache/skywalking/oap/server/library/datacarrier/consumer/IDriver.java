@@ -23,6 +23,7 @@ import org.apache.skywalking.oap.server.library.datacarrier.buffer.Channels;
 /**
  * The driver of consumer.
  */
+// Consumer 对于Channels 数据得消费抽象
 public interface IDriver {
     boolean isRunning(Channels channels);
 

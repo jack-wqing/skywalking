@@ -26,6 +26,7 @@ import org.apache.skywalking.oap.server.library.datacarrier.buffer.Channels;
 /**
  * Pool of consumers <p> Created by wusheng on 2016/10/25.
  */
+// ConsumerDriver: Channels 通过多个ConsumerThread线程消费
 public class ConsumeDriver<T> implements IDriver {
     private boolean running;
     private ConsumerThread[] consumerThreads;

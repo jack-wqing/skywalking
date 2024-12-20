@@ -25,6 +25,7 @@ import java.util.concurrent.Callable;
 /**
  * Consumer Pool Factory provides global management for all Consumer Pool.
  */
+// ConsumerPoolFactory
 public enum ConsumerPoolFactory {
     INSTANCE;
 

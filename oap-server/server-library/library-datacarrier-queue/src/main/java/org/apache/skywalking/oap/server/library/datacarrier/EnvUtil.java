@@ -21,6 +21,7 @@ package org.apache.skywalking.oap.server.library.datacarrier;
 /**
  * Read value from system env.
  */
+// 获取System.getenv的值
 public class EnvUtil {
     public static int getInt(String envName, int defaultValue) {
         int value = defaultValue;

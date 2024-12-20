@@ -24,9 +24,10 @@ import org.apache.skywalking.oap.server.library.datacarrier.partition.IDataParti
  * Channels of Buffer It contains all buffer data which belongs to this channel. It supports several strategy when
  * buffer is full. The Default is BLOCKING <p> Created by wusheng on 2016/10/25.
  */
+// 对于一个生成这生产的数据: 分成多个队列进行保存: 方便多线程Consumer
 public class Channels<T> {
     private final QueueBuffer<T>[] bufferChannels;
-    private IDataPartitioner<T> dataPartitioner;
+    private IDataPartitioner<T> dataPartitioner;  // 分区器
     private final BufferStrategy strategy;
     private final long size;
 

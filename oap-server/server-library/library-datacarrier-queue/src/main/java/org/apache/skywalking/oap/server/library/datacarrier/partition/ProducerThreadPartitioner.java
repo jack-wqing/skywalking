@@ -21,6 +21,7 @@ package org.apache.skywalking.oap.server.library.datacarrier.partition;
 /**
  * use threadid % total to partition
  */
+// 使用线程id Partitioner
 public class ProducerThreadPartitioner<T> implements IDataPartitioner<T> {
     public ProducerThreadPartitioner() {
     }

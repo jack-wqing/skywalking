@@ -21,6 +21,7 @@ package org.apache.skywalking.oap.server.library.datacarrier.partition;
 /**
  * use normal int to rolling.
  */
+// RollingPartitioner
 public class SimpleRollingPartitioner<T> implements IDataPartitioner<T> {
     @SuppressWarnings("NonAtomicVolatileUpdate")
     private volatile int i = 0;
