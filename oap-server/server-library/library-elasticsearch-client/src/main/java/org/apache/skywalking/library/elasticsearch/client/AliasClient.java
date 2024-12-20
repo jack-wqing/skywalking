@@ -30,7 +30,7 @@ import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.skywalking.library.elasticsearch.ElasticSearchVersion;
 import org.apache.skywalking.library.elasticsearch.response.Index;
-
+// ES AliasClient
 @Slf4j
 @RequiredArgsConstructor
 public final class AliasClient {

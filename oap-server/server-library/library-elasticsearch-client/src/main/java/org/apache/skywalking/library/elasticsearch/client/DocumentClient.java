@@ -34,7 +34,7 @@ import org.apache.skywalking.library.elasticsearch.requests.IndexRequest;
 import org.apache.skywalking.library.elasticsearch.requests.UpdateRequest;
 import org.apache.skywalking.library.elasticsearch.response.Document;
 import org.apache.skywalking.library.elasticsearch.response.Documents;
-
+// ES DocumentClient
 @Slf4j
 @RequiredArgsConstructor
 public final class DocumentClient {

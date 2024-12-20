@@ -56,7 +56,8 @@ import org.apache.skywalking.library.elasticsearch.requests.search.SearchParams;
 import org.apache.skywalking.library.elasticsearch.response.NodeInfo;
 import org.apache.skywalking.library.elasticsearch.response.search.SearchResponse;
 import org.apache.skywalking.oap.server.library.util.StringUtil;
-
+// ElasticSearch: http 协议访问 ES
+// templateClient indexClient documentClient aliasClient searchClient
 @Slf4j
 @Accessors(fluent = true)
 public final class ElasticSearch implements Closeable {

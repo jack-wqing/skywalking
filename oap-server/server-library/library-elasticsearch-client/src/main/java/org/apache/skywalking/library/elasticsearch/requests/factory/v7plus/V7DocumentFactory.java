@@ -37,7 +37,7 @@ import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Strings.isNullOrEmpty;
 import static com.google.common.collect.Iterables.isEmpty;
 import static java.util.Objects.requireNonNull;
-
+// ES7: Document Operator
 @Slf4j
 @RequiredArgsConstructor
 final class V7DocumentFactory implements DocumentFactory {

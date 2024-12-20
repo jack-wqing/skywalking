@@ -43,7 +43,7 @@ import org.apache.skywalking.oap.server.library.util.CollectionUtils;
 import org.apache.skywalking.oap.server.library.util.RunnableWithExceptionProtection;
 
 import static java.util.Objects.requireNonNull;
-
+// BulkProcessor 批量操作
 @Slf4j
 public final class BulkProcessor {
     private final ArrayBlockingQueue<Holder> requests;

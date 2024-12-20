@@ -33,7 +33,7 @@ import com.linecorp.armeria.common.HttpRequestBuilder;
 import com.linecorp.armeria.common.MediaType;
 import lombok.SneakyThrows;
 import lombok.experimental.Delegate;
-
+// ES8 与7.8 的更新接口不一致
 public class V81DocumentFactory implements DocumentFactory {
     private final ElasticSearchVersion version;
 

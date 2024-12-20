@@ -29,7 +29,7 @@ import org.apache.skywalking.library.elasticsearch.requests.factory.IndexFactory
 import org.apache.skywalking.library.elasticsearch.response.Mappings;
 
 import static com.google.common.base.Preconditions.checkArgument;
-
+// ES7 IndexFactory
 @RequiredArgsConstructor
 final class V7IndexFactory implements IndexFactory {
     private final ElasticSearchVersion version;

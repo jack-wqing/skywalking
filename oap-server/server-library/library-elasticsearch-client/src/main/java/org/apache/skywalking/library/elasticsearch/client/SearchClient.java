@@ -31,7 +31,7 @@ import org.apache.skywalking.library.elasticsearch.requests.search.Scroll;
 import org.apache.skywalking.library.elasticsearch.requests.search.Search;
 import org.apache.skywalking.library.elasticsearch.requests.search.SearchParams;
 import org.apache.skywalking.library.elasticsearch.response.search.SearchResponse;
-
+// ES SearchClient
 @Slf4j
 @RequiredArgsConstructor
 public final class SearchClient {

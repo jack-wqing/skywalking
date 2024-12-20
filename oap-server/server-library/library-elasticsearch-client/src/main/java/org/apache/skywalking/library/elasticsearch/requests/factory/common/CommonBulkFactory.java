@@ -29,7 +29,7 @@ import org.apache.skywalking.library.elasticsearch.ElasticSearchVersion;
 import org.apache.skywalking.library.elasticsearch.requests.factory.BulkFactory;
 
 import static java.util.Objects.requireNonNull;
-
+// Common Bulk
 @Slf4j
 @RequiredArgsConstructor
 public final class CommonBulkFactory implements BulkFactory {

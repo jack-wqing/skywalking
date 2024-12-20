@@ -29,7 +29,7 @@ import org.apache.skywalking.library.elasticsearch.requests.factory.IndexFactory
 import org.apache.skywalking.library.elasticsearch.response.Mappings;
 
 import static com.google.common.base.Preconditions.checkArgument;
-
+// /{index} es索引的管理
 @RequiredArgsConstructor
 final class V6IndexFactory implements IndexFactory {
     private final ElasticSearchVersion version;

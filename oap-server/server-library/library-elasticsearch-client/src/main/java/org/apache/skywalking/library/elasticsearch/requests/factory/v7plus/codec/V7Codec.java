@@ -28,7 +28,7 @@ import org.apache.skywalking.library.elasticsearch.requests.UpdateRequest;
 import org.apache.skywalking.library.elasticsearch.requests.factory.Codec;
 import org.apache.skywalking.library.elasticsearch.response.IndexTemplates;
 import org.apache.skywalking.library.elasticsearch.response.Mappings;
-
+// ES7 Codec
 public final class V7Codec implements Codec {
     public static final Codec INSTANCE = new V7Codec();
 

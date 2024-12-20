@@ -18,7 +18,7 @@
 package org.apache.skywalking.library.elasticsearch.requests.factory;
 
 import com.linecorp.armeria.common.HttpRequest;
-// Alias: HttpRequest
+// Alias:HttpRequest
 public interface AliasFactory {
     /**
      * Returns a request to list all indices behind the {@code alias}.

@@ -32,7 +32,7 @@ import org.apache.skywalking.library.elasticsearch.ElasticSearchVersion;
 import org.apache.skywalking.library.elasticsearch.response.IndexTemplate;
 import org.apache.skywalking.library.elasticsearch.response.IndexTemplates;
 import org.apache.skywalking.library.elasticsearch.response.Mappings;
-
+// ES TemplateClient
 @Slf4j
 @RequiredArgsConstructor
 public final class TemplateClient {

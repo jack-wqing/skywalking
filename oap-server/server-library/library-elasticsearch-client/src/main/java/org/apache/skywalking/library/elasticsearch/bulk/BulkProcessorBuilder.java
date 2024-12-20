@@ -25,7 +25,7 @@ import org.apache.skywalking.library.elasticsearch.ElasticSearch;
 
 import static com.google.common.base.Preconditions.checkArgument;
 import static java.util.Objects.requireNonNull;
-
+// BulkProcess Builder
 @Slf4j
 @RequiredArgsConstructor
 public final class BulkProcessorBuilder {

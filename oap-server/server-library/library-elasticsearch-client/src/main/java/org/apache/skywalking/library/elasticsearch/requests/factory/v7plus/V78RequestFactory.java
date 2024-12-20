@@ -30,7 +30,7 @@ import org.apache.skywalking.library.elasticsearch.requests.factory.TemplateFact
 import org.apache.skywalking.library.elasticsearch.requests.factory.common.CommonAliasFactory;
 import org.apache.skywalking.library.elasticsearch.requests.factory.common.CommonBulkFactory;
 import org.apache.skywalking.library.elasticsearch.requests.factory.common.CommonSearchFactory;
-
+// ES 7.8 -> 8
 @Getter
 @Accessors(fluent = true)
 public final class V78RequestFactory implements RequestFactory {

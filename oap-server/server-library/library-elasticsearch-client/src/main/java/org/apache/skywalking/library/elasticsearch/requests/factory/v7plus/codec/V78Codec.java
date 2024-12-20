@@ -28,7 +28,7 @@ import org.apache.skywalking.library.elasticsearch.requests.UpdateRequest;
 import org.apache.skywalking.library.elasticsearch.requests.factory.Codec;
 import org.apache.skywalking.library.elasticsearch.response.IndexTemplates;
 import org.apache.skywalking.library.elasticsearch.response.Mappings;
-
+// ES > 7.8
 public final class V78Codec implements Codec {
     public static final Codec INSTANCE = new V78Codec();
 

@@ -23,7 +23,7 @@ import java.util.Optional;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
-// ES IndexRequest
+// ESIndexRequest
 @Getter
 @Setter
 @Builder

@@ -30,7 +30,7 @@ import org.apache.skywalking.library.elasticsearch.requests.search.SearchParams;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
-
+// Common Search
 @Slf4j
 @RequiredArgsConstructor
 public final class CommonSearchFactory implements SearchFactory {

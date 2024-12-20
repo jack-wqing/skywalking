@@ -30,7 +30,7 @@ import org.apache.skywalking.library.elasticsearch.requests.factory.TemplateFact
 import org.apache.skywalking.library.elasticsearch.requests.factory.common.CommonAliasFactory;
 import org.apache.skywalking.library.elasticsearch.requests.factory.common.CommonBulkFactory;
 import org.apache.skywalking.library.elasticsearch.requests.factory.common.CommonSearchFactory;
-
+// ES6 Factory
 @Getter
 @Accessors(fluent = true)
 public final class V6RequestFactory implements RequestFactory {

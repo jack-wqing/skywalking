@@ -24,7 +24,7 @@ import org.apache.skywalking.library.elasticsearch.ElasticSearchVersion;
 import org.apache.skywalking.library.elasticsearch.requests.factory.AliasFactory;
 
 import static com.google.common.base.Preconditions.checkArgument;
-
+// es: alias 管理
 @RequiredArgsConstructor
 public final class CommonAliasFactory implements AliasFactory {
     private final ElasticSearchVersion version;

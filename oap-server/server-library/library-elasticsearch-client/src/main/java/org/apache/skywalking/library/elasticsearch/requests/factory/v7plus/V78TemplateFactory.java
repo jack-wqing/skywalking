@@ -27,7 +27,7 @@ import lombok.SneakyThrows;
 import org.apache.skywalking.library.elasticsearch.ElasticSearchVersion;
 import org.apache.skywalking.library.elasticsearch.requests.factory.TemplateFactory;
 import org.apache.skywalking.library.elasticsearch.response.Mappings;
-
+// ES TemplateFactory 7.8 -> 8
 @RequiredArgsConstructor
 final class V78TemplateFactory implements TemplateFactory {
     private final ElasticSearchVersion version;

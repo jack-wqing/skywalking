@@ -33,7 +33,7 @@ import org.apache.skywalking.library.elasticsearch.ElasticSearchVersion;
 import org.apache.skywalking.library.elasticsearch.exception.ResponseException;
 import org.apache.skywalking.library.elasticsearch.response.Index;
 import org.apache.skywalking.library.elasticsearch.response.Mappings;
-
+// ES IndexClient
 @Slf4j
 @RequiredArgsConstructor
 public final class IndexClient {

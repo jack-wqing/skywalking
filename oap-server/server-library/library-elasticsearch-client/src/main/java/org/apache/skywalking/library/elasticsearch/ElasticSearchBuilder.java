@@ -43,7 +43,7 @@ import static com.google.common.base.Preconditions.checkArgument;
 import static java.util.Objects.requireNonNull;
 
 import org.apache.skywalking.oap.server.library.util.StringUtil;
-
+// 构建ElasticSearch
 @Slf4j
 public final class ElasticSearchBuilder {
     private static final int NUM_PROC = Runtime.getRuntime().availableProcessors();

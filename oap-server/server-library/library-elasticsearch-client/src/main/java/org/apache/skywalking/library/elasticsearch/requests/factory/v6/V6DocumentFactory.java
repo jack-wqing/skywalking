@@ -38,7 +38,7 @@ import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Strings.isNullOrEmpty;
 import static com.google.common.collect.Iterables.isEmpty;
 import static java.util.Objects.requireNonNull;
-
+// Document Factory
 @Slf4j
 @RequiredArgsConstructor
 final class V6DocumentFactory implements DocumentFactory {

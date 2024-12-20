@@ -21,7 +21,7 @@ import com.linecorp.armeria.common.HttpRequest;
 import org.apache.skywalking.library.elasticsearch.requests.search.Scroll;
 import org.apache.skywalking.library.elasticsearch.requests.search.Search;
 import org.apache.skywalking.library.elasticsearch.requests.search.SearchParams;
-// Search Http
+// Search Factory
 public interface SearchFactory {
     /**
      * Returns a request to search documents.

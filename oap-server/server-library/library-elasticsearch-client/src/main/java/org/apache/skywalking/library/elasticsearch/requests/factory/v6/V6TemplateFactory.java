@@ -33,6 +33,7 @@ import org.apache.skywalking.library.elasticsearch.response.Mappings;
  * by the composable templates introduced in Elasticsearch 7.8. For information about composable
  * templates, see Index templates, https://www.elastic.co/guide/en/elasticsearch/reference/current/index-templates.html
  */
+// _template端点用于管理和检索索引模板，创建索引模板匹配会直接使用模板设置的内容
 @RequiredArgsConstructor
 final class V6TemplateFactory implements TemplateFactory {
     private final ElasticSearchVersion version;

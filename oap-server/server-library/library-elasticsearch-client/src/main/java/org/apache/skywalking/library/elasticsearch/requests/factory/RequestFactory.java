@@ -16,7 +16,7 @@
  */
 
 package org.apache.skywalking.library.elasticsearch.requests.factory;
-// ES RequestFactory
+// ESRequestFactory
 public interface RequestFactory {
     /**
      * Returns a {@link TemplateFactory} that is dedicated to compose template-related requests.
