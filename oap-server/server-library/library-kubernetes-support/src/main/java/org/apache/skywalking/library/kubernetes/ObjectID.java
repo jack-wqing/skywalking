@@ -23,7 +23,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
-
+// name.namespace
 @Data
 @Builder
 @RequiredArgsConstructor

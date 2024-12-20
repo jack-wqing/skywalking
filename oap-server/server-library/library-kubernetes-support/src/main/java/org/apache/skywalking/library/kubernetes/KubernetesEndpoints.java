@@ -30,7 +30,7 @@ import org.slf4j.LoggerFactory;
 import java.time.Duration;
 import java.util.Collections;
 import java.util.List;
-
+// Kubernetes: Endpoints
 public enum KubernetesEndpoints {
     INSTANCE;
 
