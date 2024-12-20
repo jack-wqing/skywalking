@@ -17,7 +17,7 @@
  */
 
 package org.apache.skywalking.oap.server.library.server;
-
+// Cluster Server
 public interface Server {
     void initialize();
 

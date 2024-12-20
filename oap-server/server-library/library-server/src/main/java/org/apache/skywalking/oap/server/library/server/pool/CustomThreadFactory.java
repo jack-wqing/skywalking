@@ -20,7 +20,7 @@ package org.apache.skywalking.oap.server.library.server.pool;
 
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;
-
+// CustomThreadFactory
 public class CustomThreadFactory implements ThreadFactory {
     private final AtomicInteger poolNumber = new AtomicInteger(1);
     private final ThreadGroup group;

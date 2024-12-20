@@ -34,6 +34,7 @@ import org.apache.skywalking.oap.server.library.server.ssl.PrivateKeyUtil;
 /**
  * Load SslContext dynamically.
  */
+// 可以监听证书的改变
 public class DynamicSslContext extends AbstractSslContext {
 
     public static DynamicSslContext forServer(final String privateKeyFile,

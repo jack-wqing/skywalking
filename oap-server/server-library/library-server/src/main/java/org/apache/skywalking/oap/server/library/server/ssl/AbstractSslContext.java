@@ -27,7 +27,7 @@ import javax.net.ssl.SSLSessionContext;
 import lombok.AccessLevel;
 import lombok.Setter;
 import org.apache.skywalking.oap.server.library.util.MultipleFilesChangeMonitor;
-
+// 统一安全证书控制: 监听文件的改变: 改变证书
 public abstract class AbstractSslContext extends SslContext {
     private final MultipleFilesChangeMonitor monitor;
 

@@ -21,7 +21,7 @@ package org.apache.skywalking.oap.server.library.server.http;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
-
+// HTTPServer Config: port 12800
 @Setter
 @Getter
 @Builder
