@@ -29,7 +29,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * SQLDatabaseModel: AdditionalTables, ExcludeColumns
+ * SQLDatabaseModel: SQL 表级联操作
  * @since 9.1.0
  */
 @Getter

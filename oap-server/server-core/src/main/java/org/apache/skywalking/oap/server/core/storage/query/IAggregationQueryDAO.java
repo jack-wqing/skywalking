@@ -33,6 +33,7 @@ import org.apache.skywalking.oap.server.core.storage.DAO;
  *
  * @since 8.0.0
  */
+// AggregationQuery: DAO
 public interface IAggregationQueryDAO extends DAO {
     default List<SelectedRecord> sortMetricsDebuggable(final TopNCondition condition,
                                                        final String valueColumnName,

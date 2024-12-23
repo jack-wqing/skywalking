@@ -29,8 +29,8 @@ import java.util.List;
 
 /**
  * The model definition of a logic entity.
- *  LogicEntity: Model Definition
  */
+// Logic entity
 @Getter
 @EqualsAndHashCode
 @RequiredArgsConstructor

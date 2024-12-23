@@ -22,9 +22,10 @@ import org.apache.skywalking.oap.server.core.storage.StorageData;
 
 /**
  * Converter between the give T and K.
- * StorageBuilder
+ *
  * @param <T> A storage entity implementation.
  */
+// StorageBuilder
 public interface StorageBuilder<T extends StorageData> {
     /**
      * Use the given converter to build an OAP entity object.

@@ -24,8 +24,9 @@ import org.apache.skywalking.oap.server.core.storage.model.Model;
 
 /**
  * Use synchronize storage to insert storage data
- * sync DAO
+ *
  */
+//Management: DAO
 public interface IManagementDAO extends DAO {
     void insert(Model model, ManagementData storageData) throws IOException;
 }

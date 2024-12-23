@@ -16,7 +16,7 @@
  */
 
 package org.apache.skywalking.oap.server.core.analysis;
-// DownSampling
+// Down Sampling
 public enum DownSampling {
     /**
      * None downsampling is for un-time-series data.

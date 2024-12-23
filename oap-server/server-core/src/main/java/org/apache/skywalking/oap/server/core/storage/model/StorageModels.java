@@ -40,6 +40,7 @@ import java.util.Objects;
 /**
  * StorageModels manages all models detected by the core.
  */
+// DB 所有的Model Cache
 @Slf4j
 public class StorageModels implements IModelManager, ModelCreator, ModelManipulator {
     private final List<Model> models;

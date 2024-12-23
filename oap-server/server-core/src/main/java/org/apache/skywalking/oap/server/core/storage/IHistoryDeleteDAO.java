@@ -24,8 +24,9 @@ import org.apache.skywalking.oap.server.core.storage.model.Model;
 
 /**
  * Remove all expired data based on TTL configurations.
- * HistoryDelete
+ *
  */
+// HistoryDelete: Dao
 public interface IHistoryDeleteDAO extends DAO {
     /**
      * Delete the data

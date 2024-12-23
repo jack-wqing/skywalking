@@ -30,7 +30,7 @@ import org.apache.skywalking.oap.server.core.query.input.Duration;
 import org.apache.skywalking.oap.server.core.query.type.Alarms;
 import org.apache.skywalking.oap.server.core.query.type.KeyValue;
 import org.apache.skywalking.oap.server.core.storage.DAO;
-
+// AlarmQuery:DAO
 public interface IAlarmQueryDAO extends DAO {
 
     Gson GSON = new Gson();

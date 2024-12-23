@@ -29,6 +29,7 @@ import org.apache.skywalking.oap.server.core.query.enumeration.Scope;
  * ValueColumnMetadata holds the metadata for column values of metrics. The metadata of ValueColumn is declared through
  * {@link Column} annotation.
  */
+// Column: ValueColumnMetadata: Cache
 public enum ValueColumnMetadata {
     INSTANCE;
 

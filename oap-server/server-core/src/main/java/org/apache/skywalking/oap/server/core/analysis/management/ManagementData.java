@@ -23,5 +23,6 @@ import org.apache.skywalking.oap.server.core.storage.StorageData;
 /**
  * ManagementData provides the basic CRUD operations.
  */
+// ManagementData provide CRUD
 public abstract class ManagementData implements StorageData {
 }

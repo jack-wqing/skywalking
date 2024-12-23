@@ -34,6 +34,7 @@ import org.apache.skywalking.oap.server.library.module.Service;
  *
  * @since 8.0.0
  */
+// RecordsQuery:DAO
 public interface IRecordsQueryDAO extends Service {
     default List<Record> readRecordsDebuggable(final RecordCondition condition,
                                                final String valueColumnName,

@@ -19,7 +19,7 @@
 package org.apache.skywalking.oap.server.core.storage;
 
 import org.apache.skywalking.oap.server.library.client.Client;
-
+// Abstract DAO
 public abstract class AbstractDAO<C extends Client> implements DAO {
     private final C client;
 

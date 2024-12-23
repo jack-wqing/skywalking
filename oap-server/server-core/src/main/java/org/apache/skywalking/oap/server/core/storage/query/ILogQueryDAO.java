@@ -36,7 +36,7 @@ import org.apache.skywalking.oap.server.core.query.type.debugging.DebuggingTrace
 import org.apache.skywalking.oap.server.library.module.Service;
 
 import static org.apache.skywalking.oap.server.core.query.type.debugging.DebuggingTraceContext.TRACE_CONTEXT;
-
+// LogQuery
 public interface ILogQueryDAO extends Service {
 
     default boolean supportQueryLogsByKeywords() {

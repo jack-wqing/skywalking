@@ -24,7 +24,7 @@ import org.apache.skywalking.oap.server.library.module.Service;
 /**
  * IModelManager implementation supports to read all existing models.
  */
-// ModelManager
+// DB ModeManager
 public interface IModelManager extends Service {
     List<Model> allModels();
 }

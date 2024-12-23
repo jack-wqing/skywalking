@@ -23,7 +23,7 @@ import lombok.ToString;
 import org.apache.skywalking.oap.server.core.analysis.metrics.DataTable;
 
 import java.lang.reflect.Type;
-// ModelColumn
+// Model Column
 @Getter
 @ToString
 public class ModelColumn {

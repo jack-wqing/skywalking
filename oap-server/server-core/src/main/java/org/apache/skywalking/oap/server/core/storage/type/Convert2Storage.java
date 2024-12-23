@@ -22,8 +22,8 @@ import java.util.List;
 
 /**
  * A function supplier to accept key-value pair, and convert to the expected database structure according to storage
- * implementation. // Entity to Storage
- *
+ * implementation.
+ * Entity 2 Storage
  * @param <R> Type of database required structure.
  */
 public interface Convert2Storage<R> {

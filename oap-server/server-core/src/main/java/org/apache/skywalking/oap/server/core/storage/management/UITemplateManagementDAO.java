@@ -28,6 +28,7 @@ import org.apache.skywalking.oap.server.core.storage.DAO;
 /**
  * UI Template management, including CRUD.
  */
+// UITemplate management:DAO
 public interface UITemplateManagementDAO extends DAO {
     DashboardConfiguration getTemplate(String id) throws IOException;
 

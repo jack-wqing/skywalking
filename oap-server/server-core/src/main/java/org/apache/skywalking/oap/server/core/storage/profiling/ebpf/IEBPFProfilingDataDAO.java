@@ -27,6 +27,7 @@ import java.util.List;
 /**
  * EBPF Profiling data query
  */
+// EBPFProfilingData: DAO
 public interface IEBPFProfilingDataDAO extends DAO {
     /**
      * list profiling data by task and time

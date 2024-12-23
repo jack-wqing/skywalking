@@ -25,6 +25,7 @@ import org.apache.skywalking.oap.server.core.analysis.worker.MetricsSessionCache
 /**
  * SessionCacheCallback provides a bridge for storage implementations
  */
+// SessionCacheCallback
 @RequiredArgsConstructor
 public class SessionCacheCallback {
     private final MetricsSessionCache sessionCache;

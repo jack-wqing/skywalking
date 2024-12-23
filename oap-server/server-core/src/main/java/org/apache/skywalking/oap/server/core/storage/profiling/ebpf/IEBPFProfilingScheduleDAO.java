@@ -27,6 +27,7 @@ import java.util.List;
 /**
  * EBPF Profiling schedule query
  */
+//EBPFProfilingSchedule: DAO
 public interface IEBPFProfilingScheduleDAO extends DAO {
     /**
      * list schedules by task and time range

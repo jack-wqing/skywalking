@@ -1,0 +1,5 @@
+1、k8s 需要安装kube-state-metric[KSM]
+    版本兼容: 在官网寻找release版本
+    解压下载的tar.gz:
+    kube-state-metrics-2.1.0/examples/standard
+    进行部署: kubectl apply -f ./

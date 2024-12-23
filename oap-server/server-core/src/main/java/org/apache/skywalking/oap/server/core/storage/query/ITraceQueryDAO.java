@@ -30,7 +30,7 @@ import org.apache.skywalking.oap.server.core.query.type.TraceState;
 import org.apache.skywalking.oap.server.core.query.type.debugging.DebuggingSpan;
 import org.apache.skywalking.oap.server.core.query.type.debugging.DebuggingTraceContext;
 import org.apache.skywalking.oap.server.library.module.Service;
-
+// TraceQuery
 public interface ITraceQueryDAO extends Service {
 
     default TraceBrief queryBasicTracesDebuggable(Duration duration,

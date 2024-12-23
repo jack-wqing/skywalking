@@ -30,6 +30,7 @@ import lombok.Getter;
  *
  * @since 9.1.0
  */
+// ES Annotation
 public @interface ElasticSearch {
     /**
      * Match query is designed for ElasticSearch match query with specific analyzer. It is a fuzzy query implementation

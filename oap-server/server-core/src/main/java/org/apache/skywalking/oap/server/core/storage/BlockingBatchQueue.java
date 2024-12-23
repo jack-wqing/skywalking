@@ -24,6 +24,7 @@ import java.util.List;
  * A blocking queue implementation for persistent process.
  * Poll method only returns when it matches the threshold or no further appending declared.
  */
+// Persistence BatchQueue
 interface BlockingBatchQueue<E> {
     List<E> poll() throws InterruptedException;
 

@@ -29,6 +29,7 @@ import java.util.List;
 /**
  * EBPF Profiling task query
  */
+// EBPFProfilingTask: DAO
 public interface IEBPFProfilingTaskDAO extends DAO {
 
     /**

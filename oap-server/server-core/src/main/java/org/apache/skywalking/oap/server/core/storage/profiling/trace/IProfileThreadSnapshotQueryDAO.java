@@ -27,6 +27,7 @@ import org.apache.skywalking.oap.server.core.storage.DAO;
 /**
  * {@link ProfileThreadSnapshotRecord} database queries
  */
+// ProfileThreadSnapshotRecordQuery: DAO
 public interface IProfileThreadSnapshotQueryDAO extends DAO {
 
     /**

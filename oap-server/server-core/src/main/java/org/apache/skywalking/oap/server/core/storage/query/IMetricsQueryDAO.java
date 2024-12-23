@@ -54,6 +54,7 @@ import static java.util.stream.Collectors.toList;
  *
  * @since 8.0.0
  */
+// MetricsQuery: DAO
 public interface IMetricsQueryDAO extends DAO {
     int METRICS_VALUES_WITHOUT_ENTITY_LIMIT = 10;
 

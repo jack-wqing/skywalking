@@ -20,7 +20,7 @@ package org.apache.skywalking.oap.server.core.storage.annotation;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.apache.skywalking.oap.server.core.analysis.DownSampling;
-// Storage
+// DB Storage
 @Getter
 @RequiredArgsConstructor
 public class Storage {

@@ -25,7 +25,7 @@ import org.apache.skywalking.oap.server.library.util.CollectionUtils;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
-// Elastic routing
+// ES Routing
 public class ElasticSearchModelExtension {
 
     /**

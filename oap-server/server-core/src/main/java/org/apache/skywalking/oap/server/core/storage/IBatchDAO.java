@@ -25,8 +25,9 @@ import org.apache.skywalking.oap.server.library.client.request.PrepareRequest;
 
 /**
  * IBatchDAO provides two modes of data persistence supported by most databases, including pure insert and batch hybrid
- * insert/update.  // BatchDao
+ * insert/update.
  */
+// DAO -> Batch DAO
 public interface IBatchDAO extends DAO {
     /**
      * Push data into the database in async mode. This method is driven by streaming process. This method doesn't

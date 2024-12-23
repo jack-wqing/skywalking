@@ -23,7 +23,7 @@ import org.apache.skywalking.oap.server.core.query.type.event.Events;
 import org.apache.skywalking.oap.server.core.storage.DAO;
 
 import java.util.List;
-
+// EventQuery
 public interface IEventQueryDAO extends DAO {
     int MAX_SIZE = 100;
 

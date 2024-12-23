@@ -26,6 +26,7 @@ import org.apache.skywalking.oap.server.core.storage.DAO;
 /**
  * process all profile task query
  */
+// ProfileTaskQuery:DAO
 public interface IProfileTaskQueryDAO extends DAO {
 
     /**

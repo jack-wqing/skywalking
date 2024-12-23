@@ -29,6 +29,7 @@ import java.lang.annotation.Target;
  *
  * @since 9.1.0
  */
+// SQLDatabase
 public @interface SQLDatabase {
     /**
      * {@code CompositeIndex} defines the composite index required in the query stage.
