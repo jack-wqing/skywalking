@@ -23,6 +23,7 @@ import org.apache.skywalking.oap.server.core.hierarchy.instance.InstanceHierarch
 import org.apache.skywalking.oap.server.core.hierarchy.service.ServiceHierarchyRelationTraffic;
 import org.apache.skywalking.oap.server.core.storage.DAO;
 // HierarchyQuery: DAO
+
 public interface IHierarchyQueryDAO extends DAO {
     List<ServiceHierarchyRelationTraffic> readAllServiceHierarchyRelations() throws Exception;
 

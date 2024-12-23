@@ -29,6 +29,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Set;
 // ZipkinQuery: DAO
+
 public interface IZipkinQueryDAO extends DAO {
     default List<List<Span>> getTracesDebuggable(final QueryRequest request,
                                                  final Duration duration) throws IOException {

@@ -24,6 +24,7 @@ import org.apache.skywalking.oap.server.core.analysis.manual.searchtag.TagType;
 import org.apache.skywalking.oap.server.core.query.input.Duration;
 import org.apache.skywalking.oap.server.library.module.Service;
 // TagAutoCompleteQuery: DAO
+
 public interface ITagAutoCompleteQueryDAO extends Service {
     Set<String> queryTagAutocompleteKeys(final TagType tagType,
                                          final int limit,

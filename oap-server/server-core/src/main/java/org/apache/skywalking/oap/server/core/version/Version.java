@@ -23,6 +23,7 @@ import java.util.Properties;
 import lombok.Getter;
 import org.apache.logging.log4j.util.Strings;
 // SkyWalking Version
+
 @Getter
 public enum Version {
     CURRENT;

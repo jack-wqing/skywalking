@@ -23,6 +23,7 @@ import org.apache.skywalking.oap.server.core.storage.DAO;
 
 import java.io.IOException;
 // UIMenuManagement
+
 public interface UIMenuManagementDAO extends DAO {
     /**
      * Get the menu by id.

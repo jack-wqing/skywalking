@@ -26,6 +26,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 // ES Routing
+
 public class ElasticSearchModelExtension {
 
     /**

@@ -24,6 +24,7 @@ import org.apache.skywalking.oap.server.core.analysis.metrics.DataTable;
 
 import java.lang.reflect.Type;
 // Model Column
+
 @Getter
 @ToString
 public class ModelColumn {

@@ -28,7 +28,7 @@ import org.apache.skywalking.oap.server.library.module.Service;
 /**
  * StorageBuilderFactory provides the capabilities to override the default storage builders, which are implementations
  * of {@link StorageBuilder}.
- * StorageBuilderFactory:可以自定义实现 Storage 构建StorageBuilder
+ * StorageBuilderFactory:
  * Typically, the storage needs to provide a more native format rather than {@link java.util.HashMap}.
  */
 public interface StorageBuilderFactory extends Service {

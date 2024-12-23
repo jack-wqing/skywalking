@@ -30,6 +30,7 @@ import org.apache.skywalking.oap.server.core.query.type.debugging.DebuggingSpan;
 import org.apache.skywalking.oap.server.core.query.type.debugging.DebuggingTraceContext;
 import org.apache.skywalking.oap.server.library.module.Service;
 // TopologyQuery: DAO
+
 public interface ITopologyQueryDAO extends Service {
     default List<Call.CallDetail> loadServiceRelationsDetectedAtServerSideDebuggable(Duration duration) throws IOException {
         DebuggingTraceContext traceContext = DebuggingTraceContext.TRACE_CONTEXT.get();

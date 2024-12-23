@@ -24,7 +24,7 @@ import org.apache.skywalking.oap.server.library.module.Service;
  * Override service provides ways to rename the existing column or table name.
  *
  */
-// 列表替换
+
 public interface ModelManipulator extends Service {
     void overrideColumnName(String columnName, String newName);
 }

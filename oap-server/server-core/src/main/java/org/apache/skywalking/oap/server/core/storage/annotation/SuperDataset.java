@@ -27,7 +27,7 @@ import java.lang.annotation.Target;
  * This annotation applies to the supersize dataset entity.Storage implementation could provide different and specific
  * optimization as this entity has much larger dataset.
  */
-// 大数据集的优化
+
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface SuperDataset {

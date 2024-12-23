@@ -27,6 +27,7 @@ import org.apache.skywalking.oap.server.library.module.Service;
 import java.io.IOException;
 import java.util.List;
 // SpanAttachedEventRecordQuery: DAO
+
 public interface ISpanAttachedEventQueryDAO extends Service {
     default List<SpanAttachedEventRecord> querySpanAttachedEventsDebuggable(SpanAttachedEventTraceType type, List<String> traceIds) throws IOException {
         DebuggingTraceContext traceContext = DebuggingTraceContext.TRACE_CONTEXT.get();

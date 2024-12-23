@@ -27,6 +27,7 @@ import org.apache.skywalking.oap.server.core.query.type.BrowserErrorLogs;
 import org.apache.skywalking.oap.server.core.query.type.ErrorCategory;
 import org.apache.skywalking.oap.server.library.module.Service;
 // BrowserLogQuery: DAO
+
 public interface IBrowserLogQueryDAO extends Service {
     BrowserErrorLogs queryBrowserErrorLogs(String serviceId,
                                            String serviceVersionId,

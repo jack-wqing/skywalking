@@ -31,7 +31,7 @@ import org.apache.skywalking.oap.server.core.analysis.record.Record;
  *
  * @since 9.1.0
  */
-// BanyanDB 数据库记录
+
 public @interface BanyanDB {
     /**
      * Series key is used to group time series data per metric of one entity in one place.

@@ -6,3 +6,14 @@
 2、以 ModuleDefine 的视角触发去寻找指定实现的 ModuleProvider
    ModuleDefine通过自己类名和配置启动Provider找到ModuleProvider: 执行配置的拷贝然后prepare方法
 
+
+
+
+
+module:
+    cluster:
+
+    core:
+
+    storage:
+

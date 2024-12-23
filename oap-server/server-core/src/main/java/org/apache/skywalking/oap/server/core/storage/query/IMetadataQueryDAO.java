@@ -30,6 +30,7 @@ import org.apache.skywalking.oap.server.core.query.type.Service;
 import org.apache.skywalking.oap.server.core.query.type.ServiceInstance;
 import org.apache.skywalking.oap.server.core.storage.DAO;
 // MetaQuery:DAO
+
 public interface IMetadataQueryDAO extends DAO {
 
     /**

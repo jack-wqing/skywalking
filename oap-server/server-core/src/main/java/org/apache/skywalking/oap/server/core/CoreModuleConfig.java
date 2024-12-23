@@ -26,6 +26,7 @@ import org.apache.skywalking.oap.server.core.config.SearchableTracesTagsWatcher;
 import org.apache.skywalking.oap.server.core.source.ScopeDefaultColumn;
 import org.apache.skywalking.oap.server.library.module.ModuleConfig;
 // CoreModuleConfig
+
 @Getter
 public class CoreModuleConfig extends ModuleConfig {
     private String role = "Mixed";
