@@ -25,6 +25,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleConfig;
 /**
  * The configuration of the module of cluster.kubernetes
  */
+// Cluster: k8s config
+
 @Getter
 @Setter
 public class ClusterModuleKubernetesConfig extends ModuleConfig {

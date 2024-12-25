@@ -26,6 +26,7 @@ import org.apache.skywalking.oap.server.core.cluster.RemoteInstance;
 
 /**
  * A cluster manager simulator. Work in memory only. Also return the current instance.
+ * Standalone: only one
  */
 public class StandaloneManager extends ClusterCoordinator {
 

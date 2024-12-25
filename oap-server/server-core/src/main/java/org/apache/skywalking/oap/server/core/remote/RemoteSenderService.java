@@ -36,6 +36,8 @@ import org.slf4j.LoggerFactory;
  * RemoteSenderService represents a gRPC client to send metrics from one OAP node to another through network. It
  * provides several routing mode to select target OAP node.
  */
+// RemoteSenderService: Common remote sender
+
 public class RemoteSenderService implements Service {
     private static final Logger LOGGER = LoggerFactory.getLogger(RemoteSenderService.class);
 

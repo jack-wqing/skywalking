@@ -44,6 +44,8 @@ import org.apache.skywalking.oap.server.telemetry.api.MetricsTag;
  * This is a wrapper of the gRPC client for sending message to each other OAP server. It contains a block queue to
  * buffering the message and sending the message by batch.
  */
+// GRPCRemoteClient: RemoteMessage Worker interactive
+
 @Slf4j
 public class GRPCRemoteClient implements RemoteClient {
     private final int channelSize;
@@ -151,7 +153,7 @@ public class GRPCRemoteClient implements RemoteClient {
 
         this.getDataCarrier().produce(builder.build());
     }
-
+    // 消息发送
     class RemoteMessageConsumer implements IConsumer<RemoteMessage> {
         @Override
         public void consume(List<RemoteMessage> remoteMessages) {

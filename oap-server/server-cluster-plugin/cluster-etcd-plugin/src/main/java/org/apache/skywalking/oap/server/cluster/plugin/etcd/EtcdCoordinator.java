@@ -50,6 +50,7 @@ import org.apache.skywalking.oap.server.telemetry.TelemetryModule;
 import org.apache.skywalking.oap.server.telemetry.api.HealthCheckMetrics;
 import org.apache.skywalking.oap.server.telemetry.api.MetricsCreator;
 import org.apache.skywalking.oap.server.telemetry.api.MetricsTag;
+//Etcd Client: Coordinator
 
 @Slf4j
 public class EtcdCoordinator extends ClusterCoordinator {

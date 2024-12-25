@@ -22,6 +22,7 @@ import org.apache.skywalking.oap.server.core.remote.grpc.proto.RemoteData;
 
 /**
  * Covert the interface implementation to {@link RemoteData.Builder}, in order to send the data through network.
+ * Serializable: remote transport
  */
 public interface Serializable {
     RemoteData.Builder serialize();

@@ -17,6 +17,7 @@
  */
 
 package org.apache.skywalking.oap.server.cluster.plugin.kubernetes;
+//k8s pod event type
 
 enum EventType {
     ADDED, MODIFIED, DELETED;

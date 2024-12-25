@@ -22,6 +22,7 @@ import com.google.common.base.Strings;
 import lombok.Getter;
 import lombok.Setter;
 import org.apache.skywalking.oap.server.library.module.ModuleConfig;
+// zookeeper:ClusterModel Config
 
 public class ClusterModuleZookeeperConfig extends ModuleConfig {
 

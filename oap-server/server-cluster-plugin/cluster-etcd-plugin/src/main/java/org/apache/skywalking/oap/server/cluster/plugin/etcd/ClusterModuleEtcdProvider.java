@@ -31,6 +31,7 @@ import org.apache.skywalking.oap.server.library.module.ServiceNotProvidedExcepti
 /**
  * etcd Provider.
  */
+// Etcd: ModuleProvider
 public class ClusterModuleEtcdProvider extends ModuleProvider {
 
     private ClusterModuleEtcdConfig config;

@@ -24,6 +24,7 @@ import io.grpc.stub.StreamObserver;
 import org.apache.skywalking.oap.server.library.server.grpc.GRPCHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+// HealthCheckService: Handler
 
 public class HealthCheckServiceHandler extends HealthGrpc.HealthImplBase implements GRPCHandler {
 

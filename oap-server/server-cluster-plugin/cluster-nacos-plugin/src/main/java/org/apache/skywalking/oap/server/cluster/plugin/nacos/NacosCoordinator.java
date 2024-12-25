@@ -44,6 +44,8 @@ import org.apache.skywalking.oap.server.telemetry.api.HealthCheckMetrics;
 import org.apache.skywalking.oap.server.telemetry.api.MetricsCreator;
 import org.apache.skywalking.oap.server.telemetry.api.MetricsTag;
 
+// Cluster nacos coordinator
+
 @Slf4j
 public class NacosCoordinator extends ClusterCoordinator {
 

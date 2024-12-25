@@ -29,7 +29,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 import static java.util.Objects.isNull;
-
+// NamespacedPod: k8s Informer
 @Slf4j
 public enum NamespacedPodListInformer {
 

@@ -20,7 +20,7 @@ package org.apache.skywalking.oap.server.core.cluster;
 
 import java.util.List;
 import org.apache.skywalking.oap.server.library.module.Service;
-// ClusterNodes
+// ClusterNodes: Query
 
 public interface ClusterNodesQuery extends Service {
 

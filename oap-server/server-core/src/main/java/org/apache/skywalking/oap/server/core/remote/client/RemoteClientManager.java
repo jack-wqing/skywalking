@@ -55,6 +55,8 @@ import org.apache.skywalking.oap.server.telemetry.api.MetricsTag;
  * This class manages the connections between OAP servers. There is a task schedule that will automatically query a
  * server list from the cluster module. Such as Zookeeper cluster module or Kubernetes cluster module.
  */
+// RemoteClientManager
+
 @Slf4j
 public class RemoteClientManager implements Service, ClusterWatcher {
     private final ModuleDefineHolder moduleDefineHolder;

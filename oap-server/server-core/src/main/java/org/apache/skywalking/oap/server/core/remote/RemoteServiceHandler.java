@@ -45,6 +45,8 @@ import org.slf4j.LoggerFactory;
  * each others. The stream data id is used to find the object to deserialize message. The next worker id is used to find
  * the worker to process message.
  */
+// Remote Service Handler
+
 public class RemoteServiceHandler extends RemoteServiceGrpc.RemoteServiceImplBase implements GRPCHandler {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(RemoteServiceHandler.class);

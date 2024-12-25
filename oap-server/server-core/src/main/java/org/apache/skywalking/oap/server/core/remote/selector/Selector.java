@@ -17,6 +17,7 @@
  */
 
 package org.apache.skywalking.oap.server.core.remote.selector;
+// HashCode, Rolling, ForeverFirst
 
 public enum Selector {
     HashCode, Rolling, ForeverFirst

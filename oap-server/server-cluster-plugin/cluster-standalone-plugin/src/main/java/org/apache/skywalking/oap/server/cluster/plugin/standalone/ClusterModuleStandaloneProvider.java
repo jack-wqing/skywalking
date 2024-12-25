@@ -25,7 +25,7 @@ import org.apache.skywalking.oap.server.core.cluster.ClusterRegister;
 import org.apache.skywalking.oap.server.library.module.ModuleProvider;
 import org.apache.skywalking.oap.server.library.module.ModuleStartException;
 import org.apache.skywalking.oap.server.library.module.ServiceNotProvidedException;
-
+// Standalone Module Manager
 public class ClusterModuleStandaloneProvider extends ModuleProvider {
     private StandaloneManager standaloneManager;
 

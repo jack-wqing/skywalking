@@ -19,6 +19,7 @@
 package org.apache.skywalking.oap.server.core.cluster;
 
 import org.apache.skywalking.oap.server.library.module.Service;
+// Cluster Node Register
 
 public interface ClusterRegister extends Service {
 

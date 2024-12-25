@@ -22,6 +22,7 @@ import com.google.common.base.Strings;
 import java.util.Arrays;
 import lombok.Data;
 import org.apache.skywalking.oap.server.library.module.ModuleConfig;
+// ETCD Config
 
 @Data
 public class ClusterModuleEtcdConfig extends ModuleConfig {

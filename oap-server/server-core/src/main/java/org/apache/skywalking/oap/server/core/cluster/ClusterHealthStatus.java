@@ -21,6 +21,7 @@ package org.apache.skywalking.oap.server.core.cluster;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+// ClusterHealth: Status
 
 @NoArgsConstructor
 @AllArgsConstructor

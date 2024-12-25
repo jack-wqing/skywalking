@@ -39,6 +39,8 @@ import org.apache.skywalking.oap.server.library.util.ConnectUtils;
 /**
  * Use consul to manage all service instances in SkyWalking cluster.
  */
+// Consul: Cluster ModuleProvider
+
 public class ClusterModuleConsulProvider extends ModuleProvider {
 
     private ClusterModuleConsulConfig config;

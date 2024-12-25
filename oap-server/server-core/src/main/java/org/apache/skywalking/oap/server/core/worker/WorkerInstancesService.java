@@ -27,6 +27,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Worker Instance Service hosts all remote handler workers with the stream data type.
+ * WorkerInstanceManager
  */
 public class WorkerInstancesService implements IWorkerInstanceSetter, IWorkerInstanceGetter {
     private static final Logger LOGGER = LoggerFactory.getLogger(WorkerInstancesService.class);

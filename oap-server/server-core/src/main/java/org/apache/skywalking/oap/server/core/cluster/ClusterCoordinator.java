@@ -22,6 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.skywalking.oap.server.library.module.ModuleStartException;
+// ClusterCoordinator
 
 @Slf4j
 public abstract class ClusterCoordinator implements ClusterRegister, ClusterNodesQuery, ClusterWatcherRegister {

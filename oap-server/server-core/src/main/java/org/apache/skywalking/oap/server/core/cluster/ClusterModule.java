@@ -20,6 +20,8 @@ package org.apache.skywalking.oap.server.core.cluster;
 
 import org.apache.skywalking.oap.server.library.module.ModuleDefine;
 
+// ClusterModel: ModuleDefine
+
 public class ClusterModule extends ModuleDefine {
 
     public static final String NAME = "cluster";

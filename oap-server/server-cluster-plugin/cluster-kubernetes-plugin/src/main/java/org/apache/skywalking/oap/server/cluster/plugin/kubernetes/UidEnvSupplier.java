@@ -22,6 +22,7 @@ import java.util.function.Supplier;
 
 /**
  * Supply uid from environment variable.
+ * UidEnv Supplier
  */
 public class UidEnvSupplier implements Supplier<String> {
 

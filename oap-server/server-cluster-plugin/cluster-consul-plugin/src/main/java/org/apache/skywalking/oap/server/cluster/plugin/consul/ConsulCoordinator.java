@@ -47,6 +47,7 @@ import org.apache.skywalking.oap.server.telemetry.TelemetryModule;
 import org.apache.skywalking.oap.server.telemetry.api.HealthCheckMetrics;
 import org.apache.skywalking.oap.server.telemetry.api.MetricsCreator;
 import org.apache.skywalking.oap.server.telemetry.api.MetricsTag;
+// Consul: Cluster Coordinator
 
 @Slf4j
 public class ConsulCoordinator extends ClusterCoordinator {

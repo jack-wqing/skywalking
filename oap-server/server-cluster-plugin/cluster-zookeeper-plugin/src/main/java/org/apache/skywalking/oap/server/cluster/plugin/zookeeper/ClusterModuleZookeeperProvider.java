@@ -48,6 +48,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Use Zookeeper to manage all instances in SkyWalking cluster.
+ * Zookeeper: ModuleProvider
  */
 public class ClusterModuleZookeeperProvider extends ModuleProvider {
 

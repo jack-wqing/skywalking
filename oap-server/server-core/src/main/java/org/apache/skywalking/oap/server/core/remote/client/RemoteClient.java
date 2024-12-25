@@ -19,6 +19,7 @@
 package org.apache.skywalking.oap.server.core.remote.client;
 
 import org.apache.skywalking.oap.server.core.remote.data.StreamData;
+// RemoteClient: WorkerName
 
 public interface RemoteClient extends Comparable<RemoteClient> {
 

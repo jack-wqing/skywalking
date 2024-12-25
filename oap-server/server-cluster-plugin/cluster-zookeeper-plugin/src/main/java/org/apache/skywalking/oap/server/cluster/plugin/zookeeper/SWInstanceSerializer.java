@@ -24,6 +24,7 @@ import java.nio.charset.StandardCharsets;
 import org.apache.curator.x.discovery.ServiceInstance;
 import org.apache.curator.x.discovery.details.InstanceSerializer;
 import org.apache.skywalking.oap.server.core.cluster.RemoteInstance;
+// SWInstance: Serializer
 
 public class SWInstanceSerializer implements InstanceSerializer<RemoteInstance> {
 

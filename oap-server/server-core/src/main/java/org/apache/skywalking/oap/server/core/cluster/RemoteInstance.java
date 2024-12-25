@@ -20,6 +20,7 @@ package org.apache.skywalking.oap.server.core.cluster;
 
 import lombok.Getter;
 import org.apache.skywalking.oap.server.core.remote.client.Address;
+// RemoteInstance
 
 @Getter
 public class RemoteInstance implements Comparable<RemoteInstance> {

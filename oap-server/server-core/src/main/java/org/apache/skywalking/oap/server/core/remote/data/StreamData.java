@@ -25,7 +25,8 @@ import org.apache.skywalking.oap.server.core.remote.Serializable;
  * StreamData indicates all implementations supporting {@link Serializable}, {@link Deserializable} and remote hashcode
  * to do L1 and L2 aggregation cross OAP nodes.
  */
-// Serializable, Deserializable
+// Serializable, Deserializable: Remote StreamData
+
 public abstract class StreamData implements Serializable, Deserializable {
     public abstract int remoteHashCode();
 }

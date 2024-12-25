@@ -20,6 +20,8 @@ package org.apache.skywalking.oap.server.core.cluster;
 
 import java.util.List;
 
+// ClusterWatcher
+
 public interface ClusterWatcher {
     void onClusterNodesChanged(List<RemoteInstance> remoteInstances);
 }

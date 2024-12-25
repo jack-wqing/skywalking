@@ -22,6 +22,8 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.apache.skywalking.oap.server.core.remote.data.StreamData;
 
+// RemoteHandleWorker
+
 @AllArgsConstructor
 @Getter
 public class RemoteHandleWorker {

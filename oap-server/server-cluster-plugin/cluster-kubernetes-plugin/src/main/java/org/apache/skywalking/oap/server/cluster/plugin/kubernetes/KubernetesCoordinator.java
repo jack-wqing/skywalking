@@ -55,6 +55,8 @@ import static org.apache.skywalking.oap.server.cluster.plugin.kubernetes.EventTy
  * Read collector pod info from api-server of kubernetes, then using all containerIp list to construct the list of
  * {@link RemoteInstance}.
  */
+// k8s Coordinator
+
 @Slf4j
 public class KubernetesCoordinator extends ClusterCoordinator {
     private final ModuleDefineHolder manager;

@@ -30,6 +30,8 @@ import org.apache.skywalking.oap.server.library.module.ServiceNotProvidedExcepti
 /**
  * Use kubernetes to manage all instances in Skywalking cluster.
  */
+// cluster: k8s ModuleProvider
+
 public class ClusterModuleKubernetesProvider extends ModuleProvider {
 
     private ClusterModuleKubernetesConfig config;

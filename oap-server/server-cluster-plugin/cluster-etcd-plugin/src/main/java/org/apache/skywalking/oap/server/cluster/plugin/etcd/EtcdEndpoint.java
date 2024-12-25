@@ -25,6 +25,8 @@ import lombok.Setter;
 /**
  * an instance json to register to etcd.
  */
+// ETCD Endpoint
+
 public class EtcdEndpoint implements Serializable {
 
     @Setter
