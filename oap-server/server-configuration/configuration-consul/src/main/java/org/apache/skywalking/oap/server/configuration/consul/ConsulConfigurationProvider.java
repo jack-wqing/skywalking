@@ -27,6 +27,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleStartException;
 /**
  * Get configuration from Consul.
  */
+// Consul Provider
+
 @Slf4j
 public class ConsulConfigurationProvider extends AbstractConfigurationProvider {
     private ConsulConfigurationCenterSettings settings;

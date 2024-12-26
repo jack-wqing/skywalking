@@ -29,6 +29,8 @@ import lombok.ToString;
 /**
  * ConfigTable contains all WatchType.GROUP config.
  */
+// WatchType.Group config
+
 @ToString
 public class GroupConfigTable {
     @Getter

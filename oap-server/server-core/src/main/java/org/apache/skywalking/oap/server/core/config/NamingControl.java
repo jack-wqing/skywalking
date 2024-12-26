@@ -28,6 +28,8 @@ import org.apache.skywalking.oap.server.library.util.StringUtil;
  * NamingControl provides the service to make the names of service, instance and endpoint following the rules or
  * patterns, including length control, grouping, etc.
  */
+// NamingControl
+
 @RequiredArgsConstructor
 @Slf4j
 public class NamingControl implements Service {

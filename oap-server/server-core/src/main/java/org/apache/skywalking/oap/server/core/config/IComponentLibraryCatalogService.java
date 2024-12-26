@@ -19,6 +19,7 @@
 package org.apache.skywalking.oap.server.core.config;
 
 import org.apache.skywalking.oap.server.library.module.Service;
+// ComponentLibraryCatalog: Service
 
 public interface IComponentLibraryCatalogService extends Service {
     int getComponentId(String componentName);

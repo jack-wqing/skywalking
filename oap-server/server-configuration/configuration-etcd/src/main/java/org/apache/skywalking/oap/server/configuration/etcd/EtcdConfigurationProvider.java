@@ -23,6 +23,8 @@ import org.apache.skywalking.oap.server.configuration.api.ConfigWatcherRegister;
 import org.apache.skywalking.oap.server.library.module.ModuleStartException;
 import org.apache.skywalking.oap.server.library.util.StringUtil;
 
+// ETCD Provider
+
 @Slf4j
 public class EtcdConfigurationProvider extends AbstractConfigurationProvider {
     private EtcdServerSettings settings;

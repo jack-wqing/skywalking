@@ -24,6 +24,7 @@ import org.apache.skywalking.oap.server.library.module.ModuleProvider;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicReference;
+// SearchableTrancesTags: Watcher
 
 public class SearchableTracesTagsWatcher extends ConfigChangeWatcher {
 

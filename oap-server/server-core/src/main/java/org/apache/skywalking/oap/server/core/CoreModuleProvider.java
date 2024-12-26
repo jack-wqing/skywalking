@@ -120,12 +120,14 @@ import org.apache.skywalking.oap.server.telemetry.api.TelemetryRelatedContext;
  * NOTICE: In our experience, no one should re-implement the core module service implementations, unless they are very
  * familiar with all mechanisms of SkyWalking.
  */
+// CoreModule: receiver, analyzer, streaming, storage, query
+
 public class CoreModuleProvider extends ModuleProvider {
 
     private CoreModuleConfig moduleConfig;
     private GRPCServer grpcServer;
     private HTTPServer httpServer;
-    private RemoteClientManager remoteClientManager;
+    private RemoteClientManager remoteClientManager; //Remote
     private final AnnotationScan annotationScan;
     private final StorageModels storageModels;
     private final SourceReceiverImpl receiver;
@@ -213,7 +215,7 @@ public class CoreModuleProvider extends ModuleProvider {
         } catch (IOException | StorageException e) {
             throw new ModuleStartException(e.getMessage(), e);
         }
-
+        // grpc-server
         if (moduleConfig.isGRPCSslEnabled()) {
             grpcServer = new GRPCServer(moduleConfig.getGRPCHost(), moduleConfig.getGRPCPort(),
                                         moduleConfig.getGRPCSslCertChainPath(),
@@ -238,7 +240,7 @@ public class CoreModuleProvider extends ModuleProvider {
             grpcServer.setThreadPoolSize(moduleConfig.getGRPCThreadPoolSize());
         }
         grpcServer.initialize();
-
+        // http-server
         HTTPServerConfig httpServerConfig = HTTPServerConfig.builder()
                                                             .host(moduleConfig.getRestHost())
                                                             .port(moduleConfig.getRestPort())
@@ -398,6 +400,7 @@ public class CoreModuleProvider extends ModuleProvider {
                                              .getService(ClusterCoordinator.class);
         coordinator.registerWatcher(remoteClientManager);
         coordinator.start();
+        // Mixed Aggregator: register remote instance
         if (CoreModuleConfig.Role.Mixed.name()
                                        .equalsIgnoreCase(
                                            moduleConfig.getRole())

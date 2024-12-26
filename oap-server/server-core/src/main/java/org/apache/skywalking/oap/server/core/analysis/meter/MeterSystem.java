@@ -56,6 +56,8 @@ import org.apache.skywalking.oap.server.library.module.Service;
  *
  * @since 8.0.0
  */
+// MeterSystem
+
 @Slf4j
 public class MeterSystem implements Service {
     private static final String METER_CLASS_PACKAGE = "org.apache.skywalking.oap.server.core.analysis.meter.dynamic.";

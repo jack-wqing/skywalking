@@ -26,6 +26,7 @@ import org.apache.skywalking.oap.server.configuration.api.GroupConfigChangeWatch
 import org.apache.skywalking.oap.server.core.CoreModule;
 import org.apache.skywalking.oap.server.core.config.group.EndpointNameGrouping;
 import org.apache.skywalking.oap.server.library.module.ModuleProvider;
+// GroupConfig: Watcher
 
 @Slf4j
 public class EndpointNameGroupingRule4OpenapiWatcher extends GroupConfigChangeWatcher {

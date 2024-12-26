@@ -23,6 +23,8 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * Implement Config Watcher register using client listening.
  */
+// client listening: Config Watcher
+
 @Slf4j
 public abstract class ListeningConfigWatcherRegister extends ConfigWatcherRegister {
 

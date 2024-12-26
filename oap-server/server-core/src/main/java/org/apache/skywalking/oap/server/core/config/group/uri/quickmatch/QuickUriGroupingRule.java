@@ -21,6 +21,7 @@ package org.apache.skywalking.oap.server.core.config.group.uri.quickmatch;
 import java.util.HashMap;
 import java.util.Map;
 import org.apache.skywalking.oap.server.library.util.StringFormatGroup;
+// endpoint-name-group.yml
 
 public class QuickUriGroupingRule {
     private Map<String, PatternTree> rules = new HashMap<>();

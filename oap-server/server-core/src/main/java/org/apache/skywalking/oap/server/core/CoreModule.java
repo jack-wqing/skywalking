@@ -69,6 +69,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleDefine;
 /**
  * Core module definition. Define all open services to other modules.
  */
+// CoreModule: ModuleDefine
+
 public class CoreModule extends ModuleDefine {
     public static final String NAME = "core";
 
@@ -105,7 +107,7 @@ public class CoreModule extends ModuleDefine {
         classes.add(HierarchyService.class);
         return classes.toArray(new Class[]{});
     }
-
+    // EBFProfilingService
     private void addEBPFProfilingService(List<Class> classes) {
         classes.add(EBPFProfilingMutationService.class);
         classes.add(EBPFProfilingQueryService.class);
@@ -127,7 +129,7 @@ public class CoreModule extends ModuleDefine {
     private void addOALService(List<Class> classes) {
         classes.add(OALEngineLoaderService.class);
     }
-
+    // QueryService
     private void addQueryService(List<Class> classes) {
         classes.add(TopologyQueryService.class);
         classes.add(MetricsMetadataQueryService.class);
@@ -149,7 +151,7 @@ public class CoreModule extends ModuleDefine {
         classes.add(GRPCHandlerRegister.class);
         classes.add(HTTPHandlerRegister.class);
     }
-
+    // DB Module, Cluster Service
     private void addInsideService(List<Class> classes) {
         classes.add(ModelCreator.class);
         classes.add(IModelManager.class);

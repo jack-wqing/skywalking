@@ -21,6 +21,7 @@ package org.apache.skywalking.oap.server.configuration.consul;
 import lombok.Getter;
 import lombok.Setter;
 import org.apache.skywalking.oap.server.library.module.ModuleConfig;
+// ConsulSetting
 
 public class ConsulConfigurationCenterSettings extends ModuleConfig {
     @Getter

@@ -21,6 +21,7 @@ package org.apache.skywalking.oap.server.configuration.apollo;
 import lombok.Getter;
 import lombok.ToString;
 import org.apache.skywalking.oap.server.library.module.ModuleConfig;
+// ApolloConfig
 
 @Getter
 @ToString

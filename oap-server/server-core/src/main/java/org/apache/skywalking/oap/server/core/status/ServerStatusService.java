@@ -37,6 +37,8 @@ import org.apache.skywalking.oap.server.telemetry.api.MetricsTag;
  *
  * @since 9.4.0
  */
+// module require Server Status Service
+
 @RequiredArgsConstructor
 public class ServerStatusService implements Service {
     private final ModuleManager manager;
@@ -82,7 +84,7 @@ public class ServerStatusService implements Service {
     }
 
     /**
-     * @return a complete list of booting configurations with effected values.
+     * @return a complete list of booting configurations with effected values. dumpBootingConfiguration
      * @since 9.7.0
      */
     public String dumpBootingConfigurations(String keywords4MaskingSecretsOfConfig) {

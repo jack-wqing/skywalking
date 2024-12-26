@@ -26,6 +26,8 @@ import org.apache.skywalking.oap.server.configuration.api.ConfigTable;
 import org.apache.skywalking.oap.server.configuration.api.FetchingConfigWatcherRegister;
 import org.apache.skywalking.oap.server.configuration.api.GroupConfigTable;
 
+// k8s: Watcher Register
+
 @Slf4j
 public class ConfigmapConfigurationWatcherRegister extends FetchingConfigWatcherRegister {
 

@@ -27,6 +27,8 @@ import io.grpc.Status;
 /**
  * Active the authentication between agent and oap receiver. token checker if expected token exists in application.yml
  */
+// simple Token Authentication
+
 public class AuthenticationInterceptor implements ServerInterceptor {
 
     private String expectedToken = "";

@@ -23,6 +23,7 @@ import java.util.HashMap;
 import java.util.Map;
 import lombok.Getter;
 import org.apache.skywalking.oap.server.library.util.StringFormatGroup;
+// EndpointGroupingRule: Openapi
 
 public class EndpointGroupingRule4Openapi {
     private final Map<String/*serviceName*/, Map<String/*endpointName*/, String/*endpointGroupName*/>> directLookup = new HashMap<>();

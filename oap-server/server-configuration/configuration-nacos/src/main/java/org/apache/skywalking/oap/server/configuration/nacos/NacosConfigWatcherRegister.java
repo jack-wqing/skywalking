@@ -37,6 +37,8 @@ import org.apache.skywalking.oap.server.configuration.api.FetchingConfigWatcherR
 import org.apache.skywalking.oap.server.configuration.api.GroupConfigTable;
 import org.apache.skywalking.oap.server.library.util.StringUtil;
 
+// Nacos: Watcher
+
 @Slf4j
 public class NacosConfigWatcherRegister extends FetchingConfigWatcherRegister {
     private final NacosServerSettings settings;

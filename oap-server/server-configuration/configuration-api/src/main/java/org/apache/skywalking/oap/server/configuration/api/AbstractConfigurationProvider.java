@@ -27,6 +27,8 @@ import org.apache.skywalking.oap.server.library.module.ServiceNotProvidedExcepti
  * The recommendation default base implementor of Configuration module. The real implementor could extend this provider
  * to make a new one, easily.
  */
+// AbstractConfiguration:Provider
+
 public abstract class AbstractConfigurationProvider extends ModuleProvider {
     private ConfigWatcherRegister configWatcherRegister;
 

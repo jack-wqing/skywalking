@@ -32,6 +32,7 @@ import org.apache.skywalking.oap.server.configuration.api.ConfigTable;
 import org.apache.skywalking.oap.server.configuration.api.FetchingConfigWatcherRegister;
 import org.apache.skywalking.oap.server.configuration.api.GroupConfigTable;
 
+// FetchingConfig: Watcher
 @Slf4j
 public class ZookeeperConfigWatcherRegister extends FetchingConfigWatcherRegister {
     private final CuratorFramework client;

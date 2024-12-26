@@ -21,6 +21,7 @@ package org.apache.skywalking.oap.server.core.config;
 import java.util.List;
 import org.apache.skywalking.oap.server.core.analysis.DownSampling;
 import org.apache.skywalking.oap.server.library.module.Service;
+//DownSampling: Config
 
 public class DownSamplingConfigService implements Service {
 

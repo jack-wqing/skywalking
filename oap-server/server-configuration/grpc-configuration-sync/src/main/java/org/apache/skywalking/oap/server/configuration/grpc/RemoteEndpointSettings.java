@@ -22,6 +22,7 @@ import lombok.Getter;
 import lombok.Setter;
 import org.apache.skywalking.oap.server.library.module.ModuleConfig;
 
+// grpc
 @Setter
 @Getter
 public class RemoteEndpointSettings extends ModuleConfig {

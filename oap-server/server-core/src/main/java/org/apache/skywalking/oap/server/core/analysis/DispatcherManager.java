@@ -32,6 +32,7 @@ import org.apache.skywalking.oap.server.core.UnexpectedException;
 import org.apache.skywalking.oap.server.core.source.ISource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+// look SourceDispatcher manager
 
 public class DispatcherManager implements DispatcherDetectorListener {
 

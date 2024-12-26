@@ -36,6 +36,7 @@ import org.apache.skywalking.oap.server.core.query.type.Service;
 import org.apache.skywalking.oap.server.core.source.SourceReceiver;
 import org.apache.skywalking.oap.server.library.module.ModuleManager;
 import org.apache.skywalking.oap.server.library.util.RunnableWithExceptionProtection;
+// HierarchyService: Hierarchy Manager
 
 @Slf4j
 public class HierarchyService implements org.apache.skywalking.oap.server.library.module.Service {

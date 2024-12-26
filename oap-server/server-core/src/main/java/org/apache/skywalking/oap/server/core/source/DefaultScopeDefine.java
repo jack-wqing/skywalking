@@ -27,6 +27,7 @@ import java.util.Map;
 import lombok.Setter;
 import org.apache.skywalking.oap.server.core.UnexpectedException;
 import org.apache.skywalking.oap.server.core.annotation.AnnotationListener;
+// DefaultScopeDefine
 
 public class DefaultScopeDefine {
     private static final Map<String, Integer> NAME_2_ID = new HashMap<>();

@@ -26,6 +26,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleProvider;
 /**
  * ConfigChangeWatcher represents a watcher implementor, it will be called when the target value changed.
  */
+// ConfigChange: Watcher
+
 @Getter
 public abstract class ConfigChangeWatcher {
     private final String module;

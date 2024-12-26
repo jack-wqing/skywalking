@@ -37,6 +37,7 @@ import org.apache.skywalking.oap.server.configuration.api.ConfigTable;
 import org.apache.skywalking.oap.server.configuration.api.FetchingConfigWatcherRegister;
 import org.apache.skywalking.oap.server.configuration.api.GroupConfigTable;
 
+// Consul Fetching config
 @SuppressWarnings("UnstableApiUsage")
 @Slf4j
 public class ConsulConfigurationWatcherRegister extends FetchingConfigWatcherRegister {

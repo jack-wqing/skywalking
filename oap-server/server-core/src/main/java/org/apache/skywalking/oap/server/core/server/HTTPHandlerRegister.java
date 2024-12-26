@@ -21,6 +21,7 @@ package org.apache.skywalking.oap.server.core.server;
 import com.linecorp.armeria.common.HttpMethod;
 import java.util.List;
 import org.apache.skywalking.oap.server.library.module.Service;
+// HTTPHandlerRegister
 
 public interface HTTPHandlerRegister extends Service {
     void addHandler(Object httpService, List<HttpMethod> httpMethods);

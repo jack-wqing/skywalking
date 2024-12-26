@@ -27,6 +27,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+// k8s ConfigMap
+
 @Slf4j
 public class ConfigurationConfigmapInformer {
     private final Lister<ConfigMap> configMapLister;

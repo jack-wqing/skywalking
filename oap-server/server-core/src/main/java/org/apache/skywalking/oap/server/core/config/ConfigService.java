@@ -22,6 +22,7 @@ import lombok.Getter;
 import org.apache.skywalking.oap.server.core.CoreModuleConfig;
 import org.apache.skywalking.oap.server.library.module.ModuleProvider;
 import org.apache.skywalking.oap.server.library.module.Service;
+//ConfigService: CoreModule
 
 @Getter
 public class ConfigService implements Service {

@@ -23,6 +23,8 @@ import lombok.Setter;
 import lombok.ToString;
 import org.apache.skywalking.oap.server.library.module.ModuleConfig;
 
+// nacos Settings
+
 @Getter
 @Setter
 @ToString

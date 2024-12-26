@@ -27,6 +27,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleDefine;
  * Any configuration item in the whole OAP backend could register a watcher to configuration module, the item change
  * watcher will be called, if the value changed.
  */
+// SW Remote Config Module
+
 public class ConfigurationModule extends ModuleDefine {
     public static final String NAME = "configuration";
 

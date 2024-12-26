@@ -23,6 +23,8 @@ import org.apache.skywalking.oap.server.library.module.Service;
 /**
  * DynamicConfigurationService provides API to register config change watcher.
  */
+// ConfigModule implements Service
+
 public interface DynamicConfigurationService extends Service {
     /**
      * Register a watcher to the target value

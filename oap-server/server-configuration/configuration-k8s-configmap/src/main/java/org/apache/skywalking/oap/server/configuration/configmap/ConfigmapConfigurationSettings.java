@@ -21,6 +21,7 @@ package org.apache.skywalking.oap.server.configuration.configmap;
 import lombok.Getter;
 import lombok.Setter;
 import org.apache.skywalking.oap.server.library.module.ModuleConfig;
+// k8s ConfigMap
 
 @Setter
 @Getter

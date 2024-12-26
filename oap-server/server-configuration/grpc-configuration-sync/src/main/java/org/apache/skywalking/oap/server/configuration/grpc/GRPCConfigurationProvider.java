@@ -28,6 +28,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleStartException;
  * <p>
  * Read configuration-service.proto for more details.
  */
+// GRPC Remote configuration-server.proto
+
 public class GRPCConfigurationProvider extends AbstractConfigurationProvider {
     private RemoteEndpointSettings settings;
 

@@ -30,6 +30,8 @@ import org.yaml.snakeyaml.Yaml;
  * Load settings from component-libraries.yml this file includes all component defines, and the component mappings,
  * which declare the real server type based on client component.
  */
+// load Component-libraries.yml
+
 @Slf4j
 public class ComponentLibraryCatalogService implements IComponentLibraryCatalogService {
     private static final String COMPONENT_SERVER_MAPPING_SECTION = "Component-Server-Mappings";

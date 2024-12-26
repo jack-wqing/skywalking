@@ -33,6 +33,7 @@ import org.apache.skywalking.oap.server.library.util.ResourceUtils;
 import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.SafeConstructor;
+// EndpointGroupingRuleReader$Openapi
 
 public class EndpointGroupingRuleReader4Openapi {
     private final Map<String, /*serviceName*/ List<Map>/*openapiData*/> serviceOpenapiDefMap;

@@ -25,6 +25,8 @@ import lombok.Setter;
 /**
  * Booting status indicate whether the current server starts successfully.
  */
+// ClusterStatus
+
 @Getter
 @Setter(AccessLevel.PACKAGE)
 public class ClusterStatus {

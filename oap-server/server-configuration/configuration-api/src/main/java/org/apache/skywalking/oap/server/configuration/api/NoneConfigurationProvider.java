@@ -26,6 +26,8 @@ import org.apache.skywalking.oap.server.library.module.ServiceNotProvidedExcepti
 /**
  * A nutshell configuration implementor.
  */
+// default: none
+
 public class NoneConfigurationProvider extends ModuleProvider {
     @Override
     public String name() {

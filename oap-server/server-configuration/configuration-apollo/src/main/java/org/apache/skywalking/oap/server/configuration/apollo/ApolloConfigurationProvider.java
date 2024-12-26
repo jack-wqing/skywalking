@@ -26,6 +26,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleStartException;
 /**
  * Get configuration from Apollo configuration center.
  */
+// Apollo Provider
+
 public class ApolloConfigurationProvider extends AbstractConfigurationProvider {
     private ApolloConfigurationCenterSettings settings;
 

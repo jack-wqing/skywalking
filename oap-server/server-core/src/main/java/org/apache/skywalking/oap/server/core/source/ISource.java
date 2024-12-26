@@ -17,6 +17,7 @@
  */
 
 package org.apache.skywalking.oap.server.core.source;
+//ISource
 
 public interface ISource {
     int scope();

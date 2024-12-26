@@ -31,6 +31,7 @@ import org.apache.skywalking.oap.server.library.util.RunnableWithExceptionProtec
 /**
  * Implement Config Watcher register using a periodic sync task.
  */
+// FetchingConfigWatcher: Register
 @Slf4j
 public abstract class FetchingConfigWatcherRegister extends ConfigWatcherRegister {
     public static final String LINE_SEPARATOR = System.getProperty("line.separator", "\n");

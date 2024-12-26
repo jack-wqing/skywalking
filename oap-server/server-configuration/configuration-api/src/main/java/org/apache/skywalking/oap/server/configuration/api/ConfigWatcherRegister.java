@@ -27,6 +27,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * The default implementor of Config Watcher register.
  */
+// 配置改变的通知
 @Slf4j
 public abstract class ConfigWatcherRegister implements DynamicConfigurationService {
 

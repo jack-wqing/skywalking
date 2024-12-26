@@ -33,7 +33,7 @@ import org.apache.skywalking.oap.server.library.util.ResourceUtils;
 import org.yaml.snakeyaml.Yaml;
 
 import static java.util.stream.Collectors.toMap;
-
+// HierarchyDefinition: Service: hierarchy-definition.yml
 @Slf4j
 public class HierarchyDefinitionService implements org.apache.skywalking.oap.server.library.module.Service {
 

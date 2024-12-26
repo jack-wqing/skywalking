@@ -26,6 +26,8 @@ import org.apache.skywalking.oap.server.core.annotation.AnnotationListener;
 /**
  * Disable definition scanner and register.
  */
+// Disable Entity
+
 public class DisableRegister implements AnnotationListener {
     public static DisableRegister INSTANCE = new DisableRegister();
     private Set<String> disableEntitySet = new HashSet<>();

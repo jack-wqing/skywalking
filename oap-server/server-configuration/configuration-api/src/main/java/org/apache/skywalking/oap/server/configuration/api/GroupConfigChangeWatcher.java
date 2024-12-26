@@ -20,6 +20,7 @@ package org.apache.skywalking.oap.server.configuration.api;
 
 import java.util.Map;
 import org.apache.skywalking.oap.server.library.module.ModuleProvider;
+// GroupConfigChaneWatcher
 
 public abstract class GroupConfigChangeWatcher extends ConfigChangeWatcher {
     public GroupConfigChangeWatcher(final String module,

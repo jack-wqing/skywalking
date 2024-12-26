@@ -30,6 +30,7 @@ import org.apache.skywalking.oap.server.configuration.api.ListeningConfigWatcher
 import org.apache.skywalking.oap.server.library.util.CollectionUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+// ApolloConfigWatcherRegister
 
 public class ApolloConfigWatcherRegister extends ListeningConfigWatcherRegister {
     private static final Logger LOGGER = LoggerFactory.getLogger(ApolloConfigWatcherRegister.class);

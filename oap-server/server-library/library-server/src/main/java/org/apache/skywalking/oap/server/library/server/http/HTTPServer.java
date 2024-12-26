@@ -42,7 +42,8 @@ import org.apache.skywalking.oap.server.library.server.Server;
 import org.apache.skywalking.oap.server.library.server.ssl.PrivateKeyUtil;
 
 import static java.util.Objects.requireNonNull;
-// 使用 linecorp.armeria.server: addHandler
+// linecorp.armeria.server: addHandler
+
 @Slf4j
 public class HTTPServer implements Server {
     private final HTTPServerConfig config;

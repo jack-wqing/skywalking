@@ -30,7 +30,7 @@ import org.apache.skywalking.oap.server.configuration.service.ConfigurationReque
 import org.apache.skywalking.oap.server.configuration.service.ConfigurationResponse;
 import org.apache.skywalking.oap.server.configuration.service.ConfigurationServiceGrpc;
 import org.apache.skywalking.oap.server.configuration.service.GroupConfigurationResponse;
-
+// 通过Grpc远程读取
 @Slf4j
 public class GRPCConfigWatcherRegister extends FetchingConfigWatcherRegister {
     private RemoteEndpointSettings settings;

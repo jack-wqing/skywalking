@@ -52,6 +52,7 @@ import org.apache.skywalking.oap.server.core.storage.StorageModule;
 import org.apache.skywalking.oap.server.core.storage.query.IMetadataQueryDAO;
 import org.apache.skywalking.oap.server.library.module.ModuleManager;
 import org.apache.skywalking.oap.server.library.util.CollectionUtils;
+// MetadataQueryService: Meta manager
 
 public class MetadataQueryService implements org.apache.skywalking.oap.server.library.module.Service {
 

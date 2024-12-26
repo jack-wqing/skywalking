@@ -22,6 +22,7 @@ import java.io.IOException;
 import lombok.Getter;
 import org.apache.skywalking.oap.server.core.analysis.DispatcherDetectorListener;
 import org.apache.skywalking.oap.server.core.analysis.DispatcherManager;
+// SourceReceiverImpl -> DispatcherManager
 
 public class SourceReceiverImpl implements SourceReceiver {
     @Getter

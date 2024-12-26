@@ -23,6 +23,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
 import org.apache.skywalking.oap.server.library.module.ModuleConfig;
+// ETCD Setting
 
 @Data
 @ToString
