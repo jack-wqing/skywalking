@@ -20,6 +20,8 @@ package org.apache.skywalking.oap.server.receiver.ebpf.provider;
 
 import org.apache.skywalking.oap.server.core.oal.rt.OALDefine;
 
+// EBPFOAL Define
+
 public class EBPFOALDefine extends OALDefine {
 
     public static final EBPFOALDefine INSTANCE = new EBPFOALDefine();

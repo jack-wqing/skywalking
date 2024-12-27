@@ -56,7 +56,7 @@ import org.apache.skywalking.oap.server.library.module.Service;
  *
  * @since 8.0.0
  */
-// MeterSystem
+//MeterSystem
 
 @Slf4j
 public class MeterSystem implements Service {

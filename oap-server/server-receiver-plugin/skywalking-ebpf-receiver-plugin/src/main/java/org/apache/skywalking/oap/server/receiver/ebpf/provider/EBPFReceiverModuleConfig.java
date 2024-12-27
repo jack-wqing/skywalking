@@ -22,6 +22,8 @@ import lombok.Getter;
 import lombok.Setter;
 import org.apache.skywalking.oap.server.library.module.ModuleConfig;
 
+// EBPF
+
 @Getter
 public class EBPFReceiverModuleConfig extends ModuleConfig {
 

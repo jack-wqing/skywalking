@@ -20,6 +20,8 @@ package org.apache.skywalking.oap.server.receiver.ebpf.module;
 
 import org.apache.skywalking.oap.server.library.module.ModuleDefine;
 
+// receiver-ebpf: skywalking rover： access Log
+
 public class EBPFReceiverModule extends ModuleDefine {
 
     public static final String NAME = "receiver-ebpf";
