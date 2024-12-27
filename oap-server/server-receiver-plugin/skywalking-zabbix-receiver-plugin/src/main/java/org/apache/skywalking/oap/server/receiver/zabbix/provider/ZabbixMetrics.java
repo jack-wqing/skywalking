@@ -59,6 +59,7 @@ import static com.google.common.collect.ImmutableMap.toImmutableMap;
 /**
  * Management all Zabbix metrics
  */
+// Zabbix Metrics
 @Slf4j
 public class ZabbixMetrics {
 

@@ -21,6 +21,8 @@ package org.apache.skywalking.oap.server.ai.pipeline;
 import org.apache.skywalking.oap.server.ai.pipeline.services.api.HttpUriRecognition;
 import org.apache.skywalking.oap.server.library.module.ModuleDefine;
 
+//AIPipeline: ModuleDefine
+
 public class AIPipelineModule extends ModuleDefine {
     public static final String NAME = "ai-pipeline";
 

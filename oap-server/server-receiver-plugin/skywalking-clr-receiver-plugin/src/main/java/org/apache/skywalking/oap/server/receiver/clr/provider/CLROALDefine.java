@@ -23,6 +23,8 @@ import org.apache.skywalking.oap.server.core.oal.rt.OALDefine;
 /**
  * CLR OAL script includes the metrics related to dot net CLR only.
  */
+// dot net OALDefine
+
 public class CLROALDefine extends OALDefine {
     public static final CLROALDefine INSTANCE = new CLROALDefine();
 

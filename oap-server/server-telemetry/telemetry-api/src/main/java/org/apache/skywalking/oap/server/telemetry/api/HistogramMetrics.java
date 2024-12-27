@@ -24,6 +24,8 @@ import java.io.Closeable;
  * A histogram samples observations (usually things like request durations or response sizes) and counts them in
  * configurable buckets. It also provides a sum of all observed values.
  */
+// Histogram: Metrics
+
 public abstract class HistogramMetrics {
     public Timer createTimer() {
         return new Timer(this);

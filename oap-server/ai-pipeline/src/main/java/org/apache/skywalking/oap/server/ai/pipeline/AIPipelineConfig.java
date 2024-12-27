@@ -22,6 +22,8 @@ import lombok.Getter;
 import lombok.Setter;
 import org.apache.skywalking.oap.server.library.module.ModuleConfig;
 
+// AIPipeline: Config Recognition
+
 @Getter
 @Setter
 public class AIPipelineConfig extends ModuleConfig {

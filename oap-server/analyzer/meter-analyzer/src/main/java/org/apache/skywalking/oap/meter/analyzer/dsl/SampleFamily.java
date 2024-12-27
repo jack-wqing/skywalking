@@ -73,6 +73,8 @@ import org.apache.skywalking.oap.server.library.util.StringUtil;
 /**
  * SampleFamily represents a collection of {@link Sample}.
  */
+//
+
 @RequiredArgsConstructor(access = AccessLevel.PRIVATE)
 @EqualsAndHashCode
 @ToString

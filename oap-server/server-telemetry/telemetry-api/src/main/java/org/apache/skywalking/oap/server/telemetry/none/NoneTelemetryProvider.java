@@ -29,6 +29,8 @@ import org.apache.skywalking.oap.server.telemetry.api.MetricsCreator;
 /**
  * A nutshell telemetry implementor.
  */
+// NoneTelemetry: Module Provider
+
 public class NoneTelemetryProvider extends ModuleProvider {
     @Override
     public String name() {

@@ -27,6 +27,8 @@ import org.apache.skywalking.oap.server.telemetry.api.MetricsTag;
 /**
  * A no-op metrics create, just create nut shell metrics instance.
  */
+// Node Metrics Creator
+
 public class MetricsCreatorNoop implements MetricsCreator {
     @Override
     public CounterMetrics createCounter(String name, String tips, MetricsTag.Keys tagKeys,

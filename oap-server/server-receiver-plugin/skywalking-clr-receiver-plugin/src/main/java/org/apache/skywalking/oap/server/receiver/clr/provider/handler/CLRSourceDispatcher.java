@@ -32,7 +32,7 @@ import org.apache.skywalking.oap.server.core.source.SourceReceiver;
 import org.apache.skywalking.oap.server.library.module.ModuleManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+// SourceReceiver
 public class CLRSourceDispatcher {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(CLRSourceDispatcher.class);

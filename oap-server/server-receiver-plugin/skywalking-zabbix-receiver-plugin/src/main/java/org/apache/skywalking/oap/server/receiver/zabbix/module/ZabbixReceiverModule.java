@@ -20,6 +20,8 @@ package org.apache.skywalking.oap.server.receiver.zabbix.module;
 
 import org.apache.skywalking.oap.server.library.module.ModuleDefine;
 
+// ZabbixReceiver: ModuleDefine
+
 public class ZabbixReceiverModule extends ModuleDefine {
     public static final String NAME = "receiver-zabbix";
 

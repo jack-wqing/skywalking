@@ -26,6 +26,8 @@ import org.apache.skywalking.oap.server.telemetry.api.MetricsTag;
 /**
  * Gauge metrics in Prometheus implementor.
  */
+// PrometheusGauge
+
 public class PrometheusGaugeMetrics extends BaseMetrics<Gauge, Gauge.Child> implements GaugeMetrics {
     public PrometheusGaugeMetrics(String name, String tips, MetricsTag.Keys labels, MetricsTag.Values values) {
         super(name, tips, labels, values);

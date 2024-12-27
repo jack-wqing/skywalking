@@ -29,6 +29,7 @@ import org.apache.skywalking.oap.server.receiver.profile.provider.handler.Profil
 import org.apache.skywalking.oap.server.receiver.profile.provider.handler.ProfileTaskServiceHandlerCompat;
 import org.apache.skywalking.oap.server.receiver.sharing.server.SharingServerModule;
 
+// Profile: ModuleProvider
 /**
  * profile task receiver default provider
  */

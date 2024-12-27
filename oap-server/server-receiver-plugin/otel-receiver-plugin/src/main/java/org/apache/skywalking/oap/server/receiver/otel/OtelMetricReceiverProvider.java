@@ -31,6 +31,8 @@ import org.apache.skywalking.oap.server.receiver.sharing.server.SharingServerMod
 import java.util.ArrayList;
 import java.util.List;
 
+// receive-otel: ModuleProvider
+
 public class OtelMetricReceiverProvider extends ModuleProvider {
     public static final String NAME = "default";
 

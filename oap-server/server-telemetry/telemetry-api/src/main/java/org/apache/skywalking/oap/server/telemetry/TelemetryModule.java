@@ -25,6 +25,8 @@ import org.apache.skywalking.oap.server.telemetry.api.MetricsCreator;
 /**
  * Telemetry module definition
  */
+// Telemetry: none / prometheus
+
 public class TelemetryModule extends ModuleDefine {
     public static final String NAME = "telemetry";
 

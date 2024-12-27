@@ -27,6 +27,8 @@ import org.apache.skywalking.oap.server.telemetry.api.MetricsTag;
 /**
  * Create metrics instance for Prometheus exporter.
  */
+// PrometheusMetricsCreator: Exporter
+
 public class PrometheusMetricsCreator implements MetricsCreator {
     @Override
     public CounterMetrics createCounter(String name, String tips, MetricsTag.Keys tagKeys,

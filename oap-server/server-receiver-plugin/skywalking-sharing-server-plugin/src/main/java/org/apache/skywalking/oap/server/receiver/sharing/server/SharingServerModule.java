@@ -32,6 +32,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleDefine;
  * network, no TLS and token check. Even some companies may require TLS internally, it still use different TLS keys. In
  * this specific case, we recommend users to consider use {@link org.apache.skywalking.oap.server.core.CoreModuleConfig.Role}.
  */
+// Receiver SharingServer
+
 public class SharingServerModule extends ModuleDefine {
 
     public static final String NAME = "receiver-sharing-server";

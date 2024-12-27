@@ -23,6 +23,8 @@ package org.apache.skywalking.oap.server.telemetry.api;
  * <p>
  * The tag values should be set in putting value phase.
  */
+// Tag for target metrics
+
 public class MetricsTag {
     public static final Keys EMPTY_KEY = new Keys();
     public static final Values EMPTY_VALUE = new Values();

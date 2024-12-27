@@ -30,6 +30,7 @@ import org.apache.skywalking.oap.server.library.module.ModuleStartException;
 import org.apache.skywalking.oap.server.receiver.otel.Handler;
 import org.apache.skywalking.oap.server.receiver.sharing.server.SharingServerModule;
 
+// Otlp-metrics
 @Slf4j
 @RequiredArgsConstructor
 public class OpenTelemetryMetricHandler

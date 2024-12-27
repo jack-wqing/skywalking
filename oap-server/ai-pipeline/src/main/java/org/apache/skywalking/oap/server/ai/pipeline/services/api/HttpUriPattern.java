@@ -21,6 +21,8 @@ package org.apache.skywalking.oap.server.ai.pipeline.services.api;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
+// HttpUri:Pattern
+
 @RequiredArgsConstructor
 @Getter
 public class HttpUriPattern {

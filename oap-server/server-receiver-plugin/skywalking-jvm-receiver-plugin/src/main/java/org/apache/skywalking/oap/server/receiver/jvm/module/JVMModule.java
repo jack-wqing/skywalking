@@ -20,6 +20,8 @@ package org.apache.skywalking.oap.server.receiver.jvm.module;
 
 import org.apache.skywalking.oap.server.library.module.ModuleDefine;
 
+// JVMModule
+
 public class JVMModule extends ModuleDefine {
 
     public JVMModule() {

@@ -26,6 +26,8 @@ import lombok.ToString;
 /**
  * MetricFamily define a metric and all its samples.
  */
+// MetricFamily: metric and samples
+
 @AllArgsConstructor
 @EqualsAndHashCode
 @ToString

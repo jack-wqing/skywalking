@@ -25,6 +25,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleConfig;
 /**
  * The Prometheus telemetry implementor settings.
  */
+// Prometheus telemetry: Implementor
+
 @Setter
 @Getter
 public class PrometheusConfig extends ModuleConfig {

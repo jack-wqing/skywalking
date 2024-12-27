@@ -23,6 +23,8 @@ import java.util.List;
 import lombok.Setter;
 import org.apache.skywalking.oap.server.core.server.HTTPHandlerRegister;
 
+//ReceiverHttpHandler
+
 public class ReceiverHTTPHandlerRegister implements HTTPHandlerRegister {
 
     @Setter

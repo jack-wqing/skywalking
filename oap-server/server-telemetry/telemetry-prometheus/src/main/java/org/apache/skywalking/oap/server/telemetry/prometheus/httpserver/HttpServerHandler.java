@@ -45,6 +45,8 @@ import static io.netty.handler.codec.http.HttpHeaderValues.TEXT_PLAIN;
 import static io.netty.handler.codec.http.HttpResponseStatus.INTERNAL_SERVER_ERROR;
 import static io.netty.handler.codec.http.HttpResponseStatus.OK;
 
+// Prometheus: ServerHandler
+
 @Slf4j
 public class HttpServerHandler  extends SimpleChannelInboundHandler<HttpObject> {
 

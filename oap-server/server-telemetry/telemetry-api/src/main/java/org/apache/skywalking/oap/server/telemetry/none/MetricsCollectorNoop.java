@@ -25,6 +25,8 @@ import org.apache.skywalking.oap.server.telemetry.api.MetricsCollector;
 /**
  * No-op MetricFamily Collector.
  */
+// None Collector
+
 public class MetricsCollectorNoop implements MetricsCollector {
     @Override
     public Iterable<MetricFamily> collect() {

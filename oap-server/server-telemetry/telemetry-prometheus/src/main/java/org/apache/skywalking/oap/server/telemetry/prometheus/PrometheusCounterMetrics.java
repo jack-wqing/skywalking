@@ -25,6 +25,8 @@ import org.apache.skywalking.oap.server.telemetry.api.MetricsTag;
 /**
  * Counter metrics in Prometheus implementor.
  */
+// prometheus Counter
+
 public class PrometheusCounterMetrics extends BaseMetrics<Counter, Counter.Child> implements CounterMetrics {
 
     public PrometheusCounterMetrics(String name, String tips, MetricsTag.Keys labels, MetricsTag.Values values) {

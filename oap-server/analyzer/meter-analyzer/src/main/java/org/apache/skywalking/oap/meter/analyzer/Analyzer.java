@@ -70,6 +70,8 @@ import static java.util.stream.Collectors.toList;
 /**
  * Analyzer analyses DSL expression with input samples, then to generate meter-system metrics.
  */
+// Analyzer analyzes DSL Expression to meter-system metrics
+
 @Slf4j
 @RequiredArgsConstructor(access = AccessLevel.PRIVATE)
 @ToString(of = {

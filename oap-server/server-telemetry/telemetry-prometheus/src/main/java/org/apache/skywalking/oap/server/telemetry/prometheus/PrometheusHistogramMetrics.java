@@ -25,6 +25,7 @@ import org.apache.skywalking.oap.server.telemetry.api.MetricsTag;
 /**
  * HistogramMetrics metrics in Prometheus implementor.
  */
+// HistogramMetrics: Prometheus
 public class PrometheusHistogramMetrics extends HistogramMetrics {
     private InnerMetricObject inner;
     private final double[] buckets;

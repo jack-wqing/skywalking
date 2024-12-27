@@ -26,6 +26,7 @@ import io.netty.handler.codec.http.HttpServerExpectContinueHandler;
 import io.netty.handler.ssl.SslContext;
 import lombok.RequiredArgsConstructor;
 
+// netty: HttpServerCodec / HttpServerExpectContinueHandle
 @RequiredArgsConstructor
 public class HttpServerInitializer extends ChannelInitializer<SocketChannel> {
 

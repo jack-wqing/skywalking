@@ -20,6 +20,8 @@ package org.apache.skywalking.oap.server.receiver.otel;
 
 import org.apache.skywalking.oap.server.library.module.ModuleStartException;
 
+// otel: type handler
+
 public interface Handler {
     String type();
 

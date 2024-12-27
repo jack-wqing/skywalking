@@ -27,6 +27,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleConfig;
 
 import java.util.List;
 
+// OtelMetric: ReceiverConfig -> default Metrics / logs
+
 @Slf4j
 public class OtelMetricReceiverConfig extends ModuleConfig {
 

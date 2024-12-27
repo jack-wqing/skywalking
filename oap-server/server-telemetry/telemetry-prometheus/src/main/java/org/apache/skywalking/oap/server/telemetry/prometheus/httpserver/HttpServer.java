@@ -36,6 +36,8 @@ import org.apache.skywalking.oap.server.telemetry.prometheus.PrometheusConfig;
  * An HTTP server that sends back the content of the received HTTP request
  * in a pretty plaintext form.
  */
+// Netty implement Http Server
+
 @RequiredArgsConstructor
 @Slf4j
 public final class HttpServer {

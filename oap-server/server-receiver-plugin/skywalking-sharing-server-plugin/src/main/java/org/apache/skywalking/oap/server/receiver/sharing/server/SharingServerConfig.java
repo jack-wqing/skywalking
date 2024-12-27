@@ -22,6 +22,8 @@ import lombok.Getter;
 import lombok.Setter;
 import org.apache.skywalking.oap.server.library.module.ModuleConfig;
 
+// Sharing Server Config: Port !=0 -> online
+
 @Getter
 @Setter
 public class SharingServerConfig extends ModuleConfig {

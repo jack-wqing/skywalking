@@ -26,6 +26,7 @@ import org.apache.skywalking.apm.network.management.v3.ManagementServiceGrpc;
 import org.apache.skywalking.oap.server.library.module.ModuleManager;
 import org.apache.skywalking.oap.server.library.server.grpc.GRPCHandler;
 import org.apache.skywalking.oap.server.receiver.register.provider.handler.v8.ManagementServiceHandler;
+// ManagementServiceGRPCHandler: ManagementServiceHandler
 
 public class ManagementServiceGRPCHandler extends ManagementServiceGrpc.ManagementServiceImplBase implements GRPCHandler {
     private final ManagementServiceHandler handler;

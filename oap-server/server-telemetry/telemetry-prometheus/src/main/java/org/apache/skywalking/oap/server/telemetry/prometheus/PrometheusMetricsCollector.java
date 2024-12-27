@@ -26,8 +26,10 @@ import java.util.List;
 import org.apache.skywalking.oap.server.telemetry.api.MetricFamily;
 import org.apache.skywalking.oap.server.telemetry.api.MetricsCollector;
 
+// CollectorRegistry: Prometheus
 public class PrometheusMetricsCollector implements MetricsCollector {
-    @Override public Iterable<MetricFamily> collect() {
+    @Override
+    public Iterable<MetricFamily> collect() {
         Enumeration<Collector.MetricFamilySamples> mfs = CollectorRegistry.defaultRegistry.metricFamilySamples();
         List<MetricFamily> result = new ArrayList<>();
         while (mfs.hasMoreElements()) {

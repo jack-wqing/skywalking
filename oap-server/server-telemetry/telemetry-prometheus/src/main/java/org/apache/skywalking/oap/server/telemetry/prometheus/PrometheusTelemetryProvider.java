@@ -31,6 +31,8 @@ import org.apache.skywalking.oap.server.telemetry.prometheus.httpserver.HttpServ
 /**
  * Start the Prometheus
  */
+// Prometheus: Telemetry Provider
+
 public class PrometheusTelemetryProvider extends ModuleProvider {
     private PrometheusConfig config;
 

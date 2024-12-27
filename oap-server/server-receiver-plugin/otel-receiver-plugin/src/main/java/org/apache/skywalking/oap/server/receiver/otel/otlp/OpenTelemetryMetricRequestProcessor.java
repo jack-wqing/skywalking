@@ -61,6 +61,8 @@ import static io.opentelemetry.proto.metrics.v1.AggregationTemporality.AGGREGATI
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.toMap;
 
+// Otel Request Processor
+
 @RequiredArgsConstructor
 @Slf4j
 public class OpenTelemetryMetricRequestProcessor implements Service {

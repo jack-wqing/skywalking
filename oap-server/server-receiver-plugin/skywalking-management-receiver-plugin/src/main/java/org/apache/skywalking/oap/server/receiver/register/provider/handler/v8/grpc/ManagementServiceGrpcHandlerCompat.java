@@ -26,6 +26,8 @@ import org.apache.skywalking.apm.network.management.v3.InstanceProperties;
 import org.apache.skywalking.apm.network.management.v3.compat.ManagementServiceGrpc;
 import org.apache.skywalking.oap.server.library.server.grpc.GRPCHandler;
 
+// Delegate ManagementServiceGRPCHandler
+
 @RequiredArgsConstructor
 public class ManagementServiceGrpcHandlerCompat extends ManagementServiceGrpc.ManagementServiceImplBase implements GRPCHandler {
     private final ManagementServiceGRPCHandler delegate;

@@ -32,6 +32,7 @@ import org.apache.skywalking.oap.server.ai.pipeline.services.api.HttpUriPattern;
 import org.apache.skywalking.oap.server.ai.pipeline.services.api.HttpUriRecognition;
 import org.apache.skywalking.oap.server.library.client.grpc.GRPCClient;
 import org.apache.skywalking.oap.server.library.util.StringUtil;
+// remote URI Recognition
 
 @Slf4j
 public class HttpUriRecognitionService implements HttpUriRecognition {

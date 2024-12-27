@@ -51,7 +51,7 @@ public class RegisterModuleProvider extends ModuleProvider {
     @Override
     public void prepare() {
     }
-
+    // Register Receiver Handler
     @Override
     public void start() {
         GRPCHandlerRegister grpcHandlerRegister = getManager().find(SharingServerModule.NAME)

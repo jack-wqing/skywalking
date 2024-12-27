@@ -23,6 +23,8 @@ package org.apache.skywalking.oap.server.telemetry.api;
  * increase or be reset to zero on restart. For example, you can use a counter to represent the number of requests
  * served, tasks completed, or errors.z
  */
+// CounterMetrics
+
 public interface CounterMetrics {
     /**
      * Increase 1 to counter

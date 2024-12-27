@@ -21,6 +21,7 @@ package org.apache.skywalking.oap.server.receiver.otel;
 import org.apache.skywalking.oap.server.library.module.ModuleDefine;
 import org.apache.skywalking.oap.server.receiver.otel.otlp.OpenTelemetryMetricRequestProcessor;
 
+// Otel: Receiver Module
 public class OtelMetricReceiverModule extends ModuleDefine {
     public static final String NAME = "receiver-otel";
 

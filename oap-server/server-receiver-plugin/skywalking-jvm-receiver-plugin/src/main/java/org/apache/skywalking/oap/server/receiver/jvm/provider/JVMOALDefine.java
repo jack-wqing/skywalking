@@ -23,6 +23,7 @@ import org.apache.skywalking.oap.server.core.oal.rt.OALDefine;
 /**
  * JVM OAl script includes the metrics related to JVM only.
  */
+// JVMOALDefine
 public class JVMOALDefine extends OALDefine {
     public static final JVMOALDefine INSTANCE = new JVMOALDefine();
 

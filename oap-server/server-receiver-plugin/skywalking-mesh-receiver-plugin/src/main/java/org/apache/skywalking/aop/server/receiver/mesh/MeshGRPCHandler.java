@@ -27,6 +27,7 @@ import org.apache.skywalking.oap.server.library.module.ModuleManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+// TelemetryDataDispatcher
 public class MeshGRPCHandler extends ServiceMeshMetricServiceGrpc.ServiceMeshMetricServiceImplBase {
     private static final Logger LOGGER = LoggerFactory.getLogger(MeshGRPCHandler.class);
 

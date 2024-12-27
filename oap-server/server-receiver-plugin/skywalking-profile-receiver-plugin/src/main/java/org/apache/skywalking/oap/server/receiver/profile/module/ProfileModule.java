@@ -23,6 +23,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleDefine;
 /**
  * profile task receiver
  */
+// Profile Task Receiver
+
 public class ProfileModule extends ModuleDefine {
 
     public static final String NAME = "receiver-profile";

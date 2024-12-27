@@ -29,6 +29,8 @@ import static java.util.Objects.requireNonNull;
 /**
  * Define multiple OAL configuration
  */
+// OALDefine
+
 @Getter
 @ToString
 @EqualsAndHashCode

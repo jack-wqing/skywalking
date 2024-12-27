@@ -31,7 +31,7 @@ import org.apache.skywalking.oap.server.receiver.clr.provider.handler.CLRMetricR
 import org.apache.skywalking.oap.server.receiver.sharing.server.SharingServerModule;
 
 /**
- *
+ * CLRModule: 
  **/
 public class CLRModuleProvider extends ModuleProvider {
 

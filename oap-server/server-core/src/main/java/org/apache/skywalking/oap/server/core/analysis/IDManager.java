@@ -33,6 +33,7 @@ import org.apache.skywalking.oap.server.library.util.StringUtil;
 /**
  * IDManager includes all ID encode/decode functions for service, service instance and endpoint.
  */
+// IDManager -> service, service instance, endpoint, process
 public class IDManager {
     /**
      * Service ID related functions.

@@ -50,6 +50,8 @@ import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.toMap;
 
+// otlp-log
+
 @Slf4j
 @RequiredArgsConstructor
 public class OpenTelemetryLogHandler

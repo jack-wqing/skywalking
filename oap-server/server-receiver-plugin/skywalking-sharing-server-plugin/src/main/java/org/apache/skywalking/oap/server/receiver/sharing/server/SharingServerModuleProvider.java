@@ -37,6 +37,8 @@ import org.apache.skywalking.oap.server.library.server.http.HTTPServer;
 import org.apache.skywalking.oap.server.library.server.http.HTTPServerConfig;
 import org.apache.skywalking.oap.server.library.util.StringUtil;
 
+// Mixed: handle -> inter GRPC / HTTP  / external GRPC / HTTP
+
 public class SharingServerModuleProvider extends ModuleProvider {
 
     private SharingServerConfig config;

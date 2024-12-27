@@ -25,6 +25,8 @@ import org.apache.skywalking.apm.network.management.v3.InstanceProperties;
 import org.apache.skywalking.oap.server.library.module.ModuleManager;
 import org.apache.skywalking.oap.server.receiver.register.provider.handler.v8.ManagementServiceHandler;
 
+// Http ManagementService: HTTPHandler
+
 public class ManagementServiceHTTPHandler {
     private final ManagementServiceHandler handler;
 

@@ -22,6 +22,7 @@ import lombok.Data;
 import org.apache.skywalking.oap.meter.analyzer.MetricRuleConfig;
 
 import java.util.List;
+//ZabbixConfig
 
 @Data
 public class ZabbixConfig implements MetricRuleConfig {

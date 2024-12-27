@@ -24,6 +24,8 @@ import org.apache.skywalking.oap.server.library.util.HealthChecker;
 /**
  * HealthCheckMetrics intends to record health status.
  */
+// HealthCheckMetrics: Health:0  unHealth:1
+
 @Slf4j
 public class HealthCheckMetrics implements HealthChecker {
     private final GaugeMetrics metrics;

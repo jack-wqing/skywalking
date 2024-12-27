@@ -32,6 +32,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.skywalking.oap.server.receiver.zabbix.provider.ZabbixMetrics;
 import org.apache.skywalking.oap.server.receiver.zabbix.provider.ZabbixModuleConfig;
 
+// Zabbix Server
 @Slf4j
 public class ZabbixServer {
     private final ZabbixModuleConfig config;

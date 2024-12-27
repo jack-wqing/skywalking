@@ -25,6 +25,8 @@ import org.apache.skywalking.apm.network.language.agent.v3.JVMMetricCollection;
 import org.apache.skywalking.apm.network.language.agent.v3.compat.JVMMetricReportServiceGrpc;
 import org.apache.skywalking.oap.server.library.server.grpc.GRPCHandler;
 
+// Delegate
+
 @RequiredArgsConstructor
 public class JVMMetricReportServiceHandlerCompat extends JVMMetricReportServiceGrpc.JVMMetricReportServiceImplBase implements GRPCHandler {
     private final JVMMetricReportServiceHandler delegate;

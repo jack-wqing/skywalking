@@ -56,6 +56,7 @@ import com.google.gson.JsonObject;
  * TelemetryDataDispatcher processes the {@link ServiceMeshMetrics} format telemetry data, transfers it to source
  * dispatcher.
  */
+// Telemetry DataDispatcher
 @Slf4j
 public class TelemetryDataDispatcher {
     private static final int TCP_COMPONENT = 110; // Defined in component-libraries.yml

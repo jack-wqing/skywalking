@@ -21,8 +21,9 @@ package org.apache.skywalking.oap.server.receiver.clr.module;
 import org.apache.skywalking.oap.server.library.module.ModuleDefine;
 
 /**
- *
+ * receiver clr
  **/
+
 public class CLRModule extends ModuleDefine {
 
     public CLRModule() {

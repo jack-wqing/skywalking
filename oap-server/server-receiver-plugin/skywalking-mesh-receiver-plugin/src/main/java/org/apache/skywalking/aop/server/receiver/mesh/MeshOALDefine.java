@@ -19,6 +19,8 @@ package org.apache.skywalking.aop.server.receiver.mesh;
 
 import org.apache.skywalking.oap.server.core.oal.rt.OALDefine;
 
+// MeshOALDefine
+
 public class MeshOALDefine extends OALDefine {
     public static final MeshOALDefine INSTANCE = new MeshOALDefine();
 

@@ -3,5 +3,6 @@
     解压下载的tar.gz:
     kube-state-metrics-2.1.0/examples/standard
     进行部署: kubectl apply -f ./
-2、skywalking收集器配置
-    https://blog.csdn.net/anduuu/article/details/132673375
+2、skywalking: Opentelementry-collector-contrib
+    https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/v0.100.0/examples/kubernetes/otel-collector.yaml
+    配置yml

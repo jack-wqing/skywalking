@@ -27,6 +27,7 @@ import org.apache.skywalking.apm.network.language.profile.v3.ThreadSnapshot;
 import org.apache.skywalking.apm.network.language.profile.v3.compat.ProfileTaskGrpc;
 import org.apache.skywalking.oap.server.library.server.grpc.GRPCHandler;
 
+// Delegate
 @RequiredArgsConstructor
 public class ProfileTaskServiceHandlerCompat extends ProfileTaskGrpc.ProfileTaskImplBase implements GRPCHandler {
     private final ProfileTaskServiceHandler delegate;

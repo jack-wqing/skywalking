@@ -36,6 +36,7 @@ import org.apache.skywalking.oap.server.core.source.ServiceMeta;
 import org.apache.skywalking.oap.server.core.source.SourceReceiver;
 import org.apache.skywalking.oap.server.library.module.ModuleManager;
 import org.apache.skywalking.oap.server.library.util.StringUtil;
+// ManagementService: Handler
 
 public final class ManagementServiceHandler {
     private final SourceReceiver sourceReceiver;
@@ -58,7 +59,7 @@ public final class ManagementServiceHandler {
             return Layer.nameOf(layer);
         }
     }
-
+    // reportInstanceProperties
     public Commands reportInstanceProperties(final InstanceProperties request) {
         ServiceInstanceUpdate serviceInstanceUpdate = new ServiceInstanceUpdate();
         final String serviceName = namingControl.formatServiceName(request.getService());
@@ -83,7 +84,7 @@ public final class ManagementServiceHandler {
 
         return Commands.newBuilder().build();
     }
-
+    // serviceInstance + service
     public Commands keepAlive(final InstancePingPkg request) {
         final long timeBucket = TimeBucket.getTimeBucket(System.currentTimeMillis(), DownSampling.Minute);
         final String serviceName = namingControl.formatServiceName(request.getService());

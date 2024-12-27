@@ -21,6 +21,8 @@ package org.apache.skywalking.oap.server.telemetry.api;
 /**
  * The telemetry context which the metrics instances may need to know.
  */
+// TelemetryRelation: Context id
+
 public enum TelemetryRelatedContext {
     INSTANCE;
 

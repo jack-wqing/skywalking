@@ -35,6 +35,8 @@ import lombok.ToString;
  * or instant rate of increase.
  *
  */
+// 记录计算的窗口
+
 @RequiredArgsConstructor(access = AccessLevel.PRIVATE)
 @ToString
 @EqualsAndHashCode

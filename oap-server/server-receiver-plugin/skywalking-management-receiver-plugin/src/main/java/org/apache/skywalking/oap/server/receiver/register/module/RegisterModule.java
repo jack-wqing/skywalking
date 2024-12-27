@@ -20,6 +20,8 @@ package org.apache.skywalking.oap.server.receiver.register.module;
 
 import org.apache.skywalking.oap.server.library.module.ModuleDefine;
 
+// Receiver-Register
+
 public class RegisterModule extends ModuleDefine {
 
     public RegisterModule() {
