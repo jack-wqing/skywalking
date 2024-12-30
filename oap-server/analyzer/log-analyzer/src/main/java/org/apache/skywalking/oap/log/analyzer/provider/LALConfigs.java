@@ -39,6 +39,8 @@ import static com.google.common.io.Files.getNameWithoutExtension;
 import static org.apache.skywalking.oap.server.library.util.StringUtil.isNotBlank;
 import static org.apache.skywalking.oap.server.library.util.CollectionUtils.isEmpty;
 
+// LALConfigs
+
 @Data
 @Slf4j
 public class LALConfigs {

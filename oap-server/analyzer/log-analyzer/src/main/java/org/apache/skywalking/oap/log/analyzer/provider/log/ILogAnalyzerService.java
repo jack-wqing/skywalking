@@ -24,6 +24,8 @@ import org.apache.skywalking.oap.server.library.module.Service;
 /**
  * Analyze the collected log data.
  */
+//Analyze log data
+
 public interface ILogAnalyzerService extends Service {
 
     void doAnalysis(LogData.Builder log, Message extraLog);

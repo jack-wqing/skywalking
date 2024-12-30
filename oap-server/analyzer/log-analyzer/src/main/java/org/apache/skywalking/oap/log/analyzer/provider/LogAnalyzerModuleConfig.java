@@ -32,6 +32,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleStartException;
 
 import static java.util.Objects.nonNull;
 
+// LogAnalyzer: ModuleConfig
+
 @EqualsAndHashCode(callSuper = false)
 public class LogAnalyzerModuleConfig extends ModuleConfig {
     @Getter
