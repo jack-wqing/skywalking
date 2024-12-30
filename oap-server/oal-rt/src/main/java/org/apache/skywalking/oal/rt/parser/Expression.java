@@ -21,6 +21,8 @@ package org.apache.skywalking.oal.rt.parser;
 import lombok.Getter;
 import lombok.Setter;
 
+// code generate expression
+
 @Getter
 public class Expression {
     @Setter

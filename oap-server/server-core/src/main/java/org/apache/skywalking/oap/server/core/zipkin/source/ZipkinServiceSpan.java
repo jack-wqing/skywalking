@@ -25,6 +25,8 @@ import org.apache.skywalking.oap.server.core.source.DefaultScopeDefine;
 import org.apache.skywalking.oap.server.core.source.ScopeDeclaration;
 import org.apache.skywalking.oap.server.core.source.Source;
 
+// zipkin ServiceSpan
+
 @ScopeDeclaration(id = DefaultScopeDefine.ZIPKIN_SERVICE_SPAN, name = "ZipkinServiceSpan")
 public class ZipkinServiceSpan extends Source {
 

@@ -47,6 +47,8 @@ import java.util.Map;
 
 import static org.apache.skywalking.oap.server.core.storage.StorageData.TIME_BUCKET;
 
+// SW: Zipkin Span Record: Span <-> Span Record
+
 @SuperDataset
 @Stream(name = ZipkinSpanRecord.INDEX_NAME, scopeId = DefaultScopeDefine.ZIPKIN_SPAN, builder = ZipkinSpanRecord.Builder.class, processor = RecordStreamProcessor.class)
 @SQLDatabase.ExtraColumn4AdditionalEntity(additionalTable = ZipkinSpanRecord.ADDITIONAL_QUERY_TABLE, parentColumn = TIME_BUCKET)

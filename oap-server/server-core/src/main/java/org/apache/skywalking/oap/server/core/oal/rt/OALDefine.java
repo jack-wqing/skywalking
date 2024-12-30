@@ -29,7 +29,7 @@ import static java.util.Objects.requireNonNull;
 /**
  * Define multiple OAL configuration
  */
-// OALDefine
+//OALDefine
 
 @Getter
 @ToString

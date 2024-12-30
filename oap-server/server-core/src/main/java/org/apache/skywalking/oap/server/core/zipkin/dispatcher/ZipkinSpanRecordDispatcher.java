@@ -24,6 +24,7 @@ import org.apache.skywalking.oap.server.core.zipkin.ZipkinSpanRecord;
 import org.apache.skywalking.oap.server.core.zipkin.source.ZipkinSpan;
 import org.apache.skywalking.oap.server.library.util.BooleanUtils;
 
+// ZipkinSpanRecord: Dispatcher
 public class ZipkinSpanRecordDispatcher implements SourceDispatcher<ZipkinSpan> {
 
     @Override

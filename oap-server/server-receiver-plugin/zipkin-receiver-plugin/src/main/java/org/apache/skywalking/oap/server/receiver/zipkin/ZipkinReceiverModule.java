@@ -27,6 +27,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleDefine;
  * Zipkin-SkyWalking integration, it is provided for adding analysis, aggregation and visualization capabilities to
  * zipkin backend.
  */
+// receiver-zipkin: SW
+
 public class ZipkinReceiverModule extends ModuleDefine {
     public static final String NAME = "receiver-zipkin";
 

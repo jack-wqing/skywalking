@@ -22,6 +22,8 @@ import lombok.Getter;
 import lombok.Setter;
 import org.apache.skywalking.oal.rt.util.ClassMethodUtil;
 
+// DataColumn
+
 @Getter
 @Setter
 public class DataColumn {

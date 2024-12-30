@@ -28,6 +28,8 @@ import org.apache.skywalking.oap.server.core.storage.annotation.Column;
  * Record storage represents the entity have fully and manually entity definition by hard codes. Most of them are
  * original log data or task records. These data needs to persistent without further analysis.
  */
+// Record: origin log data or task record without further analysis
+
 public abstract class Record implements StorageData {
     /**
      * Time attribute, all storage data is time sensitive, as same as {@link Metrics}

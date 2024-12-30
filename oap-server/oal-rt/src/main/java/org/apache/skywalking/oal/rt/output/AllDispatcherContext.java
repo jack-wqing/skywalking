@@ -23,6 +23,8 @@ import java.util.Map;
 import lombok.Getter;
 import lombok.Setter;
 
+// all oal script Dispatcher Context
+
 @Getter
 @Setter
 public class AllDispatcherContext {

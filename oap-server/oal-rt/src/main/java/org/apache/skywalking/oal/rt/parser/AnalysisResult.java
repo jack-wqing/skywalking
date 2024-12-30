@@ -27,6 +27,8 @@ import org.apache.skywalking.oap.server.core.storage.type.StorageDataComplexObje
 /**
  * OAL analysis result.
  */
+// OAL analysis result: OAL one metric
+
 @Getter
 @Setter
 public class AnalysisResult {

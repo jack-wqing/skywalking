@@ -22,6 +22,8 @@ import java.util.ArrayList;
 import java.util.List;
 import lombok.Getter;
 
+// OALScript: AnalysisResult + DisableCollection
+
 @Getter
 public class OALScripts {
     private List<AnalysisResult> metricsStmts;

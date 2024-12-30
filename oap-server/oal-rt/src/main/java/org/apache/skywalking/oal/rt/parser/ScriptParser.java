@@ -30,6 +30,8 @@ import org.apache.skywalking.oal.rt.grammar.OALParser;
 /**
  * Script reader and parser.
  */
+// Script: reader parser
+
 public class ScriptParser {
     private OALLexer lexer;
 

@@ -25,6 +25,8 @@ import lombok.Setter;
 import org.apache.skywalking.oal.rt.util.ClassMethodUtil;
 import org.apache.skywalking.oal.rt.util.TypeCastUtil;
 
+// Entry: Method
+
 @Getter
 @Setter
 public class EntryMethod {

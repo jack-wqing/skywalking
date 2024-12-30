@@ -33,6 +33,7 @@ import org.apache.skywalking.oap.server.receiver.zipkin.kafka.KafkaHandler;
 import org.apache.skywalking.oap.server.receiver.zipkin.trace.SpanForward;
 import org.apache.skywalking.oap.server.telemetry.TelemetryModule;
 
+// zipkinReceiver: ModuleProvider
 public class ZipkinReceiverProvider extends ModuleProvider {
     public static final String NAME = "default";
     private ZipkinReceiverConfig config;

@@ -34,6 +34,8 @@ import org.apache.skywalking.oap.server.core.storage.type.Convert2Entity;
 import org.apache.skywalking.oap.server.core.storage.type.Convert2Storage;
 import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 
+// ZipkinServiceRelation: Traffic
+
 @Stream(name = ZipkinServiceRelationTraffic.INDEX_NAME, scopeId = DefaultScopeDefine.ZIPKIN_SERVICE_RELATION,
     builder = ZipkinServiceRelationTraffic.Builder.class, processor = MetricsStreamProcessor.class)
 @MetricsExtension(supportDownSampling = false, supportUpdate = false)

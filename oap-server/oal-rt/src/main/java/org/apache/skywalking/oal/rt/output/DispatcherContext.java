@@ -24,6 +24,8 @@ import lombok.Getter;
 import lombok.Setter;
 import org.apache.skywalking.oal.rt.parser.AnalysisResult;
 
+// DispatcherContext: Dispatcher Context, oal Script
+
 @Getter
 @Setter
 public class DispatcherContext {

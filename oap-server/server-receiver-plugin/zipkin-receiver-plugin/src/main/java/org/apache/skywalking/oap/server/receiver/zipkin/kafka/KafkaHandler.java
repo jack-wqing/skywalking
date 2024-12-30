@@ -46,6 +46,8 @@ import zipkin2.Span;
 import zipkin2.SpanBytesDecoderDetector;
 import zipkin2.codec.BytesDecoder;
 
+// KafkaHandler
+
 @Slf4j
 public class KafkaHandler {
     private final ZipkinReceiverConfig config;

@@ -20,6 +20,8 @@ package org.apache.skywalking.oal.rt;
 
 import org.apache.skywalking.oap.server.core.oal.rt.OALDefine;
 
+// OALRuntime: OALKernel
+
 public class OALRuntime extends OALKernel {
     public OALRuntime(OALDefine define) {
         super(define);

@@ -21,6 +21,7 @@ package org.apache.skywalking.oal.rt.parser;
 import java.util.ArrayList;
 import java.util.List;
 import lombok.Getter;
+// DisableCollection
 
 @Getter
 public class DisableCollection {

@@ -20,7 +20,7 @@ package org.apache.skywalking.oal.rt.parser;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// Persistence Columns
 public class PersistenceColumns {
     private List<PersistenceField> stringFields = new ArrayList<>();
     private List<PersistenceField> longFields = new ArrayList<>();

@@ -47,6 +47,8 @@ import zipkin2.Annotation;
 import zipkin2.Span;
 import zipkin2.internal.HexCodec;
 
+// zipkin span -> SW zipkin span Record
+
 @Slf4j
 public class SpanForward implements SpanForwardService {
     private final ZipkinReceiverConfig config;

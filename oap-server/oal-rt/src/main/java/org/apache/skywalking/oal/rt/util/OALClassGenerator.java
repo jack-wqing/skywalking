@@ -69,6 +69,8 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
+// Class MetaInfo
+
 @Slf4j
 public class OALClassGenerator {
 

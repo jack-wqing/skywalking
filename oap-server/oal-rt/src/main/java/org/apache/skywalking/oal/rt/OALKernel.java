@@ -43,6 +43,8 @@ import java.util.List;
  * OAL Runtime is the class generation engine, which load the generated classes from OAL scrip definitions. This runtime
  * is loaded dynamically.
  */
+// OALKernel: OALEngine:generated class from oal script
+
 @Slf4j
 public class OALKernel implements OALEngine {
 

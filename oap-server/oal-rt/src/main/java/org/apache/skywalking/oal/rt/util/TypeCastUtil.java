@@ -18,6 +18,8 @@
 
 package org.apache.skywalking.oal.rt.util;
 
+// Type Cast
+
 public class TypeCastUtil {
     /**
      * @param castType           to change the value of given original expression.

@@ -39,6 +39,7 @@ import zipkin2.codec.SpanBytesDecoder;
 
 import static java.util.Objects.nonNull;
 
+// zipkin http
 @Slf4j
 public class ZipkinSpanHTTPHandler {
     private final HistogramMetrics histogram;

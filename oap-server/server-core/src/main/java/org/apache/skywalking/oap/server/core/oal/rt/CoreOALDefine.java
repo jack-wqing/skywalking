@@ -17,6 +17,7 @@
 
 package org.apache.skywalking.oap.server.core.oal.rt;
 
+// Core: OALDefine
 public class CoreOALDefine extends OALDefine {
     public static final CoreOALDefine INSTANCE = new CoreOALDefine();
 

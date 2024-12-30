@@ -23,6 +23,8 @@ import org.apache.skywalking.oap.server.core.analysis.worker.MetricsStreamProces
 import org.apache.skywalking.oap.server.core.zipkin.ZipkinServiceTraffic;
 import org.apache.skywalking.oap.server.core.zipkin.source.ZipkinService;
 
+// ZipkinService: Dispatcher
+
 public class ZipkinServiceDispatcher implements SourceDispatcher<ZipkinService> {
 
     @Override

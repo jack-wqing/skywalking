@@ -26,6 +26,8 @@ import lombok.Setter;
 /**
  * Function argument.
  */
+// Argument
+
 @Getter
 @RequiredArgsConstructor
 public class Argument {

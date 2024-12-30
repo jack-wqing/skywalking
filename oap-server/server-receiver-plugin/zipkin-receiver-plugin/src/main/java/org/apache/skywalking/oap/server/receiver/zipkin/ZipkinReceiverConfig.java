@@ -23,6 +23,8 @@ import lombok.Setter;
 import org.apache.skywalking.oap.server.core.Const;
 import org.apache.skywalking.oap.server.library.module.ModuleConfig;
 
+// ZipkinReceiver: ModuleConfig
+
 @Setter
 @Getter
 public class ZipkinReceiverConfig extends ModuleConfig {

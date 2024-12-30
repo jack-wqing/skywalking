@@ -32,6 +32,8 @@ import org.apache.skywalking.oap.server.core.storage.annotation.Column;
  * Metrics represents the statistic data, which analysis by OAL script or hard code. It has the lifecycle controlled by
  * TTL(time to live).
  */
+// Metrics represents the statistic data: analysis by OAL script or hard code: ttl
+
 @EqualsAndHashCode(of = {
     "timeBucket"
 })

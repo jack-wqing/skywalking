@@ -18,6 +18,8 @@
 
 package org.apache.skywalking.oap.server.core.oal.rt;
 
+// Disable: OALDefine
+
 public class DisableOALDefine extends OALDefine {
     public static final DisableOALDefine INSTANCE = new DisableOALDefine();
 
