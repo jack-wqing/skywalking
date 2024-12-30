@@ -23,6 +23,7 @@ import java.util.List;
 
 import org.apache.skywalking.oap.server.analyzer.provider.trace.parser.listener.AnalysisListenerFactory;
 
+// AnalysisListenerFactory
 public class SegmentParserListenerManager implements ISegmentParserListenerManager {
 
     private final List<AnalysisListenerFactory> spanListenerFactories;

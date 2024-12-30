@@ -43,6 +43,8 @@ import org.yaml.snakeyaml.Yaml;
 
 import static java.util.Objects.isNull;
 
+// GatewaysConfig
+
 @Slf4j
 public class UninstrumentedGatewaysConfig extends ConfigChangeWatcher {
     private final AtomicReference<String> settingsString;

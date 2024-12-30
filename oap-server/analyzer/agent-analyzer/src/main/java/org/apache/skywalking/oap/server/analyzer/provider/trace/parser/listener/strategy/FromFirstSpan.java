@@ -24,6 +24,9 @@ import org.apache.skywalking.apm.network.language.agent.v3.SpanObject;
  * FromFirstSpan means the status of the segment is the same as the status of the first span. Mostly, the first span is
  * an entry span. However, a tracing caused by a scheduled task, the first one should be a local span.
  */
+
+// from first span
+
 public class FromFirstSpan implements SegmentStatusAnalyzer {
 
     @Override

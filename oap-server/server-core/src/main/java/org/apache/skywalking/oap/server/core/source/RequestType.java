@@ -21,6 +21,7 @@ package org.apache.skywalking.oap.server.core.source;
 /**
  * RPC request type.
  */
+// request type
 public enum RequestType {
     DATABASE,
     HTTP,

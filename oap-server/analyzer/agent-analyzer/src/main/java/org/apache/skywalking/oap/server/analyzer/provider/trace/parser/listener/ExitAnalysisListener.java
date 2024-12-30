@@ -24,6 +24,9 @@ import org.apache.skywalking.apm.network.language.agent.v3.SpanObject;
 /**
  * SpanListener for exit span.
  */
+
+// exit span
+
 public interface ExitAnalysisListener extends AnalysisListener {
     void parseExit(SpanObject span, SegmentObject segmentObject);
 }

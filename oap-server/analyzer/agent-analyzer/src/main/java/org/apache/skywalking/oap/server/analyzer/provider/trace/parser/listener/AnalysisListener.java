@@ -21,10 +21,13 @@ package org.apache.skywalking.oap.server.analyzer.provider.trace.parser.listener
 /**
  * AnalysisListener represents the callback when OAP does the trace segment analysis.
  */
+
+// trace segment analysis
+
 public interface AnalysisListener {
     /**
      * The last step of the analysis process. Typically, the implementations forward the analysis results to the source
-     * receiver.
+     * receiver. -> source
      */
     void build();
 

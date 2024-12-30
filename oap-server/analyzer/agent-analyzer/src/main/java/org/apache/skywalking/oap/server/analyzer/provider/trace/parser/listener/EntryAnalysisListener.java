@@ -24,6 +24,9 @@ import org.apache.skywalking.apm.network.language.agent.v3.SpanObject;
 /**
  * SpanListener for Entry span.
  */
+
+// Entry span
+
 public interface EntryAnalysisListener extends AnalysisListener {
     void parseEntry(SpanObject span, SegmentObject segmentObject);
 }

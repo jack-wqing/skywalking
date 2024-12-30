@@ -42,6 +42,8 @@ import org.apache.skywalking.oap.server.core.source.VirtualCacheOperation;
 import org.apache.skywalking.oap.server.core.source.CacheSlowAccess;
 import org.apache.skywalking.oap.server.library.util.StringUtil;
 
+// VS CacheProcessor
+
 @Slf4j
 @RequiredArgsConstructor
 public class VirtualCacheProcessor implements VirtualServiceProcessor {

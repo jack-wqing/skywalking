@@ -24,6 +24,9 @@ import org.apache.skywalking.apm.network.language.agent.v3.SpanObject;
 /**
  * SpanListener for local span
  */
+
+// local span
+
 public interface LocalAnalysisListener extends AnalysisListener {
     void parseLocal(SpanObject span, SegmentObject segmentObject);
 }

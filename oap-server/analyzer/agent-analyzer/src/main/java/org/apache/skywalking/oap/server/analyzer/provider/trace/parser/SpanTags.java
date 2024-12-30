@@ -21,6 +21,8 @@ package org.apache.skywalking.oap.server.analyzer.provider.trace.parser;
 /**
  * Reserved keys of the span. The backend analysis the metrics according the existed tags.
  */
+// Reserved keys
+
 public class SpanTags {
     public static final String HTTP_RESPONSE_STATUS_CODE = "http.status_code";
     /**

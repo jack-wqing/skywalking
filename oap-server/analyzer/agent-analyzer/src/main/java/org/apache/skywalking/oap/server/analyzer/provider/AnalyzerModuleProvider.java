@@ -49,6 +49,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleStartException;
 import org.apache.skywalking.oap.server.library.module.ServiceNotProvidedException;
 import org.apache.skywalking.oap.server.telemetry.TelemetryModule;
 
+// Agent-Analyzer: ModuleProvider
+
 public class AnalyzerModuleProvider extends ModuleProvider {
     @Getter
     private AnalyzerModuleConfig moduleConfig;

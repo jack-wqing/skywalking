@@ -44,6 +44,7 @@ import org.apache.skywalking.oap.server.library.util.BooleanUtils;
 /**
  * SegmentSpanListener forwards the segment raw data to the persistence layer with the query required conditions.
  */
+// Segment / tag
 @Slf4j
 @RequiredArgsConstructor
 public class SegmentAnalysisListener implements FirstAnalysisListener, EntryAnalysisListener, SegmentListener {
@@ -197,6 +198,8 @@ public class SegmentAnalysisListener implements FirstAnalysisListener, EntryAnal
     private enum SAMPLE_STATUS {
         UNKNOWN, SAMPLED, IGNORE
     }
+
+    // AnalysisListenerFactory: SegmentAnalysisListener
 
     public static class Factory implements AnalysisListenerFactory {
         private final SourceReceiver sourceReceiver;

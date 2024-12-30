@@ -37,6 +37,8 @@ import java.util.List;
 
 import static org.apache.skywalking.oap.server.analyzer.provider.trace.parser.listener.strategy.SegmentStatusStrategy.FROM_SPAN_STATUS;
 
+// Agent-Analyzer: ModuleConfig
+
 @Slf4j
 public class AnalyzerModuleConfig extends ModuleConfig {
     /**

@@ -54,6 +54,9 @@ import static org.apache.skywalking.oap.server.analyzer.provider.trace.parser.Sp
 /**
  * RPCAnalysisListener detects all RPC relative statistics.
  */
+
+// RPC relative statistics
+
 @Slf4j
 @RequiredArgsConstructor
 public class RPCAnalysisListener extends CommonAnalysisListener implements EntryAnalysisListener, ExitAnalysisListener, LocalAnalysisListener {

@@ -22,6 +22,8 @@ import org.apache.skywalking.oap.server.analyzer.provider.trace.parser.listener.
 
 import java.util.List;
 
+// SegmentParser Listener Manager
+
 public interface ISegmentParserListenerManager {
     void add(AnalysisListenerFactory analysisListenerFactory);
 

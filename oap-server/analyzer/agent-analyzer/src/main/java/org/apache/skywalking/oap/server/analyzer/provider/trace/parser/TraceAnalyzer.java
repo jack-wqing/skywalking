@@ -34,6 +34,8 @@ import org.apache.skywalking.oap.server.analyzer.provider.trace.parser.listener.
 import org.apache.skywalking.oap.server.analyzer.provider.trace.parser.listener.SegmentListener;
 import org.apache.skywalking.oap.server.library.module.ModuleManager;
 
+// TraceAnalyzer
+
 @Slf4j
 @RequiredArgsConstructor
 public class TraceAnalyzer {

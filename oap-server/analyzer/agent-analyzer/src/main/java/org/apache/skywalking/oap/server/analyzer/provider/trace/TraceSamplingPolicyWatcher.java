@@ -33,6 +33,8 @@ import java.util.concurrent.atomic.AtomicReference;
 
 import static java.util.Objects.isNull;
 
+// TraceSamplingPolicy
+
 @Slf4j
 public class TraceSamplingPolicyWatcher extends ConfigChangeWatcher {
 

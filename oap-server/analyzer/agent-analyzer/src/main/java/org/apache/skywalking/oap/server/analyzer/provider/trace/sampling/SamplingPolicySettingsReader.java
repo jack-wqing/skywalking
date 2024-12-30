@@ -32,6 +32,9 @@ import java.util.Objects;
  * SamplePolicySettingsReader parses the given `trace-sampling-policy-settings.yml` config file, to the target {@link
  * SamplingPolicySettings}.
  */
+
+// SamplingPolicySetting: Reader
+
 public class SamplingPolicySettingsReader {
     private Map<String, ?> yamlData;
 

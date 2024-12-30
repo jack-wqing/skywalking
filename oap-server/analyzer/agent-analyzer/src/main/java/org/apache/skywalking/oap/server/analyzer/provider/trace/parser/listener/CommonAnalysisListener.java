@@ -24,6 +24,9 @@ import org.apache.skywalking.oap.server.core.analysis.Layer;
 /**
  * The common logic for specific listeners.
  */
+
+// FAAS GENERAL
+
 abstract class CommonAnalysisListener {
     /**
      * Identify the layer of span's service/instance owner. Such as  ${@link Layer#FAAS} and ${@link Layer#GENERAL}.

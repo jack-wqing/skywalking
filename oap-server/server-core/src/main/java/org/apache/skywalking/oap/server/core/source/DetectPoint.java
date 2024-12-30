@@ -21,6 +21,8 @@ package org.apache.skywalking.oap.server.core.source;
 import lombok.RequiredArgsConstructor;
 import org.apache.skywalking.apm.network.language.agent.v3.SpanType;
 
+// Detect Point: Server Client
+
 @RequiredArgsConstructor
 public enum DetectPoint {
     SERVER(0), CLIENT(1), PROXY(2), UNRECOGNIZED(3);

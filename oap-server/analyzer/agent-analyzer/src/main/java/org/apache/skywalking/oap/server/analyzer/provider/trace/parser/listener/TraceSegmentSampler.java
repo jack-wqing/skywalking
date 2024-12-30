@@ -26,6 +26,7 @@ import org.apache.skywalking.oap.server.analyzer.provider.trace.TraceSamplingPol
  * The sampler makes the sampling mechanism works at backend side. Sample result: [0,sampleRate) sampled, (sampleRate,~)
  * ignored
  */
+// TraceSegment Sampler
 @RequiredArgsConstructor
 public class TraceSegmentSampler {
     private final TraceSamplingPolicyWatcher traceSamplingPolicyWatcher;
