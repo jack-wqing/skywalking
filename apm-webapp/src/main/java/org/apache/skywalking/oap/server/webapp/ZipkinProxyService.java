@@ -35,6 +35,8 @@ import com.linecorp.armeria.server.AbstractHttpService;
 import com.linecorp.armeria.server.ServiceRequestContext;
 import lombok.SneakyThrows;
 
+// ZipkinProxyService
+
 public final class ZipkinProxyService extends AbstractHttpService {
     private final WebClient loadBalancingClient;
 

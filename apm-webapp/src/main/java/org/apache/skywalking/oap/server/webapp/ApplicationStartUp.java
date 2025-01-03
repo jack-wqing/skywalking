@@ -35,6 +35,8 @@ import com.linecorp.armeria.server.file.FileService;
 import com.linecorp.armeria.server.file.HttpFile;
 import com.linecorp.armeria.server.healthcheck.HealthCheckService;
 
+// WebApp StartUp
+
 @Slf4j
 public class ApplicationStartUp {
     public static void main(String[] args) throws Exception {
