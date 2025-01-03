@@ -21,6 +21,8 @@ package org.apache.skywalking.oap.server.core.analysis.meter.function;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
+// PercentileArgument
+
 @RequiredArgsConstructor
 @Getter
 public class PercentileArgument {

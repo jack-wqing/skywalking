@@ -32,6 +32,7 @@ import org.apache.skywalking.oap.server.core.query.type.HeatMap;
 /**
  * BucketedValues represents a value set, which elements are grouped by time bucket.
  */
+// Bucket values
 @ToString
 @Getter
 public class BucketedValues {

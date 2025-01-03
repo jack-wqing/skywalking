@@ -39,6 +39,8 @@ import org.apache.skywalking.oap.server.core.storage.type.Convert2Entity;
 import org.apache.skywalking.oap.server.core.storage.type.Convert2Storage;
 import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 
+// SumLabeled
+
 @MeterFunction(functionName = "sumLabeled")
 @ToString
 public abstract class SumLabeledFunction extends Meter implements AcceptableValue<DataTable>, LabeledValueHolder {

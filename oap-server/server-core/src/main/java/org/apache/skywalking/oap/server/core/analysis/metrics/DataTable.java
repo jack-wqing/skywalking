@@ -35,7 +35,7 @@ import static org.apache.skywalking.oap.server.core.analysis.metrics.DataLabel.G
 
 /**
  * DataTable includes a hashmap to store string key and long value. It enhanced the serialization capability.
- *
+ * DataTable
  */
 @ToString
 @EqualsAndHashCode

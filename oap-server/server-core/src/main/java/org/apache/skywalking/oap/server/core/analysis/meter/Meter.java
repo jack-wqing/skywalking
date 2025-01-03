@@ -29,6 +29,7 @@ import org.apache.skywalking.oap.server.core.source.DefaultScopeDefine;
  *
  * @since 9.0.0
  */
+// alarm kernel
 public abstract class Meter extends Metrics implements WithMetadata {
     private MetricsMetaInfo metadata = new MetricsMetaInfo("UNKNOWN", DefaultScopeDefine.UNKNOWN);
 

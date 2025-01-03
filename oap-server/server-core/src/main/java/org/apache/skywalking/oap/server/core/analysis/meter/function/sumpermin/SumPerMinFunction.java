@@ -38,6 +38,7 @@ import org.apache.skywalking.oap.server.core.storage.type.Convert2Entity;
 import org.apache.skywalking.oap.server.core.storage.type.Convert2Storage;
 import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 
+// SumPerMin
 @ToString
 @MeterFunction(functionName = "sumPerMin")
 public abstract class SumPerMinFunction extends Meter implements AcceptableValue<Long>, LongValueHolder {

@@ -65,6 +65,8 @@ import org.apache.skywalking.oap.server.library.util.CollectionUtils;
  * "persistence_timer_bulk_execute_latency" is histogram, the possible PromQL format of acceptable bucket value should be:
  * "increase(persistence_timer_bulk_execute_latency{service="oap-server", instance="localhost:1234"}[5m])"
  */
+// AvgPercentile
+
 @MeterFunction(functionName = "avgHistogramPercentile")
 @Slf4j
 public abstract class AvgHistogramPercentileFunction extends Meter implements AcceptableValue<PercentileArgument>, LabeledValueHolder {

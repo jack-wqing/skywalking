@@ -24,6 +24,7 @@ import lombok.EqualsAndHashCode;
 import org.apache.skywalking.oap.server.core.Const;
 import org.apache.skywalking.oap.server.library.util.StringUtil;
 
+// Data: Label
 @EqualsAndHashCode(callSuper = true)
 public class DataLabel extends LinkedHashMap<String/*labelKey*/, String/*labelValue*/> {
     public final static String GENERAL_LABEL_NAME = "_";

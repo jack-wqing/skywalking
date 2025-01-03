@@ -23,5 +23,6 @@ package org.apache.skywalking.oap.server.core.analysis.meter.dynamic;
  *
  * @since 8.9.0 for adopting JDK16+ to avoid `--add-opens java.base/java.lang=ALL-UNNAMED`
  */
+// Dynamic Meter: Package
 public class MeterClassPackageHolder {
 }

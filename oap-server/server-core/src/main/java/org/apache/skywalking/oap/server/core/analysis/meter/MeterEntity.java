@@ -31,6 +31,9 @@ import org.apache.skywalking.oap.server.core.source.DetectPoint;
 /**
  * MeterEntity represents the entity in the meter system.
  */
+
+// Meter System: Meter Entity
+
 @EqualsAndHashCode
 @ToString
 @Getter

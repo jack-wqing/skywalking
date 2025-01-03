@@ -27,7 +27,7 @@ import java.lang.annotation.Target;
  * Meter function indicate this class is used in SkyWalking meter system. The meter system accepts data from any number
  * based metrics ecosystem, typically like Prometheus and Micrometer Application Monitoring
  */
-// MeterSystem
+// MeterSystem: MeterFunction
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface MeterFunction {

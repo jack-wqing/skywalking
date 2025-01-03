@@ -22,6 +22,8 @@ import lombok.Getter;
 import lombok.Setter;
 import org.apache.skywalking.oap.server.core.Const;
 
+// MetricsMetaInfo
+
 public class MetricsMetaInfo {
     @Setter
     @Getter

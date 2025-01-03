@@ -25,7 +25,7 @@ MetricsStreamProcessor: Metric -> StreamProcessor
 
 
 
-worker作用：
+worker：
     1: Worker与Dao[Storage]关联存储数据
 
     2: StreamProcessor 管理 Worker 完成Stream处理
@@ -33,4 +33,6 @@ worker作用：
     3: SourceDispatcher -> StreamProcessor
 
 
+MeterSystem: API方式的 MetricStreamProcessor create
 
+Metrics: OAL -> MetricsFunction

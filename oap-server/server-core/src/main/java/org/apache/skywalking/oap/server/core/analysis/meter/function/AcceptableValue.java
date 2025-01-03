@@ -24,6 +24,7 @@ import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 /**
  * Indicate this function accepting the data of type T.
  */
+// Data Type : T
 public interface AcceptableValue<T> {
     void accept(MeterEntity entity, T value);
 

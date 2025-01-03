@@ -40,6 +40,7 @@ import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 
 import java.util.Objects;
 
+// MaxLabeled
 @MeterFunction(functionName = "maxLabeled")
 @ToString
 public abstract class MaxLabeledFunction extends Meter implements AcceptableValue<DataTable>, LabeledValueHolder {

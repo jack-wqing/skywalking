@@ -21,6 +21,7 @@ package org.apache.skywalking.oap.server.core.analysis.metrics;
 /**
  * LabeledValueHolder holds a list of key-value pair.
  */
+// LabelValue
 public interface LabeledValueHolder {
     DataTable getValue();
 }

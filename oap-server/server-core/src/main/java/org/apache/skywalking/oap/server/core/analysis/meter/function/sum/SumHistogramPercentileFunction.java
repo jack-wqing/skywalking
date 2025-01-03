@@ -56,6 +56,7 @@ import org.apache.skywalking.oap.server.library.util.CollectionUtils;
 /**
  * SumPercentile intends to calculate percentile based on the summary of raw values over the interval(minute, hour or day).
  */
+// SumHistogram
 @MeterFunction(functionName = "sumHistogramPercentile")
 @Slf4j
 public abstract class SumHistogramPercentileFunction extends Meter implements AcceptableValue<PercentileArgument>, LabeledValueHolder {

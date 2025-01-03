@@ -40,6 +40,8 @@ import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 
 import java.util.Objects;
 
+// minLabel
+
 @MeterFunction(functionName = "minLabeled")
 @ToString
 public abstract class MinLabeledFunction extends Meter implements AcceptableValue<DataTable>, LabeledValueHolder {

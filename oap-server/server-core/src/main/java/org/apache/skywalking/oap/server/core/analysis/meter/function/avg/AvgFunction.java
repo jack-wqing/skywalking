@@ -38,6 +38,8 @@ import org.apache.skywalking.oap.server.core.storage.type.Convert2Entity;
 import org.apache.skywalking.oap.server.core.storage.type.Convert2Storage;
 import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 
+// Avg
+
 @MeterFunction(functionName = "avg")
 @ToString
 public abstract class AvgFunction extends Meter implements AcceptableValue<Long>, LongValueHolder {

@@ -21,6 +21,7 @@ package org.apache.skywalking.oap.server.core.analysis.metrics;
 /**
  * Metrics, which implement this interface, could provide {@link MetricsMetaInfo}.
  */
+// Metrics implement provider MetricsMetaInfo
 public interface WithMetadata {
     MetricsMetaInfo getMeta();
 }

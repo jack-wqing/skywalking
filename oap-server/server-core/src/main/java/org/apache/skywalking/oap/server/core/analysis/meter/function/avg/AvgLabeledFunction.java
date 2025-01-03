@@ -41,6 +41,8 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+// avgLabel
+
 @MeterFunction(functionName = "avgLabeled")
 @ToString
 public abstract class AvgLabeledFunction extends Meter implements AcceptableValue<DataTable>, LabeledValueHolder {

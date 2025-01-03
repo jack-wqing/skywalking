@@ -38,6 +38,8 @@ import org.apache.skywalking.oap.server.core.storage.type.Convert2Entity;
 import org.apache.skywalking.oap.server.core.storage.type.Convert2Storage;
 import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 
+// latest
+
 @MeterFunction(functionName = "latest")
 @ToString
 public abstract class LatestFunction extends Meter implements AcceptableValue<Long>, LongValueHolder {

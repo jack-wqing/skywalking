@@ -20,7 +20,7 @@ package org.apache.skywalking.oap.server.core.analysis.meter;
 
 import lombok.Getter;
 import org.apache.skywalking.oap.server.core.source.DefaultScopeDefine;
-
+// ScopeType
 public enum ScopeType {
     SERVICE(DefaultScopeDefine.SERVICE),
     SERVICE_INSTANCE(DefaultScopeDefine.SERVICE_INSTANCE),

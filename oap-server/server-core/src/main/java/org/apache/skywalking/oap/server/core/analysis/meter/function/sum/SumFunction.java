@@ -38,6 +38,8 @@ import org.apache.skywalking.oap.server.core.storage.type.Convert2Entity;
 import org.apache.skywalking.oap.server.core.storage.type.Convert2Storage;
 import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 
+// sum
+
 @ToString
 @MeterFunction(functionName = "sum")
 public abstract class SumFunction extends Meter implements AcceptableValue<Long>, LongValueHolder {

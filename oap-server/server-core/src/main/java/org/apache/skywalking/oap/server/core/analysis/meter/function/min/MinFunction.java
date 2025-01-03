@@ -38,7 +38,7 @@ import org.apache.skywalking.oap.server.core.storage.type.Convert2Storage;
 import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 
 import java.util.Objects;
-
+// min
 @MeterFunction(functionName = "min")
 @ToString
 public abstract class MinFunction extends Meter implements AcceptableValue<Long>, LongValueHolder {

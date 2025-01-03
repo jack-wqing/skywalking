@@ -51,6 +51,7 @@ import lombok.extern.slf4j.Slf4j;
  * Example: "persistence_timer_bulk_execute_latency" is histogram, the possible PromQL format of acceptable bucket value
  * should be: "increase(persistence_timer_bulk_execute_latency{service="oap-server", instance="localhost:1234"}[5m])"
  */
+// avgHistogram
 @MeterFunction(functionName = "avgHistogram")
 @Slf4j
 @ToString

@@ -42,6 +42,8 @@ import java.util.Objects;
  * Histogram includes data range buckets and the amount matched/grouped in the buckets. This is for original histogram
  * graph visualization
  */
+// HistogramFunction
+
 @MeterFunction(functionName = "sumHistogram")
 @Slf4j
 @ToString

@@ -39,6 +39,8 @@ import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 
 import java.util.Objects;
 
+// max
+
 @MeterFunction(functionName = "max")
 @ToString
 public abstract class MaxFunction extends Meter implements AcceptableValue<Long>, LongValueHolder {

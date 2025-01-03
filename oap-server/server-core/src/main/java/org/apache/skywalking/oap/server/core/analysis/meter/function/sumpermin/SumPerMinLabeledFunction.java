@@ -38,6 +38,8 @@ import org.apache.skywalking.oap.server.core.storage.type.Convert2Entity;
 import org.apache.skywalking.oap.server.core.storage.type.Convert2Storage;
 import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 
+// SumPer
+
 @MeterFunction(functionName = "sumPerMinLabeled")
 public abstract class SumPerMinLabeledFunction extends Meter implements AcceptableValue<DataTable>, LabeledValueHolder {
 
