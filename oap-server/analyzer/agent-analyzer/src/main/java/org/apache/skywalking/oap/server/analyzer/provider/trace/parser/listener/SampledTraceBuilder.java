@@ -37,6 +37,8 @@ import org.apache.skywalking.oap.server.core.source.DetectPoint;
 import org.apache.skywalking.oap.server.core.source.ISource;
 import org.apache.skywalking.oap.server.core.source.ProcessRelation;
 
+// SampledTrace: Builder
+
 @RequiredArgsConstructor
 public class SampledTraceBuilder {
     private final NamingControl namingControl;

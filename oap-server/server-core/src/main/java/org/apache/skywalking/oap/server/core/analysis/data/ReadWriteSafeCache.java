@@ -24,6 +24,8 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * ReadWriteSafeCache provides a read/write isolated cache.
  */
+// BufferData: ReadWrite Safe Cache: A / B exchange
+
 public class ReadWriteSafeCache<T> {
     /**
      * Pointer of read buffer.

@@ -33,6 +33,8 @@ import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.SPAN_ATTACHED_EVENT;
 
+// SpanAttached: EventRecord
+
 @Setter
 @Getter
 @ScopeDeclaration(id = SPAN_ATTACHED_EVENT, name = "SpanAttachedEvent")

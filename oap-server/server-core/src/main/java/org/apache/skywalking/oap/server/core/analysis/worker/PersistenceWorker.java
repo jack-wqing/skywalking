@@ -34,6 +34,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleDefineHolder;
  *
  * @param <INPUT> The type of worker input. All inputs will be merged and saved.
  */
+//PersistenceWorker
+
 @Slf4j
 public abstract class PersistenceWorker<INPUT extends StorageData> extends AbstractWorker<INPUT> {
     @Getter(AccessLevel.PROTECTED)

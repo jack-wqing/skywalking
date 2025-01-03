@@ -30,6 +30,7 @@ import org.apache.skywalking.oap.server.core.source.ISource;
  * @param <SOURCE> the data type of this dispatcher processes.
  */
 // SourceDispatcher: hard coded, OAL Engine
+
 public interface SourceDispatcher<SOURCE extends ISource> {
     void dispatch(SOURCE source);
 }

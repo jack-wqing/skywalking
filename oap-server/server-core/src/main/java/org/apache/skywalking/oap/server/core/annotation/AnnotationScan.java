@@ -30,7 +30,7 @@ import org.apache.skywalking.oap.server.core.storage.StorageException;
 /**
  * Scan the annotation, and notify the listener(s)
  */
-// Annotation: Scan, notice Listener
+// Annotation: Scan, Notice Listener
 
 public class AnnotationScan {
 

@@ -18,6 +18,8 @@
 
 package org.apache.skywalking.oap.server.core.analysis;
 
+// StreamProcessor
+
 public interface StreamProcessor<STREAM> {
 
     void in(STREAM stream);

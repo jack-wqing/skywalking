@@ -24,7 +24,7 @@ import org.apache.skywalking.oap.server.core.analysis.Layer;
 
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.ENDPOINT_RELATION_CATALOG_NAME;
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.CILIUM_ENDPOINT_REALATION;
-
+//
 @Data
 @ScopeDeclaration(id = CILIUM_ENDPOINT_REALATION, name = "CiliumEndpointRelation", catalog = ENDPOINT_RELATION_CATALOG_NAME)
 @ScopeDefaultColumn.VirtualColumnDefinition(fieldName = "entityId", columnName = "entity_id", isID = true, type = String.class)

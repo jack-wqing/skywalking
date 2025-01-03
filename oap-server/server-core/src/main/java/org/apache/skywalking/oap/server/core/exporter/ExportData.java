@@ -23,6 +23,8 @@ import lombok.RequiredArgsConstructor;
 import org.apache.skywalking.oap.server.core.analysis.metrics.Metrics;
 import org.apache.skywalking.oap.server.core.analysis.metrics.MetricsMetaInfo;
 
+// ExportData
+
 @Getter
 @RequiredArgsConstructor
 public class ExportData {

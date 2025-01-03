@@ -54,6 +54,7 @@ import org.apache.skywalking.oap.server.telemetry.api.MetricsTag;
 /**
  * MetricsPersistentWorker is an extension of {@link PersistenceWorker} and focuses on the Metrics data persistent.
  */
+// PersistenceWorker: focuses on metrics data: Cache Combine Storage
 @Slf4j
 public class MetricsPersistentWorker extends PersistenceWorker<Metrics> implements ServerStatusWatcher {
     private final Model model;

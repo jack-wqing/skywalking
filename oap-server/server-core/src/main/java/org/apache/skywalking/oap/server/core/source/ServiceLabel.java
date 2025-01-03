@@ -28,6 +28,8 @@ import java.util.Base64;
 
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.SERVICE_LABEL;
 
+// ServiceLabel
+
 @ScopeDeclaration(id = SERVICE_LABEL, name = "ServiceLabel")
 @ScopeDefaultColumn.VirtualColumnDefinition(fieldName = "entityId", columnName = "entity_id", isID = true, type = String.class)
 public class ServiceLabel extends Source {

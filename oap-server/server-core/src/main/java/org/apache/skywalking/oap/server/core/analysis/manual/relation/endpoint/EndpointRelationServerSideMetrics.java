@@ -34,6 +34,8 @@ import org.apache.skywalking.oap.server.core.storage.type.Convert2Entity;
 import org.apache.skywalking.oap.server.core.storage.type.Convert2Storage;
 import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 
+// EndpointRelation: ServerSide
+
 @Stream(name = EndpointRelationServerSideMetrics.INDEX_NAME, scopeId = DefaultScopeDefine.ENDPOINT_RELATION,
     builder = EndpointRelationServerSideMetrics.Builder.class, processor = MetricsStreamProcessor.class)
 @MetricsExtension(supportDownSampling = true, supportUpdate = false, timeRelativeID = true)

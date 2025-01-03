@@ -47,6 +47,9 @@ import org.apache.skywalking.oap.server.library.module.ModuleDefineHolder;
  * TopN is a special process, which hold a certain size of windows, and cache all top N records, save to the persistence
  * in low frequency.
  */
+// TopN: StreamProcessor
+
+
 public class TopNStreamProcessor implements StreamProcessor<TopN> {
 
     private static final TopNStreamProcessor PROCESSOR = new TopNStreamProcessor();

@@ -25,7 +25,7 @@ import org.apache.skywalking.oap.server.core.analysis.IDManager;
 
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.PROCESS_RELATION;
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.PROCESS_RELATION_CATALOG_NAME;
-
+//
 @ScopeDeclaration(id = PROCESS_RELATION, name = "ProcessRelation", catalog = PROCESS_RELATION_CATALOG_NAME)
 @ScopeDefaultColumn.VirtualColumnDefinition(fieldName = "entityId", columnName = "entity_id", isID = true, type = String.class)
 public class ProcessRelation extends Source {

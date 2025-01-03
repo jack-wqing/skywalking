@@ -28,6 +28,8 @@ import org.apache.skywalking.oap.server.core.storage.type.StorageDataComplexObje
  * LongText represents a string field, but the length is not predictable and could be longer than 1000.
  * This is a wrapper of Java String only, which provides an indicator of long text field.
  */
+// LongText: Java String
+
 @Getter
 @Setter
 @ToString

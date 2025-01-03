@@ -21,6 +21,7 @@ package org.apache.skywalking.oap.server.core.analysis;
 /**
  * Dictionary for lookup config item.
  */
+// Configuration: Dictionary
 public interface ConfigurationDictionary {
 
     /**

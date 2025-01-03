@@ -18,6 +18,8 @@
 
 package org.apache.skywalking.oap.server.core.analysis.manual.searchtag;
 
+// TagType: Trace, Log, Zipkin, Alarm
+
 public enum TagType {
     TRACE,
     LOG,

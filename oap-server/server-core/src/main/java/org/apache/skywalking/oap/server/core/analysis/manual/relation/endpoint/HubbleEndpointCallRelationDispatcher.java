@@ -22,6 +22,7 @@ import org.apache.skywalking.oap.server.core.analysis.SourceDispatcher;
 import org.apache.skywalking.oap.server.core.analysis.worker.MetricsStreamProcessor;
 import org.apache.skywalking.oap.server.core.source.CiliumEndpointRelation;
 
+// Hubble: EndpointCallRelation
 public class HubbleEndpointCallRelationDispatcher implements SourceDispatcher<CiliumEndpointRelation> {
     @Override
     public void dispatch(CiliumEndpointRelation source) {

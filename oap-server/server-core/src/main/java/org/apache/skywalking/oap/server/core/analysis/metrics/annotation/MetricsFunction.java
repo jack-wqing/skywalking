@@ -26,6 +26,7 @@ import java.lang.annotation.Target;
 /**
  * MetricsFunction annotation represent this a function in OAL script.
  */
+// Metrics: OAL script
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface MetricsFunction {

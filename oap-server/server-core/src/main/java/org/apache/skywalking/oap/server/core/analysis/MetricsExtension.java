@@ -27,13 +27,15 @@ import org.apache.skywalking.oap.server.core.analysis.worker.MetricsStreamProces
 /**
  * MetricsExtension annotation defines extension attributes of the {@link Stream} with {@link MetricsStreamProcessor}.
  */
+// MetricsStreamProcessor: extension attribute
+
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface MetricsExtension {
     /**
      * @return true if this metrics stream support down sampling.
      */
-    boolean supportDownSampling();
+    boolean  supportDownSampling();
 
     /**
      * @return true if this metrics data could be updated.

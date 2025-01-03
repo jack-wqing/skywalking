@@ -22,6 +22,8 @@ import org.apache.skywalking.oap.server.core.analysis.SourceDispatcher;
 import org.apache.skywalking.oap.server.core.analysis.worker.MetricsStreamProcessor;
 import org.apache.skywalking.oap.server.core.source.TCPServiceInstance;
 
+// TCPServiceInstance
+
 public class TCPInstanceTrafficDispatcher implements SourceDispatcher<TCPServiceInstance> {
     @Override
     public void dispatch(final TCPServiceInstance source) {

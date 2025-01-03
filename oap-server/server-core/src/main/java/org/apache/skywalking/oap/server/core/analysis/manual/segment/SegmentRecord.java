@@ -39,6 +39,8 @@ import java.util.List;
 
 import static org.apache.skywalking.oap.server.core.storage.StorageData.TIME_BUCKET;
 
+// Segment
+
 @SuperDataset
 @Stream(name = SegmentRecord.INDEX_NAME, scopeId = DefaultScopeDefine.SEGMENT, builder = SegmentRecord.Builder.class, processor = RecordStreamProcessor.class)
 @SQLDatabase.ExtraColumn4AdditionalEntity(additionalTable = SegmentRecord.ADDITIONAL_TAG_TABLE, parentColumn = TIME_BUCKET)

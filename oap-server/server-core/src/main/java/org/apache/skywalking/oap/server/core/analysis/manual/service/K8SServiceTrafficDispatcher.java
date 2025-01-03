@@ -22,6 +22,8 @@ import org.apache.skywalking.oap.server.core.analysis.SourceDispatcher;
 import org.apache.skywalking.oap.server.core.analysis.worker.MetricsStreamProcessor;
 import org.apache.skywalking.oap.server.core.source.K8SService;
 
+// K8SService
+
 public class K8SServiceTrafficDispatcher implements SourceDispatcher<K8SService> {
     @Override
     public void dispatch(K8SService source) {

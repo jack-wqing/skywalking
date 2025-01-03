@@ -54,6 +54,8 @@ import java.util.Map;
  *
  * {@link #create(ModuleDefineHolder, Stream, Class)} creates the workers and work flow for every metrics.
  */
+// StreamProcessor: work flow: Streaming Calculation -> Worker Remote Mapping
+
 public class MetricsStreamProcessor implements StreamProcessor<Metrics> {
     /**
      * Singleton instance.
@@ -63,6 +65,7 @@ public class MetricsStreamProcessor implements StreamProcessor<Metrics> {
     /**
      * Worker table hosts all entrance workers.
      */
+    // L1 Aggregation
     private Map<Class<? extends Metrics>, MetricsAggregateWorker> entryWorkers = new HashMap<>();
 
     /**

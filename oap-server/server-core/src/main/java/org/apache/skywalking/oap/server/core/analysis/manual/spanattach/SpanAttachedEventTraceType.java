@@ -24,6 +24,8 @@ import java.util.Map;
 /**
  * The {@link SpanAttachedEventRecord} tracing context reference type.
  */
+//EventTraceType
+
 public enum SpanAttachedEventTraceType {
 
     SKYWALKING(0),

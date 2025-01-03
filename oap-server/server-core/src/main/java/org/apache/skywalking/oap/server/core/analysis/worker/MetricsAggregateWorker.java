@@ -41,6 +41,8 @@ import org.apache.skywalking.oap.server.telemetry.api.MetricsTag;
  * bucket, the L1 aggregation will merge them into one metrics object to reduce the unnecessary memory and network
  * payload.
  */
+// L1 Metrics: AggregateWorker
+
 @Slf4j
 public class MetricsAggregateWorker extends AbstractWorker<Metrics> {
     public final long l1FlushPeriod;

@@ -34,6 +34,8 @@ import org.apache.skywalking.oap.server.core.storage.type.Convert2Entity;
 import org.apache.skywalking.oap.server.core.storage.type.Convert2Storage;
 import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 
+// TagAutocomplete: Data
+
 @Stream(name = TagAutocompleteData.INDEX_NAME, scopeId = DefaultScopeDefine.TAG_AUTOCOMPLETE,
     builder = TagAutocompleteData.Builder.class, processor = MetricsStreamProcessor.class)
 // timeRelativeID=false at here doesn't mean the ID is completely irrelevant with time bucket.

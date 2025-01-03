@@ -26,6 +26,8 @@ import org.apache.skywalking.oap.server.core.storage.model.Model;
 import org.apache.skywalking.oap.server.core.worker.AbstractWorker;
 import org.apache.skywalking.oap.server.library.module.ModuleDefineHolder;
 
+// Management: PersistenceWorker
+
 @Slf4j
 public class ManagementPersistentWorker extends AbstractWorker<ManagementData> {
     private final Model model;

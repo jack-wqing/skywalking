@@ -26,6 +26,7 @@ import org.apache.skywalking.oap.server.core.analysis.worker.MetricsStreamProces
 import org.apache.skywalking.oap.server.core.source.ServiceRelation;
 import org.apache.skywalking.oap.server.library.util.StringUtil;
 
+// Service: CallRelation
 public class ServiceCallRelationDispatcher implements SourceDispatcher<ServiceRelation> {
     @Override
     public void dispatch(ServiceRelation source) {

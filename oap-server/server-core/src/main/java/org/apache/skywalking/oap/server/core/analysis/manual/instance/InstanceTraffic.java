@@ -41,6 +41,8 @@ import org.apache.skywalking.oap.server.library.util.StringUtil;
 
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.SERVICE_INSTANCE;
 
+// InstanceTraffic
+
 @Stream(name = InstanceTraffic.INDEX_NAME, scopeId = SERVICE_INSTANCE,
     builder = InstanceTraffic.Builder.class, processor = MetricsStreamProcessor.class)
 @MetricsExtension(supportDownSampling = false, supportUpdate = true)

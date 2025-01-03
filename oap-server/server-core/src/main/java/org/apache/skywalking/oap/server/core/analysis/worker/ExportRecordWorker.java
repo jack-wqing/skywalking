@@ -27,6 +27,8 @@ import org.apache.skywalking.oap.server.core.exporter.TraceExportService;
 import org.apache.skywalking.oap.server.core.worker.AbstractWorker;
 import org.apache.skywalking.oap.server.library.module.ModuleDefineHolder;
 
+// Export: Trac log Worker
+
 public class ExportRecordWorker extends AbstractWorker<Record> {
     private TraceExportService traceExportService;
     private LogExportService logExportService;

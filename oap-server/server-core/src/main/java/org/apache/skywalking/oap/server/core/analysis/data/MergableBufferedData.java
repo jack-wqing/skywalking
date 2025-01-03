@@ -31,6 +31,8 @@ import org.apache.skywalking.oap.server.core.storage.StorageID;
  *
  * Concurrency {@link #accept(Metrics)}s and {@link #read()} while {@link #accept(Metrics)} are both not recommended.
  */
+// Metrics: BufferedData
+
 public class MergableBufferedData<METRICS extends Metrics> implements BufferedData<METRICS> {
     private Map<StorageID, METRICS> buffer;
 

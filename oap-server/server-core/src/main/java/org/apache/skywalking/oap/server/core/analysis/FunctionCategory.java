@@ -25,6 +25,8 @@ import org.apache.skywalking.oap.server.core.Const;
 import org.apache.skywalking.oap.server.core.analysis.meter.function.MeterFunction;
 import org.apache.skywalking.oap.server.core.analysis.metrics.annotation.MetricsFunction;
 
+// Meter/Metrics: Function
+
 @AllArgsConstructor
 @Getter
 public enum FunctionCategory {

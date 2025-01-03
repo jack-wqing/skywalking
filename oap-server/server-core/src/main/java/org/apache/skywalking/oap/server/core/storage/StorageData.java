@@ -21,6 +21,7 @@ package org.apache.skywalking.oap.server.core.storage;
 /**
  * Any persistent entity should be an implementation of this interface.
  */
+// StorageData
 
 public interface StorageData {
     String TIME_BUCKET = "time_bucket";

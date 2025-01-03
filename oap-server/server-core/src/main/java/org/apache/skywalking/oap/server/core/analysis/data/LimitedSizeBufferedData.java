@@ -29,6 +29,8 @@ import org.apache.skywalking.oap.server.core.analysis.topn.TopN;
  * LimitedSizeBufferedData is a thread no safe implementation of {@link BufferedData}. It collects limited records of
  * each {@link TopN} which grouped by entityId and timeBucket.
  */
+// limit size + topN
+
 public class LimitedSizeBufferedData<STORAGE_DATA extends TopN> implements BufferedData<STORAGE_DATA> {
     private final HashMap<String, LinkedList<STORAGE_DATA>> data;
     private final int limitedSize;

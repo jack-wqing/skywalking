@@ -43,6 +43,8 @@ import java.util.Map;
 
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.PROCESS;
 
+// ProcessTraffic
+
 @Stream(name = ProcessTraffic.INDEX_NAME, scopeId = PROCESS,
     builder = ProcessTraffic.Builder.class, processor = MetricsStreamProcessor.class)
 @MetricsExtension(supportDownSampling = false, supportUpdate = true)

@@ -39,6 +39,8 @@ import org.apache.skywalking.oap.server.core.source.Log;
  * The binding bridge between OAP and the DSL, which provides some convenient methods to ease the use of the raw {@link groovy.lang.Binding#setProperty(java.lang.String, java.lang.Object)} and {@link
  * groovy.lang.Binding#getProperty(java.lang.String)}.
  */
+// OAP  DSL
+
 public class Binding extends groovy.lang.Binding {
     public static final String KEY_LOG = "log";
 

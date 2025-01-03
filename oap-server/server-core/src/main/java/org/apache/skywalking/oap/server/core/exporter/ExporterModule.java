@@ -20,6 +20,8 @@ package org.apache.skywalking.oap.server.core.exporter;
 
 import org.apache.skywalking.oap.server.library.module.ModuleDefine;
 
+//ExporterModule
+
 public class ExporterModule extends ModuleDefine {
     public static final String NAME = "exporter";
 

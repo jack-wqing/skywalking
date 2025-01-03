@@ -36,6 +36,8 @@ import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 
 import java.util.List;
 
+// AbstractLogRecord
+
 public abstract class AbstractLogRecord extends Record {
     public static final String ADDITIONAL_TAG_TABLE = "log_tag";
     public static final String SERVICE_ID = "service_id";

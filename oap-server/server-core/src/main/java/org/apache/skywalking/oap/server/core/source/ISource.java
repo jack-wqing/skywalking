@@ -17,9 +17,11 @@
  */
 
 package org.apache.skywalking.oap.server.core.source;
-//ISource
+
+// ISource
 
 public interface ISource {
+
     int scope();
 
     long getTimeBucket();

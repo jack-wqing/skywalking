@@ -25,6 +25,8 @@ import org.apache.skywalking.oap.server.core.analysis.Layer;
 
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.SERVICE_META;
 
+//
+
 @Getter
 @Setter
 @ScopeDeclaration(id = SERVICE_META, name = "ServiceMeta")

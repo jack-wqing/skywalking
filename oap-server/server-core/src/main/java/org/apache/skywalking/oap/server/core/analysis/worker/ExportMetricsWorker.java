@@ -28,6 +28,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleDefineHolder;
  * A bridge worker. If the {@link ExporterModule} provider declared and provides a implementation of {@link
  * MetricValuesExportService}, forward the export data to it.
  */
+// ExportMetrics: Worker
+
 public class ExportMetricsWorker extends AbstractWorker<ExportEvent> {
     private MetricValuesExportService exportService;
 

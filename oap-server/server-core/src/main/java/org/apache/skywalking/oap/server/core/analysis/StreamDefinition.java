@@ -22,6 +22,8 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 
+// StreamDefinition: Stream annotation
+
 @RequiredArgsConstructor
 @Getter
 public class StreamDefinition {

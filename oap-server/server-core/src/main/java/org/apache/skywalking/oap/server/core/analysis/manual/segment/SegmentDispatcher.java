@@ -23,6 +23,7 @@ import org.apache.skywalking.oap.server.core.analysis.manual.searchtag.Tag;
 import org.apache.skywalking.oap.server.core.analysis.worker.RecordStreamProcessor;
 import org.apache.skywalking.oap.server.core.source.Segment;
 
+// Segment
 public class SegmentDispatcher implements SourceDispatcher<Segment> {
 
     @Override

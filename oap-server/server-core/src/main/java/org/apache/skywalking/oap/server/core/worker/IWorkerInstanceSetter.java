@@ -24,7 +24,7 @@ import org.apache.skywalking.oap.server.library.module.Service;
 
 /**
  * Worker instance register interface. Push the worker name, instance and class type having {@link Stream} annotation.
- * WorkerInstance: Setter cache mapping
+ *  WorkerInstance: Setter
  */
 public interface IWorkerInstanceSetter extends Service {
     /**

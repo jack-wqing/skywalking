@@ -18,7 +18,7 @@
 
 package org.apache.skywalking.oap.server.core.analysis;
 
-// DispatcherDetector: SourceDetector
+// DispatcherDetector: SourceDispatcher
 
 public interface DispatcherDetectorListener {
     void addIfAsSourceDispatcher(Class aClass) throws IllegalAccessException, InstantiationException;

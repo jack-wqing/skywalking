@@ -22,6 +22,8 @@ import org.apache.skywalking.oap.server.core.analysis.SourceDispatcher;
 import org.apache.skywalking.oap.server.core.analysis.worker.MetricsStreamProcessor;
 import org.apache.skywalking.oap.server.core.source.Service;
 
+// ServiceTrafficDispatcher: Service
+
 public class ServiceTrafficDispatcher implements SourceDispatcher<Service> {
     @Override
     public void dispatch(final Service source) {

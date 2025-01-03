@@ -37,7 +37,7 @@ import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.NETWORK_ADDRESS_ALIAS;
 
-// NetworkAddress:Alias
+// NetworkAddress: Alias
 
 @ScopeDeclaration(id = NETWORK_ADDRESS_ALIAS, name = "NetworkAddressAlias")
 @Stream(name = NetworkAddressAlias.INDEX_NAME, scopeId = NETWORK_ADDRESS_ALIAS,

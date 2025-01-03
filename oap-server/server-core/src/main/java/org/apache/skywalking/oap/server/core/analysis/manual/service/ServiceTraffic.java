@@ -48,6 +48,9 @@ import static org.apache.skywalking.oap.server.core.Const.DOUBLE_COLONS_SPLIT;
     "name",
     "layer"
 })
+
+// ServiceTraffic: layer -> Service
+
 public class ServiceTraffic extends Metrics {
     public static final String INDEX_NAME = "service_traffic";
 

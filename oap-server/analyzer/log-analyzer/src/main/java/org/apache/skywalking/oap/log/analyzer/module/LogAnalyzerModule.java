@@ -20,7 +20,7 @@ package org.apache.skywalking.oap.log.analyzer.module;
 import org.apache.skywalking.oap.log.analyzer.provider.log.ILogAnalyzerService;
 import org.apache.skywalking.oap.server.library.module.ModuleDefine;
 
-// log-analyzer
+//log-analyzer
 
 public class LogAnalyzerModule extends ModuleDefine {
     public static final String NAME = "log-analyzer";

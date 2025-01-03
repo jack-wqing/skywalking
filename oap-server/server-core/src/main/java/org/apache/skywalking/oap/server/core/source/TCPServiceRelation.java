@@ -26,7 +26,7 @@ import org.apache.skywalking.oap.server.core.analysis.IDManager;
 
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.TCP_SERVICE_RELATION;
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.SERVICE_RELATION_CATALOG_NAME;
-
+//
 @ScopeDeclaration(id = TCP_SERVICE_RELATION, name = "TCPServiceRelation", catalog = SERVICE_RELATION_CATALOG_NAME)
 @ScopeDefaultColumn.VirtualColumnDefinition(fieldName = "entityId", columnName = "entity_id", isID = true, type = String.class)
 public class TCPServiceRelation extends Source {

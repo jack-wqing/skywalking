@@ -34,6 +34,8 @@ import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
  * See {@link MetricsStreamProcessor}, {@link RecordStreamProcessor}, {@link TopNStreamProcessor} and {@link
  * NoneStreamProcessor} for more details.
  */
+// Stream: MetricsStreamProcessor, RecordStreamProcessor, TopNStreamProcessor
+
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Stream {

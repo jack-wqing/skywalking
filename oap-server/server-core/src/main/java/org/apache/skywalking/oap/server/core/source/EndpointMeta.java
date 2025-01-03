@@ -21,6 +21,8 @@ import lombok.Getter;
 import lombok.Setter;
 import org.apache.skywalking.oap.server.core.analysis.IDManager;
 
+//
+
 @ScopeDeclaration(id = DefaultScopeDefine.ENDPOINT_META, name = "EndpointMeta")
 @ScopeDefaultColumn.VirtualColumnDefinition(fieldName = "entityId", columnName = "entity_id", isID = true, type = String.class)
 public class EndpointMeta extends Source {

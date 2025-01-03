@@ -40,6 +40,8 @@ import org.apache.skywalking.oap.server.telemetry.api.HistogramMetrics;
 import org.apache.skywalking.oap.server.telemetry.api.MetricsCreator;
 import org.apache.skywalking.oap.server.telemetry.api.MetricsTag;
 
+// PersistenceTimer: trigger -> PersistenceWorker doSave : default 25s
+
 @Slf4j
 public enum PersistenceTimer {
     INSTANCE;

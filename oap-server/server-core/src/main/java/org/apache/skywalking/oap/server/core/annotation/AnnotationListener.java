@@ -21,7 +21,7 @@ package org.apache.skywalking.oap.server.core.annotation;
 import java.lang.annotation.Annotation;
 import org.apache.skywalking.oap.server.core.storage.StorageException;
 
-// Annotation: Listener
+// Annotation:Listener
 
 public interface AnnotationListener {
 

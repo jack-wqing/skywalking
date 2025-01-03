@@ -21,6 +21,8 @@ package org.apache.skywalking.oap.server.core.analysis.worker;
 /**
  * MetricStreamKind represents the kind of metric character.
  */
+// OAL or MAL[existing ]
+
 public enum MetricStreamKind {
     /**
      * Metric built by {@link org.apache.skywalking.oap.server.core.oal.rt.OALEngine}

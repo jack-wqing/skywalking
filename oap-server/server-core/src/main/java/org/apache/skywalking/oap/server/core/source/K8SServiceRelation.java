@@ -25,6 +25,7 @@ import org.apache.skywalking.oap.server.core.analysis.Layer;
 
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.K8S_SERVICE_RELATION;
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.SERVICE_RELATION_CATALOG_NAME;
+//
 
 @Data
 @ScopeDeclaration(id = K8S_SERVICE_RELATION, name = "K8SServiceRelation", catalog = SERVICE_RELATION_CATALOG_NAME)

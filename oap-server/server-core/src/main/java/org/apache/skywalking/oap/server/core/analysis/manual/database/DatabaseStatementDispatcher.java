@@ -22,6 +22,8 @@ import org.apache.skywalking.oap.server.core.analysis.SourceDispatcher;
 import org.apache.skywalking.oap.server.core.analysis.worker.TopNStreamProcessor;
 import org.apache.skywalking.oap.server.core.source.DatabaseSlowStatement;
 
+// DatabaseStatement: Dispatcher
+
 public class DatabaseStatementDispatcher implements SourceDispatcher<DatabaseSlowStatement> {
 
     @Override

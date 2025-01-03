@@ -42,6 +42,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleDefineHolder;
  * none streaming is designed for user operation configuration in UI interface. It uses storage (synchronization)
  * similar to Inventory and supports TTL deletion mode similar to the record.
  */
+// NoneStream: StreamProcessor
+
 public class NoneStreamProcessor implements StreamProcessor<NoneStream> {
 
     private static final NoneStreamProcessor PROCESSOR = new NoneStreamProcessor();

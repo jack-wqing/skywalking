@@ -22,6 +22,7 @@ import lombok.Getter;
 import lombok.Setter;
 import org.apache.skywalking.oap.server.core.analysis.manual.searchtag.TagType;
 import org.apache.skywalking.oap.server.library.util.StringUtil;
+//
 
 @ScopeDeclaration(id = DefaultScopeDefine.TAG_AUTOCOMPLETE, name = "TagAutocomplete")
 public class TagAutocomplete extends Source {

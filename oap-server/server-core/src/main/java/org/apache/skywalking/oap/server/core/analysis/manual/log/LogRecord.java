@@ -32,6 +32,8 @@ import org.apache.skywalking.oap.server.core.storage.type.Convert2Storage;
 
 import static org.apache.skywalking.oap.server.core.storage.StorageData.TIME_BUCKET;
 
+// Log
+
 @SuperDataset
 @Stream(name = LogRecord.INDEX_NAME, scopeId = DefaultScopeDefine.LOG, builder = LogRecord.Builder.class, processor = RecordStreamProcessor.class)
 @SQLDatabase.ExtraColumn4AdditionalEntity(additionalTable = AbstractLogRecord.ADDITIONAL_TAG_TABLE, parentColumn = TIME_BUCKET)

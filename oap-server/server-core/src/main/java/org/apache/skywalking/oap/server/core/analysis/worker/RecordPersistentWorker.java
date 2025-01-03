@@ -31,6 +31,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleDefineHolder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+//Record: PersistentWorker
+
 public class RecordPersistentWorker extends AbstractWorker<Record> {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(RecordPersistentWorker.class);

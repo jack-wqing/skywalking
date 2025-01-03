@@ -25,6 +25,8 @@ import org.apache.skywalking.oap.server.core.analysis.IDManager;
 
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.TCP_SERVICE_INSTANCE_UPDATE;
 
+//
+
 @ScopeDeclaration(id = TCP_SERVICE_INSTANCE_UPDATE, name = "TCPServiceInstanceUpdate")
 @ScopeDefaultColumn.VirtualColumnDefinition(fieldName = "entityId", columnName = "entity_id", isID = true, type = String.class)
 public class TCPServiceInstanceUpdate extends Source {

@@ -24,6 +24,7 @@ import org.apache.skywalking.oap.server.core.analysis.Layer;
 
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.ENDPOINT_CATALOG_NAME;
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.K8S_ENDPOINT;
+//
 
 @Data
 @ScopeDeclaration(id = K8S_ENDPOINT, name = "K8SEndpoint", catalog = ENDPOINT_CATALOG_NAME)

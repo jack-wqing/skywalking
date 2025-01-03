@@ -29,6 +29,7 @@ import org.apache.skywalking.oap.server.library.module.ModuleDefineHolder;
 /**
  * None persistent use {@link INoneStreamDAO#insert(Model, NoneStream)} on saving new data
  */
+// NoneStream: PersistentWorker direct storage
 @Slf4j
 public class NoneStreamPersistentWorker extends AbstractWorker<NoneStream> {
     private final Model model;

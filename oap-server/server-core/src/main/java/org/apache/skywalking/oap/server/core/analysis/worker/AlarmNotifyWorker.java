@@ -27,6 +27,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleDefineHolder;
 /**
  * Alarm notify worker, do a simple route to alarm core after the aggregation persistence.
  */
+// route to alarm core
+
 public class AlarmNotifyWorker extends AbstractWorker<Metrics> {
     private AlarmEntrance entrance;
 

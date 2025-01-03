@@ -23,6 +23,8 @@ import org.apache.skywalking.oap.server.core.analysis.record.LongText;
 import org.apache.skywalking.oap.server.core.analysis.worker.RecordStreamProcessor;
 import org.apache.skywalking.oap.server.core.source.Log;
 
+// Log
+
 public class LogRecordDispatcher implements SourceDispatcher<Log> {
 
     @Override

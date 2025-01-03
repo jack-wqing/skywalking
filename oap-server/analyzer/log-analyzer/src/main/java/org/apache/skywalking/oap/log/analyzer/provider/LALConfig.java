@@ -20,7 +20,7 @@ package org.apache.skywalking.oap.log.analyzer.provider;
 
 import lombok.Data;
 
-// LALConfig
+//LALConfig
 
 @Data
 public class LALConfig {

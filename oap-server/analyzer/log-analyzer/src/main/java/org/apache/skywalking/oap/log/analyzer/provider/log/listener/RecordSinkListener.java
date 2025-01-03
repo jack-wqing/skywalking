@@ -53,6 +53,9 @@ import static org.apache.skywalking.oap.server.library.util.ProtoBufJsonUtils.to
 /**
  * RecordSinkListener forwards the log data to the persistence layer with the query required conditions.
  */
+
+// RecordSink: logdata -> persistence layer
+
 @RequiredArgsConstructor
 public class RecordSinkListener implements LogSinkListener {
     private static final Logger LOGGER = LoggerFactory.getLogger(RecordSinkListener.class);

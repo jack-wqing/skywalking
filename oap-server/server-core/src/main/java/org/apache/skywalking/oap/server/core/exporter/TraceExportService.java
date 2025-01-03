@@ -24,6 +24,8 @@ import org.apache.skywalking.oap.server.library.module.Service;
 /**
  * Export the traces from metrics through this service.
  */
+// Trace: ExportService
+
 public interface TraceExportService extends Service, ExporterService<SegmentRecord> {
 
     void export(SegmentRecord segmentRecord);

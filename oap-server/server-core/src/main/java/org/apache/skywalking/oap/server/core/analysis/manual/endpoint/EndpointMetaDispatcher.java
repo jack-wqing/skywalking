@@ -21,6 +21,7 @@ import org.apache.skywalking.oap.server.core.analysis.SourceDispatcher;
 import org.apache.skywalking.oap.server.core.analysis.worker.MetricsStreamProcessor;
 import org.apache.skywalking.oap.server.core.source.EndpointMeta;
 
+// EndpointMeta
 public class EndpointMetaDispatcher implements SourceDispatcher<EndpointMeta> {
 
     @Override

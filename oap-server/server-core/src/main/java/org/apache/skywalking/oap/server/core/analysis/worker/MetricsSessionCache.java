@@ -41,6 +41,8 @@ import org.apache.skywalking.oap.server.library.client.request.UpdateRequest;
  *
  * @since 9.4.0 Created this from MetricsPersistentWorker.sessionCache.
  */
+// Metric Session Cache: timeout threshold: MetricsPersistentWorker.sessionCache
+
 public class MetricsSessionCache {
     private final Map<Metrics, Metrics> sessionCache;
     @Setter(AccessLevel.PACKAGE)

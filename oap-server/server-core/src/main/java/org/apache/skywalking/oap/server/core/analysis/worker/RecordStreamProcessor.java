@@ -38,6 +38,8 @@ import org.apache.skywalking.oap.server.core.storage.model.ModelCreator;
 import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 import org.apache.skywalking.oap.server.library.module.ModuleDefineHolder;
 
+// Record: StreamProcessor
+
 public class RecordStreamProcessor implements StreamProcessor<Record> {
 
     private final static RecordStreamProcessor PROCESSOR = new RecordStreamProcessor();

@@ -21,6 +21,9 @@ package org.apache.skywalking.oap.log.analyzer.provider.log.listener;
  * LogSinkListenerFactory implementation creates the listener instance when required.
  * Every LogSinkListener could have its own creation factory.
  */
+
+// LogSinkListener: Factory
+
 public interface LogSinkListenerFactory {
     LogSinkListener create();
 }

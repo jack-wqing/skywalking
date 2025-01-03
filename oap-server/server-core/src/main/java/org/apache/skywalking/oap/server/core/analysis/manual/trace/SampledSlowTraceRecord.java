@@ -35,6 +35,8 @@ import org.apache.skywalking.oap.server.core.storage.type.StorageBuilder;
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.PROCESS_RELATION_CATALOG_NAME;
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.SAMPLED_SLOW_TRACE;
 
+// SampledSlow: Trace Record
+
 @Setter
 @Getter
 @ScopeDeclaration(id = SAMPLED_SLOW_TRACE, name = "SampledTraceSlowRecord", catalog = PROCESS_RELATION_CATALOG_NAME)

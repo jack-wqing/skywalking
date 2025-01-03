@@ -28,6 +28,7 @@ import java.util.stream.Collectors;
 /**
  * Process Detect Type is used to describe how the process was found
  */
+// Process: DetectType
 public enum ProcessDetectType {
 
     /**

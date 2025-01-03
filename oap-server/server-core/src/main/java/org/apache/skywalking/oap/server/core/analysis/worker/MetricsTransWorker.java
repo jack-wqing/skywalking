@@ -28,6 +28,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleDefineHolder;
  * precision, but at the storage layer, in order to enhance the query performance, metrics could be saved in minute,
  * hour, day and month, including some of them through CoreModuleConfig#downsampling.
  */
+// DownSampling: Hour Day
+
 public class MetricsTransWorker extends AbstractWorker<Metrics> {
     private final MetricsPersistentWorker hourPersistenceWorker;
     private final MetricsPersistentWorker dayPersistenceWorker;

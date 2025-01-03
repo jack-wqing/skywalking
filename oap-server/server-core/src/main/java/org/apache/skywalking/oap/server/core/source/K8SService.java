@@ -25,6 +25,8 @@ import org.apache.skywalking.oap.server.core.analysis.Layer;
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.K8S_SERVICE;
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.SERVICE_CATALOG_NAME;
 
+//
+
 @Data
 @ScopeDeclaration(id = K8S_SERVICE, name = "K8SService", catalog = SERVICE_CATALOG_NAME)
 @ScopeDefaultColumn.VirtualColumnDefinition(fieldName = "entityId", columnName = "entity_id", isID = true, type = String.class)

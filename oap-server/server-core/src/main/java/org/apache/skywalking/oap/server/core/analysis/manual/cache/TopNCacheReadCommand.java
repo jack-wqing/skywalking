@@ -36,6 +36,7 @@ import java.util.Objects;
 /**
  * Database TopN statement, including Database SQL statement, mongoDB and Redis commands.
  */
+
 @Stream(name = TopNCacheReadCommand.INDEX_NAME, scopeId = DefaultScopeDefine.CACHE_SLOW_ACCESS, builder = TopNCacheReadCommand.Builder.class, processor = TopNStreamProcessor.class)
 @BanyanDB.TimestampColumn(TopN.TIMESTAMP)
 public class TopNCacheReadCommand extends TopN {

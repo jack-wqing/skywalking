@@ -24,6 +24,8 @@ import org.apache.skywalking.oap.server.library.module.Service;
 /**
  * Export the log from metrics through this service.
  */
+// Log: ExportService
+
 public interface LogExportService extends Service, ExporterService<LogRecord> {
 
     void export(LogRecord logRecord);

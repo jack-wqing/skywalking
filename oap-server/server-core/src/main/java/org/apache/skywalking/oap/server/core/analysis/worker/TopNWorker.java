@@ -35,6 +35,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleDefineHolder;
 /**
  * Top N worker is a persistence worker. Cache and order the data, flush in longer period.
  */
+// TopN Cache Order data: Flush in longer period
+
 @Slf4j
 public class TopNWorker extends PersistenceWorker<TopN> {
     private final IRecordDAO recordDAO;
@@ -61,6 +63,7 @@ public class TopNWorker extends PersistenceWorker<TopN> {
     /**
      * Force overriding the parent buildBatchRequests. Use its own report period.
      */
+    // construct Record PrepareRequest
     @Override
     public List<PrepareRequest> buildBatchRequests() {
         long now = System.currentTimeMillis();

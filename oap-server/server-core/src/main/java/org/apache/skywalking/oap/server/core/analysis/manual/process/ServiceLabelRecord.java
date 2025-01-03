@@ -39,6 +39,9 @@ import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.SE
  * {@link ServiceLabelRecord} could combine them in the service level.
  * It could help to quickly locate the similar process by the service and label.
  */
+
+// ServiceLabelRecord
+
 @Setter
 @Getter
 @Stream(name = ServiceLabelRecord.INDEX_NAME, scopeId = SERVICE_LABEL,

@@ -16,7 +16,8 @@
  */
 
 package org.apache.skywalking.oap.server.core.analysis;
-// Down Sampling
+
+// Down Sampling: Second, Minute, Hour, Day
 
 public enum DownSampling {
     /**

@@ -28,6 +28,8 @@ import org.apache.skywalking.oap.server.core.storage.annotation.Column;
 /**
  * TopN data.
  */
+// TopN data
+
 public abstract class TopN extends Record implements ComparableStorageData {
     public static final String STATEMENT = "statement";
     public static final String LATENCY = "latency";

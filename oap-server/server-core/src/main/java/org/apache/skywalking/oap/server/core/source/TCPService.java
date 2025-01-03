@@ -28,6 +28,8 @@ import org.apache.skywalking.oap.server.core.analysis.Layer;
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.TCP_SERVICE;
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.SERVICE_CATALOG_NAME;
 
+//
+
 @ScopeDeclaration(id = TCP_SERVICE, name = "TCPService", catalog = SERVICE_CATALOG_NAME)
 @ScopeDefaultColumn.VirtualColumnDefinition(fieldName = "entityId", columnName = "entity_id", isID = true, type = String.class)
 public class TCPService extends Source {

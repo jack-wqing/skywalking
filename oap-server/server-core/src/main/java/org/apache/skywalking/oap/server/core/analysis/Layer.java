@@ -28,6 +28,7 @@ import java.util.Map;
  * Layer represents an abstract framework in computer science, such as Operating System(OS_LINUX layer), Kubernetes(k8s
  * layer). This kind of layer would be owners of different services detected from different technology.
  */
+// Layer: service
 public enum Layer {
     /**
      * Default Layer if the layer is not defined

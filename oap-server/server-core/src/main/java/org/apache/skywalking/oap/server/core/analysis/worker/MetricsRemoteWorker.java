@@ -29,6 +29,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleDefineHolder;
 /**
  * MetricsRemoteWorker forwards the metrics to the target OAP node.
  */
+//Metrics: RemoteWorker
+
 @Slf4j
 public class MetricsRemoteWorker extends AbstractWorker<Metrics> {
     private final RemoteSenderService remoteSender;

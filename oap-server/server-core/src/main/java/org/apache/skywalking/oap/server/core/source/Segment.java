@@ -27,7 +27,7 @@ import org.apache.skywalking.oap.server.core.analysis.manual.searchtag.Tag;
 
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.SEGMENT;
 
-// Source Segment
+// trace Segment
 
 @ToString
 @ScopeDeclaration(id = SEGMENT, name = "Segment")

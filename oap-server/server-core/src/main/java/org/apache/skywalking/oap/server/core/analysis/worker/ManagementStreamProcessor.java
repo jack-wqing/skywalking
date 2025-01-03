@@ -45,6 +45,8 @@ import java.util.Map;
  *
  * @since 8.0.0
  */
+// Management: StreamProcessor
+
 public class ManagementStreamProcessor implements StreamProcessor<ManagementData> {
     private static final ManagementStreamProcessor PROCESSOR = new ManagementStreamProcessor();
     private Map<Class<? extends ManagementData>, ManagementPersistentWorker> workers = new HashMap<>();

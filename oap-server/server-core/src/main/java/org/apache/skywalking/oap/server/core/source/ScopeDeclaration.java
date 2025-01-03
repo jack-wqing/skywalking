@@ -38,7 +38,7 @@ import org.apache.skywalking.oap.server.core.query.enumeration.Scope;
  *
  * NOTICE, in OAL script, `disable` is for stream, rather than source, it doesn't require this annotation.
  */
-// ScopeDeclaration
+//  ScopeDeclaration: anno scope
 
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)

@@ -24,7 +24,7 @@ import org.apache.skywalking.oap.server.library.module.ModuleDefineHolder;
 /**
  * Abstract worker definition. Provide the {@link ModuleDefineHolder} to make sure the worker could find and access
  * services in different modules. Also, {@link #in(Object)} is provided as the primary entrance of every worker.
- * AbstractWorker: service worker
+ * AbstractWorker: Worker
  * @param <INPUT> the datatype this worker implementation processes.
  */
 public abstract class AbstractWorker<INPUT> {

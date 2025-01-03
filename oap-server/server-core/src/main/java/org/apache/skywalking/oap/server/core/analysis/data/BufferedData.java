@@ -26,6 +26,8 @@ import java.util.List;
  * {@link #accept(Object)} and {@link #read()} wouldn't be required to thread-safe. BufferedData usually hosts by {@link
  * ReadWriteSafeCache}.
  */
+// BufferedData -> ReadWriteSafeCache
+
 public interface BufferedData<T> {
     /**
      * Accept the data into the cache if it fits the conditions. The implementation maybe wouldn't accept the new input

@@ -20,6 +20,8 @@ package org.apache.skywalking.oap.log.analyzer.provider.log.listener;
 import com.google.protobuf.Message;
 import org.apache.skywalking.apm.network.logging.v3.LogData;
 
+// LogSinkListener: result -> Source Receiver
+
 public interface LogSinkListener {
     /**
      * The last step of the sink process. Typically, the implementations forward the results to the source
@@ -33,3 +35,10 @@ public interface LogSinkListener {
      */
     LogSinkListener parse(LogData.Builder logData, final Message extraLog);
 }
+
+
+
+
+
+
+

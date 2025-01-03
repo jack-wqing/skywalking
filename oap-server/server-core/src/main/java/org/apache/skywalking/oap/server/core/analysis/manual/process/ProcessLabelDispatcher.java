@@ -21,6 +21,8 @@ import org.apache.skywalking.oap.server.core.analysis.SourceDispatcher;
 import org.apache.skywalking.oap.server.core.analysis.worker.MetricsStreamProcessor;
 import org.apache.skywalking.oap.server.core.source.ServiceLabel;
 
+// ProcessLabel
+
 public class ProcessLabelDispatcher implements SourceDispatcher<ServiceLabel> {
     @Override
     public void dispatch(ServiceLabel source) {
