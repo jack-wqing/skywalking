@@ -27,6 +27,8 @@ import org.apache.skywalking.oap.log.analyzer.provider.log.listener.LogAnalysisL
 import org.apache.skywalking.oap.log.analyzer.provider.log.listener.LogSinkListenerFactory;
 import org.apache.skywalking.oap.server.library.module.ModuleManager;
 
+// LogAnalyzerService: Impl
+
 @RequiredArgsConstructor
 public class LogAnalyzerServiceImpl implements ILogAnalyzerService, ILogAnalysisListenerManager {
     private final ModuleManager moduleManager;

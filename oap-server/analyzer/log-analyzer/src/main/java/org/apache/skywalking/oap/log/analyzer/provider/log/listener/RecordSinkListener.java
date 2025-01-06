@@ -54,7 +54,7 @@ import static org.apache.skywalking.oap.server.library.util.ProtoBufJsonUtils.to
  * RecordSinkListener forwards the log data to the persistence layer with the query required conditions.
  */
 
-// RecordSink: logdata -> persistence layer
+// RecordSink: logdata -> persistence layer: log autocomplete tag
 
 @RequiredArgsConstructor
 public class RecordSinkListener implements LogSinkListener {

@@ -24,6 +24,8 @@ import org.apache.skywalking.apm.network.logging.v3.LogData;
 import org.apache.skywalking.oap.log.analyzer.provider.LogAnalyzerModuleConfig;
 import org.apache.skywalking.oap.server.library.module.ModuleManager;
 
+// TextParser
+
 public class TextParserSpec extends AbstractParserSpec {
     public TextParserSpec(final ModuleManager moduleManager,
                           final LogAnalyzerModuleConfig moduleConfig) {

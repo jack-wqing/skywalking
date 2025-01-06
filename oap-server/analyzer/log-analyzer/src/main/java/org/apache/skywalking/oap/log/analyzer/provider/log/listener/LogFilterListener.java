@@ -38,6 +38,8 @@ import org.apache.skywalking.oap.server.core.analysis.Layer;
 import org.apache.skywalking.oap.server.library.module.ModuleManager;
 import org.apache.skywalking.oap.server.library.module.ModuleStartException;
 
+// LogFilter: Listener
+
 @Slf4j
 @RequiredArgsConstructor
 public class LogFilterListener implements LogAnalysisListener {

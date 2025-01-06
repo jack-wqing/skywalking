@@ -26,6 +26,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleManager;
 
 import static java.util.Objects.nonNull;
 
+// DatabaseSlow: StatementBuilder
+
 public class SlowSqlSpec extends AbstractSpec {
 
     public SlowSqlSpec(final ModuleManager moduleManager,

@@ -23,6 +23,8 @@ import org.apache.skywalking.oap.server.core.analysis.Layer;
  * LogAnalysisListenerFactory implementation creates the listener instance when required.
  * Every LogAnalysisListener could have its own creation factory.
  */
+//LogAnalysisListenerFactory
+
 public interface LogAnalysisListenerFactory {
 
     LogAnalysisListener create(Layer layer);

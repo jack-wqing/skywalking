@@ -22,7 +22,7 @@ package org.apache.skywalking.oap.log.analyzer.provider.log.listener;
  * Every LogSinkListener could have its own creation factory.
  */
 
-// LogSinkListener: Factory
+// LogSink: Listener
 
 public interface LogSinkListenerFactory {
     LogSinkListener create();

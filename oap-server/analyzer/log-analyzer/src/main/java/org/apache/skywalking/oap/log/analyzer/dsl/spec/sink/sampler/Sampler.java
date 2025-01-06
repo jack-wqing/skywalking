@@ -18,6 +18,8 @@
 
 package org.apache.skywalking.oap.log.analyzer.dsl.spec.sink.sampler;
 
+// Sampler:
+
 public interface Sampler extends AutoCloseable {
     Sampler NOOP = new Sampler() {
         @Override

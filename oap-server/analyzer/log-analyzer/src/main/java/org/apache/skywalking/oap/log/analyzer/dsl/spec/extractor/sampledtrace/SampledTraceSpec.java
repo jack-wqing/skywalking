@@ -26,6 +26,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleManager;
 
 import static java.util.Objects.nonNull;
 
+// SampledTraceSpec
+
 public class SampledTraceSpec extends AbstractSpec {
     public SampledTraceSpec(ModuleManager moduleManager, LogAnalyzerModuleConfig moduleConfig) {
         super(moduleManager, moduleConfig);

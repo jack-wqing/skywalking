@@ -21,6 +21,8 @@ import java.util.List;
 import org.apache.skywalking.oap.log.analyzer.provider.log.listener.LogAnalysisListenerFactory;
 import org.apache.skywalking.oap.log.analyzer.provider.log.listener.LogSinkListenerFactory;
 
+// LogAnalysisListener: Manager
+
 public interface ILogAnalysisListenerManager {
 
     void addListenerFactory(LogAnalysisListenerFactory factory);

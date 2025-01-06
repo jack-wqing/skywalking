@@ -66,6 +66,8 @@ import org.slf4j.LoggerFactory;
 import static java.util.Objects.nonNull;
 import static org.apache.skywalking.oap.server.library.util.StringUtil.isNotBlank;
 
+// trace database metric
+
 public class ExtractorSpec extends AbstractSpec {
     private static final Logger LOGGER = LoggerFactory.getLogger(SlowSqlSpec.class);
 

@@ -35,6 +35,7 @@ import org.apache.skywalking.oap.server.library.module.ModuleManager;
 /**
  * Analyze the collected log data, is the entry point for log analysis.
  */
+// every log data -> log-analyzer
 @Slf4j
 @RequiredArgsConstructor
 public class LogAnalyzer {

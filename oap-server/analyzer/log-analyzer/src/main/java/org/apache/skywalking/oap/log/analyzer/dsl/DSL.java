@@ -44,6 +44,7 @@ import org.codehaus.groovy.control.customizers.SecureASTCustomizer;
 
 import static java.util.Collections.singletonList;
 import static java.util.Collections.singletonMap;
+// DSL
 
 @RequiredArgsConstructor(access = AccessLevel.PRIVATE)
 public class DSL {

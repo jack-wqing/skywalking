@@ -20,6 +20,8 @@ package org.apache.skywalking.oap.server.core.source;
 import lombok.Getter;
 import lombok.Setter;
 
+// Log
+
 @Setter
 @Getter
 @ScopeDeclaration(id = DefaultScopeDefine.LOG, name = "Log")

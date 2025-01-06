@@ -32,7 +32,7 @@ import org.apache.skywalking.oap.server.library.module.ModuleStartException;
 
 import static java.util.Objects.nonNull;
 
-// LogAnalyzer: ModuleConfig
+// LogAnalyzer: module config
 
 @EqualsAndHashCode(callSuper = false)
 public class LogAnalyzerModuleConfig extends ModuleConfig {

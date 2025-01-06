@@ -23,6 +23,8 @@ import org.apache.skywalking.apm.network.logging.v3.LogData;
 /**
  * LogAnalysisListener represents the callback when OAP does the log data analysis.
  */
+//LogAnalysis: Listener
+
 public interface LogAnalysisListener {
     /**
      * The last step of the analysis process. Typically, the implementations execute corresponding DSL.
@@ -35,3 +37,9 @@ public interface LogAnalysisListener {
      */
     LogAnalysisListener parse(LogData.Builder logData, final Message extraLog);
 }
+
+
+
+
+
+

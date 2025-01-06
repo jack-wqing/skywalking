@@ -23,6 +23,8 @@ import groovy.lang.DelegatesTo;
 import groovy.util.DelegatingScript;
 import org.apache.skywalking.oap.log.analyzer.dsl.spec.filter.FilterSpec;
 
+// LALDelegating: Script
+
 public class LALDelegatingScript extends DelegatingScript {
     @Override
     public Object run() {

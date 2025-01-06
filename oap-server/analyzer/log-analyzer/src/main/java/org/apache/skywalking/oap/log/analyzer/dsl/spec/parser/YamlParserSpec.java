@@ -26,6 +26,8 @@ import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.SafeConstructor;
 import org.yaml.snakeyaml.representer.Representer;
 
+// YAML
+
 public class YamlParserSpec extends AbstractParserSpec {
     private final LoaderOptions loaderOptions;
 

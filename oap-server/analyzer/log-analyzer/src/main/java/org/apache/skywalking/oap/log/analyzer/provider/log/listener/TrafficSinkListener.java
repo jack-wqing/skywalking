@@ -39,6 +39,7 @@ import static java.util.Objects.nonNull;
 /**
  * Generate service, service instance and endpoint traffic by log data.
  */
+// Generate service
 @RequiredArgsConstructor
 public class TrafficSinkListener implements LogSinkListener {
     private final SourceReceiver sourceReceiver;

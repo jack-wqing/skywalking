@@ -22,6 +22,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.skywalking.oap.log.analyzer.provider.LogAnalyzerModuleConfig;
 import org.apache.skywalking.oap.server.library.module.ModuleManager;
 
+// ObjectMapper
+
 public class JsonParserSpec extends AbstractParserSpec {
     private final ObjectMapper mapper;
 

@@ -20,7 +20,7 @@ package org.apache.skywalking.oap.log.analyzer.provider.log.listener;
 import com.google.protobuf.Message;
 import org.apache.skywalking.apm.network.logging.v3.LogData;
 
-// LogSinkListener: result -> Source Receiver
+// sink process -> Source Receiver
 
 public interface LogSinkListener {
     /**

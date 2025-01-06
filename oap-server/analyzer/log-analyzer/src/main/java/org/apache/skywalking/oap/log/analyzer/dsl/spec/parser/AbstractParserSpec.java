@@ -23,6 +23,8 @@ import org.apache.skywalking.oap.log.analyzer.dsl.spec.AbstractSpec;
 import org.apache.skywalking.oap.log.analyzer.provider.LogAnalyzerModuleConfig;
 import org.apache.skywalking.oap.server.library.module.ModuleManager;
 
+// AbstractParserSpec
+
 @Accessors
 public class AbstractParserSpec extends AbstractSpec {
     /**

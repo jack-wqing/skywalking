@@ -30,6 +30,8 @@ import lombok.Setter;
 import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
 
+// Minute ratelimiting
+
 @Accessors(fluent = true)
 @EqualsAndHashCode(of = {"rpm"})
 public class RateLimitingSampler implements Sampler {

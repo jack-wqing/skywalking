@@ -47,7 +47,7 @@ import org.apache.skywalking.oap.server.library.module.ModuleManager;
 import org.apache.skywalking.oap.server.library.module.ModuleStartException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+// FilterSpec
 public class FilterSpec extends AbstractSpec {
     private static final Logger LOGGER = LoggerFactory.getLogger(FilterSpec.class);
 

@@ -24,6 +24,8 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
 
+// Percentage Sampler
+
 @RequiredArgsConstructor
 @Accessors(fluent = true)
 @EqualsAndHashCode(of = {"percentage"})
