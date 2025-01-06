@@ -41,6 +41,7 @@ import org.codehaus.groovy.control.customizers.SecureASTCustomizer;
 /**
  * DSL combines methods to parse groovy based DSL expression.
  */
+// DSL: Combines methods
 public final class DSL {
 
     /**

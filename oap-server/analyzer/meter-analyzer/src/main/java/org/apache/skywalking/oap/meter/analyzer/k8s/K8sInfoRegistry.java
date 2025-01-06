@@ -35,6 +35,7 @@ import java.util.Objects;
 import java.util.Optional;
 
 import static java.util.Objects.requireNonNull;
+// k8sInfoRegistry
 
 public class K8sInfoRegistry {
     private final static K8sInfoRegistry INSTANCE = new K8sInfoRegistry();

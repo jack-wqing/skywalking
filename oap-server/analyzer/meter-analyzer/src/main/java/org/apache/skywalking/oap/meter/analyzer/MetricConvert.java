@@ -39,7 +39,7 @@ import static java.util.stream.Collectors.toList;
 /**
  * MetricConvert converts {@link SampleFamily} collection to meter-system metrics, then store them to backend storage.
  */
-// MetricConvert: convert SampleFamily to MeterSystem metrics
+// MetricConvert: to Meter
 
 @Slf4j
 public class MetricConvert {

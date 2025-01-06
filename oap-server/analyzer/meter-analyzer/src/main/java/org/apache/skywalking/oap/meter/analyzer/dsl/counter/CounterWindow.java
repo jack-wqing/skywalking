@@ -35,7 +35,7 @@ import lombok.ToString;
  * or instant rate of increase.
  *
  */
-// 记录计算的窗口
+// CounterWindow
 
 @RequiredArgsConstructor(access = AccessLevel.PRIVATE)
 @ToString

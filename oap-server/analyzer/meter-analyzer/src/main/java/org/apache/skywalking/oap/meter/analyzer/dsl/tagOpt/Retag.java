@@ -20,6 +20,8 @@ package org.apache.skywalking.oap.meter.analyzer.dsl.tagOpt;
 
 import org.apache.skywalking.oap.meter.analyzer.dsl.Sample;
 
+//Retag
+
 public interface Retag {
     String BLANK = "";
 

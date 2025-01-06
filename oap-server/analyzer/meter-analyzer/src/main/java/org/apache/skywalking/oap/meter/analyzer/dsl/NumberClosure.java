@@ -24,6 +24,8 @@ import io.vavr.Function2;
 /**
  * NumberClosure intends to extend primitive Number to do binary operation with {@link SampleFamily}
  */
+// Number binary operation
+
 public class NumberClosure extends Closure<SampleFamily> {
 
     private final Function2<Number, SampleFamily, SampleFamily> fn;

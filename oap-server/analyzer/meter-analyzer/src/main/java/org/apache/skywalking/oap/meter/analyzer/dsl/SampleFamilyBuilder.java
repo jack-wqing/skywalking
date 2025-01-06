@@ -23,6 +23,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Help to build the {@link SampleFamily}.
  */
+// SampleFamily: builder
 public class SampleFamilyBuilder {
     private final Sample[] samples;
     private final SampleFamily.RunningContext context;

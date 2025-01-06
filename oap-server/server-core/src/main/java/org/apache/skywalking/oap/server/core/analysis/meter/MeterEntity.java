@@ -110,7 +110,7 @@ public class MeterEntity {
     }
 
     /**
-     * Create a service level meter entity.
+     * Create a service level meter entity. // service Meter Entity
      */
     public static MeterEntity newService(String serviceName, Layer layer) {
         final MeterEntity meterEntity = new MeterEntity();
@@ -121,7 +121,7 @@ public class MeterEntity {
     }
 
     /**
-     * Create a service instance level meter entity.
+     * Create a service instance level meter entity. // Instance meter entity
      */
     public static MeterEntity newServiceInstance(String serviceName, String serviceInstance, Layer layer, Map<String, String> properties) {
         final MeterEntity meterEntity = new MeterEntity();
@@ -134,7 +134,7 @@ public class MeterEntity {
     }
 
     /**
-     * Create an endpoint level meter entity.
+     * Create an endpoint level meter entity. // endpoint level meter entity
      */
     public static MeterEntity newEndpoint(String serviceName, String endpointName, Layer layer) {
         final MeterEntity meterEntity = new MeterEntity();
@@ -145,6 +145,9 @@ public class MeterEntity {
         return meterEntity;
     }
 
+    /**
+     * process: meter entity
+     */
     public static MeterEntity newProcess(String serviceName, String instanceName, String processName, String layerName) {
         final MeterEntity meterEntity = new MeterEntity();
         meterEntity.scopeType = ScopeType.PROCESS;
@@ -155,6 +158,9 @@ public class MeterEntity {
         return meterEntity;
     }
 
+    /**
+     * ServiceRelation: Meter Entity
+     */
     public static MeterEntity newServiceRelation(String sourceServiceName,
                                                  String destServiceName,
                                                  DetectPoint detectPoint, Layer layer, int componentId) {
@@ -168,6 +174,9 @@ public class MeterEntity {
         return meterEntity;
     }
 
+    /**
+     * process relation
+     */
     public static MeterEntity newProcessRelation(String serviceName, String instanceName,
                                                  String sourceProcessId, String destProcessId,
                                                  int componentId, DetectPoint detectPoint) {

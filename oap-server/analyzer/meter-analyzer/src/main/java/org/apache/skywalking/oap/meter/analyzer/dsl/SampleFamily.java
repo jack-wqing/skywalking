@@ -639,7 +639,7 @@ public class SampleFamily {
         //This samples is original, The grouped samples is in context which mapping with MeterEntity
         return SampleFamily.build(this.context, samples);
     }
-
+    // match: filter Sample
     private SampleFamily match(String[] labels, Function2<String, String, Boolean> op) {
         Preconditions.checkArgument(labels.length % 2 == 0);
         Map<String, String> ll = new HashMap<>(labels.length / 2);
@@ -722,7 +722,7 @@ public class SampleFamily {
     }
 
     private static class InternalOps {
-
+        // label filter
         private static Sample[] left(List<Sample> samples, List<String> labelKeys) {
             return samples.stream().map(s -> {
                 ImmutableMap<String, String> ll = ImmutableMap.<String, String>builder()
@@ -733,7 +733,7 @@ public class SampleFamily {
                 return s.toBuilder().labels(ll).build();
             }).toArray(Sample[]::new);
         }
-
+        // label value: join
         private static String dim(List<Sample> samples, List<String> labelKeys, String delimiter) {
             String name = labelKeys.stream()
                                    .map(k -> samples.get(0).labels.getOrDefault(k, ""))

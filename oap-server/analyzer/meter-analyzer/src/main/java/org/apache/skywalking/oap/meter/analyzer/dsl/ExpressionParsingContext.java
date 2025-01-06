@@ -35,6 +35,8 @@ import org.apache.skywalking.oap.server.core.analysis.meter.ScopeType;
 /**
  * ExpressionParsingContext contains states in parsing phase of an expression.
  */
+//Expression: ParsingContext
+
 @Getter
 @ToString
 @EqualsAndHashCode

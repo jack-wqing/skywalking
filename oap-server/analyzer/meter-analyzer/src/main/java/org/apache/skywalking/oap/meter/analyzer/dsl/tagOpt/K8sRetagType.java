@@ -25,6 +25,7 @@ import java.util.Arrays;
 import java.util.Map;
 import org.apache.skywalking.oap.meter.analyzer.dsl.Sample;
 import org.apache.skywalking.oap.meter.analyzer.k8s.K8sInfoRegistry;
+// k8s RetagType
 
 public enum K8sRetagType implements Retag {
     Pod2Service {

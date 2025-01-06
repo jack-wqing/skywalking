@@ -26,6 +26,8 @@ import lombok.extern.slf4j.Slf4j;
 
 import static java.util.stream.Collectors.toMap;
 
+// Filter: Expression -> GroovyShell
+
 @Slf4j
 @ToString(of = {"literal"})
 public class FilterExpression {

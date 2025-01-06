@@ -27,7 +27,7 @@ import org.apache.skywalking.oap.meter.analyzer.MetricRuleConfig;
 /**
  * MetricsRule holds the parsing expression.
  */
-// rule file
+// MetricRule Config
 
 @Data
 @Builder

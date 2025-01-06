@@ -27,7 +27,7 @@ import lombok.ToString;
 /**
  * Result indicates the parsing result of expression.
  */
-//Parse Expression Result
+//Expression parsing result
 
 @RequiredArgsConstructor(access = AccessLevel.PRIVATE)
 @EqualsAndHashCode

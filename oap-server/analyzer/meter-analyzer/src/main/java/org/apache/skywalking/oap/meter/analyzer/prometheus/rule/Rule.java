@@ -27,7 +27,7 @@ import java.util.List;
 /**
  * Rule contains the global configuration of prometheus fetcher.
  */
-// otel-rules mapping
+// Rule Prometheus
 
 @Data
 @NoArgsConstructor

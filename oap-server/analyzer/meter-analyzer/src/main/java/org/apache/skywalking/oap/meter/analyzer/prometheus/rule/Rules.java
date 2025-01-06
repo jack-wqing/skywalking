@@ -46,7 +46,7 @@ import org.yaml.snakeyaml.Yaml;
 /**
  * Rules is factory to instance {@link Rule} from a local file.
  */
-// from local file rule
+// Rules: local file
 
 public class Rules {
     private static final Logger LOG = LoggerFactory.getLogger(Rule.class);

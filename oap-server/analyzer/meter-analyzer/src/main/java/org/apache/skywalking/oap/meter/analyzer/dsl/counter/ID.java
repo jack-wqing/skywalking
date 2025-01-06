@@ -23,7 +23,7 @@ import lombok.EqualsAndHashCode;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;
 
-// ID -> name, labels
+// ID: name, labels
 
 @RequiredArgsConstructor
 @EqualsAndHashCode

@@ -32,6 +32,7 @@ import org.apache.skywalking.oap.server.core.analysis.worker.MetricsStreamProces
 /**
  * The dynamic entity registry for {@link ProcessTraffic}
  */
+//
 public class ProcessRegistry {
 
     public static final String LOCAL_VIRTUAL_PROCESS = "UNKNOWN_LOCAL";

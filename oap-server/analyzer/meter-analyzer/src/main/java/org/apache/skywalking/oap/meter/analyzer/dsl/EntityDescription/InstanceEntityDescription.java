@@ -29,6 +29,8 @@ import org.apache.skywalking.oap.server.core.analysis.Layer;
 import org.apache.skywalking.oap.server.core.analysis.meter.ScopeType;
 import groovy.lang.Closure;
 
+// Instance
+
 @Getter
 @RequiredArgsConstructor
 @ToString

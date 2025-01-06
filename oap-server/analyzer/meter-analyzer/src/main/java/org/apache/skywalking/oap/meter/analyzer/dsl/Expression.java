@@ -31,6 +31,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * Expression is a reusable monadic container type which represents a DSL expression.
  */
+// DSL expression
 @Slf4j
 @ToString(of = {"literal"})
 public class Expression {

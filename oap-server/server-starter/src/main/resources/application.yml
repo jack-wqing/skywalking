@@ -55,11 +55,11 @@ cluster:
     serviceName: ${SW_SERVICE_NAME:"SkyWalking_OAP_Cluster"}
     hostPort: ${SW_CLUSTER_NACOS_HOST_PORT:localhost:8848}
     # Nacos Naming namespace
-    namespace: ${SW_CLUSTER_NACOS_NAMESPACE:"public"}
-    contextPath: ${SW_CLUSTER_NACOS_CONTEXT_PATH:""}
+    namespace: ${SW_CLUSTER_NACOS_NAMESPACE:"skywalking"}
+    contextPath: ${SW_CLUSTER_NACOS_CONTEXT_PATH:"/nacos"}
     # Nacos auth username
-    username: ${SW_CLUSTER_NACOS_USERNAME:""}
-    password: ${SW_CLUSTER_NACOS_PASSWORD:""}
+    username: ${SW_CLUSTER_NACOS_USERNAME:"nacos"}
+    password: ${SW_CLUSTER_NACOS_PASSWORD:"nacos"}
     # Nacos auth accessKey
     accessKey: ${SW_CLUSTER_NACOS_ACCESSKEY:""}
     secretKey: ${SW_CLUSTER_NACOS_SECRETKEY:""}
@@ -72,14 +72,14 @@ core:
     # Receiver: Receive agent data, Level 1 aggregate
     # Aggregator: Level 2 aggregate
     role: ${SW_CORE_ROLE:Mixed} # Mixed/Receiver/Aggregator
-    restHost: ${SW_CORE_REST_HOST:0.0.0.0}
+    restHost: ${SW_CORE_REST_HOST:127.0.0.1}
     restPort: ${SW_CORE_REST_PORT:12800}
     restContextPath: ${SW_CORE_REST_CONTEXT_PATH:/}
     restMaxThreads: ${SW_CORE_REST_MAX_THREADS:200}
     restIdleTimeOut: ${SW_CORE_REST_IDLE_TIMEOUT:30000}
     restAcceptQueueSize: ${SW_CORE_REST_QUEUE_SIZE:0}
     httpMaxRequestHeaderSize: ${SW_CORE_HTTP_MAX_REQUEST_HEADER_SIZE:8192}
-    gRPCHost: ${SW_CORE_GRPC_HOST:0.0.0.0}
+    gRPCHost: ${SW_CORE_GRPC_HOST:127.0.0.1}
     gRPCPort: ${SW_CORE_GRPC_PORT:11800}
     maxConcurrentCallsPerConnection: ${SW_CORE_GRPC_MAX_CONCURRENT_CALL:0}
     maxMessageSize: ${SW_CORE_GRPC_MAX_MESSAGE_SIZE:52428800} #50MB
