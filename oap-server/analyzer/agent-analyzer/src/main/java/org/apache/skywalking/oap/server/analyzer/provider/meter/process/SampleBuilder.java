@@ -25,7 +25,7 @@ import org.apache.skywalking.oap.meter.analyzer.dsl.Sample;
 /**
  * Help to build Sample with agent side meter.
  */
-// Sample
+// Sample: Builder
 @Builder
 public class SampleBuilder {
 

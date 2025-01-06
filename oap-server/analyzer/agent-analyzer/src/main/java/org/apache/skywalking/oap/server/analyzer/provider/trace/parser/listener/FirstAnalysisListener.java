@@ -24,7 +24,7 @@ import org.apache.skywalking.apm.network.language.agent.v3.SpanObject;
 /**
  * SpanListener for the first span in the segment. The first span means span id is 0.
  */
-// first span
+// First Span
 
 public interface FirstAnalysisListener extends AnalysisListener {
     void parseFirst(SpanObject span, SegmentObject segmentObject);

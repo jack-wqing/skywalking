@@ -28,7 +28,7 @@ import java.util.function.Consumer;
  * Virtual Service represent remote service
  */
 
-// Virtual Service: represent remote service
+// VS: Processor
 
 public interface VirtualServiceProcessor {
 

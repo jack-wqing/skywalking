@@ -24,6 +24,8 @@ import lombok.Setter;
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.SERVICE_INSTANCE_CATALOG_NAME;
 import static org.apache.skywalking.oap.server.core.source.DefaultScopeDefine.SERVICE_INSTANCE_JVM_THREAD;
 
+// JVM: Thread
+
 @ScopeDeclaration(id = SERVICE_INSTANCE_JVM_THREAD, name = "ServiceInstanceJVMThread", catalog = SERVICE_INSTANCE_CATALOG_NAME)
 @ScopeDefaultColumn.VirtualColumnDefinition(fieldName = "entityId", columnName = "entity_id", isID = true, type = String.class)
 public class ServiceInstanceJVMThread extends Source {

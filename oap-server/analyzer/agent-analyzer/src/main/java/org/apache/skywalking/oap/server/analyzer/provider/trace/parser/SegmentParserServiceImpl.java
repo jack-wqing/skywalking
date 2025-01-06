@@ -28,7 +28,7 @@ import org.apache.skywalking.oap.server.analyzer.provider.AnalyzerModuleConfig;
  * The open service to the receivers.
  */
 
-// SegmentParser -> TraceAnalyzer
+// TraceSegmentParser: Impl -> TraceAnalyzer
 
 @RequiredArgsConstructor
 public class SegmentParserServiceImpl implements ISegmentParserService {

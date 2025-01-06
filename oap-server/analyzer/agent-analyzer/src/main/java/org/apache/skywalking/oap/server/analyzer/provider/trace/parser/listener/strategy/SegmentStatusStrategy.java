@@ -25,7 +25,7 @@ import lombok.Getter;
  * Define the available strategies for analysis segment status analysis.
  */
 
-// yml : config value
+// Segment: StatusStrategy
 
 @AllArgsConstructor
 public enum SegmentStatusStrategy {

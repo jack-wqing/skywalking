@@ -23,7 +23,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-// SamplingPolicy
+// Sampling Policy
 
 @Getter
 @Setter

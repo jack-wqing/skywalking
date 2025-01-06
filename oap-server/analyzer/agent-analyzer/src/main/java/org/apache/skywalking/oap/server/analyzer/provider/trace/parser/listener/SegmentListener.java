@@ -24,7 +24,7 @@ import org.apache.skywalking.apm.network.language.agent.v3.SegmentObject;
  * SegmentListener for the whole segment. This has higher priority than other {@link AnalysisListener} implementation.
  */
 
-// segment Listener: super priority
+// segment Listener: type Segment
 
 public interface SegmentListener extends AnalysisListener {
     void parseSegment(SegmentObject segmentObject);

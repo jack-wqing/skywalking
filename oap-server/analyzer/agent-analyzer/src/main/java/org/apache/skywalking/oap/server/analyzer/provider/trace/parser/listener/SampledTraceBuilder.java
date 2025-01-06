@@ -37,7 +37,7 @@ import org.apache.skywalking.oap.server.core.source.DetectPoint;
 import org.apache.skywalking.oap.server.core.source.ISource;
 import org.apache.skywalking.oap.server.core.source.ProcessRelation;
 
-// SampledTrace: Builder
+// SampledTrace: Builder: Slow, 4XX, 5XX
 
 @RequiredArgsConstructor
 public class SampledTraceBuilder {

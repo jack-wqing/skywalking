@@ -33,7 +33,7 @@ import java.util.concurrent.atomic.AtomicReference;
 
 import static java.util.Objects.isNull;
 
-// TraceSamplingPolicy
+// TraceSamplingPolicy: Watcher
 
 @Slf4j
 public class TraceSamplingPolicyWatcher extends ConfigChangeWatcher {
@@ -100,7 +100,7 @@ public class TraceSamplingPolicyWatcher extends ConfigChangeWatcher {
      * The priority of sampling policy: 'trace segment's slow threshold' > 'samplingRate',no matter the service's or
      * global. When 'duration' is over 'default trace segment's slow threshold' that should be sampled. Or when 'sample'
      * is with in [0,defaultSamplingRate) that also should be sampled.
-     *
+     * special -> Default Policy
      * @param samplingPolicy the sampling policy of the specific service
      * @param sample         sample rate of trace segment
      * @param duration       duration of trace segment

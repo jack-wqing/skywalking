@@ -40,7 +40,7 @@ import org.apache.skywalking.oap.server.core.source.ServiceMeta;
 import org.apache.skywalking.oap.server.core.source.Source;
 import org.apache.skywalking.oap.server.library.util.StringUtil;
 
-// VS MQ Processor
+// VS: MQProcessor
 
 @RequiredArgsConstructor
 public class VirtualMQProcessor implements VirtualServiceProcessor {

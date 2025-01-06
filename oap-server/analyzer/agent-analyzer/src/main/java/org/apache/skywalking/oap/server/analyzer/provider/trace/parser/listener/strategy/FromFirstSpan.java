@@ -25,7 +25,7 @@ import org.apache.skywalking.apm.network.language.agent.v3.SpanObject;
  * an entry span. However, a tracing caused by a scheduled task, the first one should be a local span.
  */
 
-// from first span
+// first
 
 public class FromFirstSpan implements SegmentStatusAnalyzer {
 

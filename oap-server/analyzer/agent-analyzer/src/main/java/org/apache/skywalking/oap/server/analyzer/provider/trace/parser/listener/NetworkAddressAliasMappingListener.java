@@ -40,7 +40,7 @@ import org.apache.skywalking.oap.server.analyzer.provider.AnalyzerModuleConfig;
  *
  * This is a key point of SkyWalking header propagation protocol.
  */
-//  NetworkAddressAlias Mapping
+// NetworkAddressAlias: Mapping Listener
 
 @Slf4j
 @RequiredArgsConstructor

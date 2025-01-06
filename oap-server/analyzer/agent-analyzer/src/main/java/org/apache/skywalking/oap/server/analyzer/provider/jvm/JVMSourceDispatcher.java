@@ -41,6 +41,8 @@ import org.apache.skywalking.oap.server.core.source.ServiceInstanceJVMThread;
 import org.apache.skywalking.oap.server.core.source.SourceReceiver;
 import org.apache.skywalking.oap.server.library.module.ModuleManager;
 
+// JVM: SourceDispatcher
+
 @Slf4j
 public class JVMSourceDispatcher {
     private final SourceReceiver sourceReceiver;

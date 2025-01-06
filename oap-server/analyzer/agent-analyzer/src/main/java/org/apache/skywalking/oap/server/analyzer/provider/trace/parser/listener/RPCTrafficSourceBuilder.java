@@ -34,7 +34,7 @@ import org.apache.skywalking.oap.server.library.util.StringUtil;
  *
  * RPC traffic could be detected by server side or client side according to agent tech stack.
  */
-// RPC TrafficSource: Builder
+// RPCTrafficSourceBuilder: Service Instance Endpoint
 class RPCTrafficSourceBuilder extends EndpointSourceBuilder {
     @Getter
     @Setter

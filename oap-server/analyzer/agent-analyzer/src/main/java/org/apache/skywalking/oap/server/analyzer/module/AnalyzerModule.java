@@ -22,6 +22,8 @@ import org.apache.skywalking.oap.server.analyzer.provider.meter.process.IMeterPr
 import org.apache.skywalking.oap.server.analyzer.provider.trace.parser.ISegmentParserService;
 import org.apache.skywalking.oap.server.library.module.ModuleDefine;
 
+// AnalyzerModule: Module Define
+
 public class AnalyzerModule extends ModuleDefine {
     public static final String NAME = "agent-analyzer";
 

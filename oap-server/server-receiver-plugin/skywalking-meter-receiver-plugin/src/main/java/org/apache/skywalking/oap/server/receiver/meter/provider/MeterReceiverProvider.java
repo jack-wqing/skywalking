@@ -31,6 +31,8 @@ import org.apache.skywalking.oap.server.receiver.meter.provider.handler.MeterSer
 import org.apache.skywalking.oap.server.receiver.sharing.server.SharingServerModule;
 import org.apache.skywalking.oap.server.telemetry.TelemetryModule;
 
+// Receiver-Meter: ModuleProvider
+
 public class MeterReceiverProvider extends ModuleProvider {
 
     private IMeterProcessService processService;

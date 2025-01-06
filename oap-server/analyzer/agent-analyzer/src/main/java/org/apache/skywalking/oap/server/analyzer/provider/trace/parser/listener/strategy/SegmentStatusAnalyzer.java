@@ -25,7 +25,7 @@ import org.apache.skywalking.apm.network.language.agent.v3.SpanObject;
  * status of spans.
  */
 
-// SegmentStatus Analyzer
+// SegmentStatusAnalyzer
 
 public interface SegmentStatusAnalyzer {
     /**

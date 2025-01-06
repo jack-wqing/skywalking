@@ -23,7 +23,7 @@ import lombok.ToString;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-// SamplingPolicy: Settings
+// SamplingPolicy:Settings
 
 @ToString
 public class SamplingPolicySettings {

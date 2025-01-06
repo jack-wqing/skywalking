@@ -24,7 +24,7 @@ import org.apache.skywalking.oap.meter.analyzer.MetricRuleConfig;
 
 import java.util.List;
 
-// MeterConfig
+//MeterConfig
 
 @Data
 @NoArgsConstructor

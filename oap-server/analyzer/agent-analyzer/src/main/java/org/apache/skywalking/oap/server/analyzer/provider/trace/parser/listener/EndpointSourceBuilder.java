@@ -38,7 +38,7 @@ import org.apache.skywalking.oap.server.core.source.RequestType;
  *
  * @since 9.0.0
  */
-// Endpoint Source
+// Endpoint: SourceBuilder
 
 @RequiredArgsConstructor
 class EndpointSourceBuilder {

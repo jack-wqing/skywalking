@@ -26,7 +26,7 @@ import org.apache.skywalking.apm.network.language.agent.v3.SegmentObject;
 import org.apache.skywalking.apm.network.language.agent.v3.compat.TraceSegmentReportServiceGrpc;
 import org.apache.skywalking.oap.server.library.server.grpc.GRPCHandler;
 
-// Delegate: TraceSegmentReportService
+// Delegate: TraceSegmentReportService: Compat
 
 @RequiredArgsConstructor
 public class TraceSegmentReportServiceHandlerCompat extends TraceSegmentReportServiceGrpc.TraceSegmentReportServiceImplBase implements GRPCHandler {

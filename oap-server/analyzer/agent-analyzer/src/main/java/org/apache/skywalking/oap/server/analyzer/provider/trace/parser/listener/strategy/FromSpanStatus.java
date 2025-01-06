@@ -23,7 +23,7 @@ import org.apache.skywalking.apm.network.language.agent.v3.SpanObject;
 /**
  * If the status of any span is an error, the status of the segment would be an error.
  */
-// from span
+// span
 
 public class FromSpanStatus implements SegmentStatusAnalyzer {
 

@@ -25,7 +25,7 @@ import org.apache.skywalking.oap.server.core.analysis.Layer;
  * The common logic for specific listeners.
  */
 
-// FAAS GENERAL
+// Common: FAAS GENERAL
 
 abstract class CommonAnalysisListener {
     /**

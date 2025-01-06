@@ -55,7 +55,7 @@ import static org.apache.skywalking.oap.server.analyzer.provider.trace.parser.Sp
  * RPCAnalysisListener detects all RPC relative statistics.
  */
 
-// RPC relative statistics
+// RPC RelativeStatistics -> Metrics
 
 @Slf4j
 @RequiredArgsConstructor
@@ -84,6 +84,7 @@ public class RPCAnalysisListener extends CommonAnalysisListener implements Entry
      * capability to forward SkyWalking header through themselves, you could consider the uninstrumented configurations
      * to make the topology works to be a whole.
      */
+    // Uninstrumented config -> Topology to whole
     @Override
     public void parseEntry(SpanObject span, SegmentObject segmentObject) {
         if (span.getSkipAnalysis()) {

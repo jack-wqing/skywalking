@@ -29,7 +29,8 @@ import org.apache.skywalking.oap.server.core.source.EndpointRelation;
  *
  * @since 9.0.0
  */
-// Endpoint Dependency: Builder
+// EndpointDependency: SourceBuilder
+
 @RequiredArgsConstructor
 public class EndpointDependencyBuilder {
     private final RPCTrafficSourceBuilder rpcTrafficSourceBuilder;

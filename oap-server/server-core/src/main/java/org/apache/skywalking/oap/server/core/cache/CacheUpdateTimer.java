@@ -36,6 +36,7 @@ import org.apache.skywalking.oap.server.core.storage.cache.INetworkAddressAliasD
 import org.apache.skywalking.oap.server.core.storage.profiling.trace.IProfileTaskQueryDAO;
 import org.apache.skywalking.oap.server.library.module.ModuleDefineHolder;
 
+// CacheUpdateTimer: TTL NetworkAddressAliasCache,
 @Slf4j
 public enum CacheUpdateTimer {
     INSTANCE;

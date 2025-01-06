@@ -33,7 +33,7 @@ import java.util.Objects;
  * SamplingPolicySettings}.
  */
 
-// SamplingPolicySetting: Reader
+// SamplingPolicySetting:Reader
 
 public class SamplingPolicySettingsReader {
     private Map<String, ?> yamlData;

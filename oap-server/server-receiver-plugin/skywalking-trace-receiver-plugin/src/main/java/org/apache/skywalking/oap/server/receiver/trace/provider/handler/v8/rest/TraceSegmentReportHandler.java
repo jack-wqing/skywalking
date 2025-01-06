@@ -32,7 +32,7 @@ import org.apache.skywalking.oap.server.telemetry.api.HistogramMetrics;
 import org.apache.skywalking.oap.server.telemetry.api.MetricsCreator;
 import org.apache.skywalking.oap.server.telemetry.api.MetricsTag;
 
-// HttpSegment: ReportHandler
+// HttpSegment: ReportHandler , http no support SpanAttachedEventReport
 
 @Slf4j
 public class TraceSegmentReportHandler {

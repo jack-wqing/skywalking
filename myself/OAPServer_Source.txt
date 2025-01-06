@@ -35,4 +35,12 @@ worker：
 
 MeterSystem: API方式的 MetricStreamProcessor create
 
+
+
 Metrics: OAL -> MetricsFunction
+
+
+
+SkyWalking-Trace:
+    Agent处理过程:
+        receiver-trace -> Agent-Analyzer

@@ -44,7 +44,7 @@ import org.apache.skywalking.oap.server.library.util.BooleanUtils;
 /**
  * SegmentSpanListener forwards the segment raw data to the persistence layer with the query required conditions.
  */
-// Segment / tag
+// SegmentAnalysis: Segment / TagAutocomplete
 @Slf4j
 @RequiredArgsConstructor
 public class SegmentAnalysisListener implements FirstAnalysisListener, EntryAnalysisListener, SegmentListener {

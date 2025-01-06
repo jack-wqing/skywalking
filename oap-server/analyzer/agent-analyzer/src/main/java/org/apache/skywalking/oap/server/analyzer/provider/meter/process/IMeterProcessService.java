@@ -20,7 +20,7 @@ package org.apache.skywalking.oap.server.analyzer.provider.meter.process;
 
 import org.apache.skywalking.oap.server.library.module.Service;
 
-// Meter: ProcessService
+// Trace: Metrics
 
 public interface IMeterProcessService extends Service {
 

@@ -26,7 +26,7 @@ import org.apache.skywalking.oap.server.core.analysis.Layer;
 import org.apache.skywalking.oap.server.core.config.NamingControl;
 import org.apache.skywalking.oap.server.core.source.DatabaseSlowStatement;
 
-// DatabaseSlowStatement
+// DatabaseSlowStatement: Builder
 
 @RequiredArgsConstructor
 public class DatabaseSlowStatementBuilder {

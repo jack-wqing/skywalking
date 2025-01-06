@@ -38,6 +38,8 @@ import org.apache.skywalking.oap.server.telemetry.api.MetricsTag;
 /**
  * Meter protocol receiver, collect and process the meters.
  */
+//Receiver-Meter: ServiceHandler
+
 @Slf4j
 public class MeterServiceHandler extends MeterReportServiceGrpc.MeterReportServiceImplBase implements GRPCHandler {
 

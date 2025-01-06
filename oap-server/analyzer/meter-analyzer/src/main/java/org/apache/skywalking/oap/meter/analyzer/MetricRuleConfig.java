@@ -23,7 +23,7 @@ import java.util.List;
 /**
  * Metrics rules convert to meter system.
  */
-// MetricRuleConfig
+// Metric: RuleConfig
 public interface MetricRuleConfig {
 
     /**

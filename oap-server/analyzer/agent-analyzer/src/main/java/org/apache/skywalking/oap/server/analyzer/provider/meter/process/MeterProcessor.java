@@ -44,7 +44,7 @@ import static com.google.common.collect.ImmutableMap.toImmutableMap;
 /**
  * Process meter when receive the meter data.
  */
-// MeterProcessor
+// MeterProcessor: meter data
 
 @Slf4j
 public class MeterProcessor {

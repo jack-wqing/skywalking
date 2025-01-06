@@ -36,7 +36,7 @@ import org.apache.skywalking.oap.server.library.module.ModuleManager;
 /**
  * Virtual Service represent remote service
  */
-// VS : represent remote service
+// VS : Processor
 @RequiredArgsConstructor
 public class VirtualServiceAnalysisListener implements ExitAnalysisListener, LocalAnalysisListener, EntryAnalysisListener {
 

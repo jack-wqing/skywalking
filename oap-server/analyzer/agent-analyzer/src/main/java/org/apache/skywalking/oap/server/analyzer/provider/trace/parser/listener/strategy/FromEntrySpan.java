@@ -26,7 +26,7 @@ import org.apache.skywalking.apm.network.language.agent.v3.SpanType;
  * exist, the final state of the segment is successful.
  */
 
-// from entry span
+// Entry
 
 public class FromEntrySpan implements SegmentStatusAnalyzer {
 

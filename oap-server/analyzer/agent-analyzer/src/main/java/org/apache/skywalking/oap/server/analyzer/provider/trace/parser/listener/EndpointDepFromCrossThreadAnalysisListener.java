@@ -43,7 +43,7 @@ import org.apache.skywalking.oap.server.library.util.StringUtil;
  * @since 9.0.0
  */
 
-// EndpointDep From Thread
+// Endpoint dep
 
 @RequiredArgsConstructor
 public class EndpointDepFromCrossThreadAnalysisListener extends CommonAnalysisListener implements ExitAnalysisListener, LocalAnalysisListener {

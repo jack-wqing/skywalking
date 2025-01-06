@@ -31,7 +31,7 @@ import org.apache.skywalking.oap.server.library.module.ModuleManager;
 import org.apache.skywalking.oap.server.library.server.grpc.GRPCHandler;
 
 import java.util.concurrent.TimeUnit;
-// SpanAttachedEvent: ReportService
+// GRPC SpanAttachedEvent: ReportService
 @Slf4j
 public class SpanAttachedEventReportServiceHandler extends SpanAttachedEventReportServiceGrpc.SpanAttachedEventReportServiceImplBase implements GRPCHandler {
     public SpanAttachedEventReportServiceHandler(ModuleManager moduleManager) {

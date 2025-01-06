@@ -32,7 +32,7 @@ import org.apache.skywalking.oap.meter.analyzer.dsl.counter.CounterWindow;
 /**
  * Sample represents the metric data point in a range of time.
  */
-//range time metric data
+// Sample: range time -> metric data
 
 @Builder(toBuilder = true)
 @EqualsAndHashCode
