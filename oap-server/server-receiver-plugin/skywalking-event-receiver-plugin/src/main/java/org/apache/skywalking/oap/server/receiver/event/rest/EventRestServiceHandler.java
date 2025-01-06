@@ -34,6 +34,8 @@ import org.apache.skywalking.oap.server.telemetry.api.HistogramMetrics;
 import org.apache.skywalking.oap.server.telemetry.api.MetricsCreator;
 import org.apache.skywalking.oap.server.telemetry.api.MetricsTag;
 
+// http event data
+
 @Slf4j
 public class EventRestServiceHandler {
     private final HistogramMetrics histogram;

@@ -20,6 +20,8 @@ package org.apache.skywalking.oap.server.receiver.event;
 
 import org.apache.skywalking.oap.server.library.module.ModuleDefine;
 
+// receive-event
+
 public class EventModule extends ModuleDefine {
     public static final String NAME = "receiver-event";
 

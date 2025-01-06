@@ -31,6 +31,8 @@ import org.apache.skywalking.oap.server.receiver.event.grpc.EventGrpcServiceHand
 import org.apache.skywalking.oap.server.receiver.event.rest.EventRestServiceHandler;
 import org.apache.skywalking.oap.server.receiver.sharing.server.SharingServerModule;
 
+// Event: Module Provider
+
 public class EventModuleProvider extends ModuleProvider {
 
     @Override

@@ -36,6 +36,8 @@ import org.apache.skywalking.oap.server.telemetry.api.HistogramMetrics;
 import org.apache.skywalking.oap.server.telemetry.api.MetricsCreator;
 import org.apache.skywalking.oap.server.telemetry.api.MetricsTag;
 
+// GRPC collect event
+
 @Slf4j
 public class EventGrpcServiceHandler extends EventServiceGrpc.EventServiceImplBase implements GRPCHandler {
     private final HistogramMetrics histogram;
