@@ -33,6 +33,8 @@ import org.apache.skywalking.oap.server.receiver.log.provider.handler.rest.LogRe
 import org.apache.skywalking.oap.server.receiver.sharing.server.SharingServerModule;
 import org.apache.skywalking.oap.server.telemetry.TelemetryModule;
 
+// log: module provider
+
 public class LogModuleProvider extends ModuleProvider {
 
     @Override

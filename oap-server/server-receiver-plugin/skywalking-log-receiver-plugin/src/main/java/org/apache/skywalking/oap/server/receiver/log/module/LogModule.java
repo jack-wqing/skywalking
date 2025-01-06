@@ -19,6 +19,8 @@ package org.apache.skywalking.oap.server.receiver.log.module;
 
 import org.apache.skywalking.oap.server.library.module.ModuleDefine;
 
+// log module define
+
 public class LogModule extends ModuleDefine {
 
     public LogModule() {

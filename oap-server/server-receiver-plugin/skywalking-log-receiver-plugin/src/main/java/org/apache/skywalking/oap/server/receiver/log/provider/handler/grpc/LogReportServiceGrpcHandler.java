@@ -36,6 +36,7 @@ import org.apache.skywalking.oap.server.telemetry.api.MetricsTag;
 /**
  * Collect log data
  */
+// grpc collect log data
 @Slf4j
 public class LogReportServiceGrpcHandler extends LogReportServiceGrpc.LogReportServiceImplBase implements GRPCHandler {
 
