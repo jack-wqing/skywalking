@@ -25,6 +25,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleProvider;
 import org.apache.skywalking.oap.server.library.module.ModuleStartException;
 import org.apache.skywalking.oap.server.library.module.ServiceNotProvidedException;
 
+// event-analyzer: ModuleProvider
+
 public class EventAnalyzerModuleProvider extends ModuleProvider {
 
     private EventAnalyzerServiceImpl analysisService;

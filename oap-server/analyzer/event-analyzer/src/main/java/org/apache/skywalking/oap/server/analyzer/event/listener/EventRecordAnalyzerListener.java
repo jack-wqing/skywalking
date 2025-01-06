@@ -32,6 +32,8 @@ import lombok.RequiredArgsConstructor;
 /**
  * EventRecordAnalyzerListener forwards the event data to the persistence layer with the query required conditions.
  */
+// EventRecord: AnalyzerListener
+
 @RequiredArgsConstructor
 public class EventRecordAnalyzerListener implements EventAnalyzerListener {
     private static final Gson GSON = new Gson();

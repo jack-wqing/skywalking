@@ -20,6 +20,8 @@ package org.apache.skywalking.oap.server.analyzer.event;
 
 import org.apache.skywalking.oap.server.library.module.ModuleDefine;
 
+// event-analyzer
+
 public class EventAnalyzerModule extends ModuleDefine {
     public static final String NAME = "event-analyzer";
 

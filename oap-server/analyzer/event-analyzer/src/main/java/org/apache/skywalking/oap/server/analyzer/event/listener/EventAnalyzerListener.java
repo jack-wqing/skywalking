@@ -24,6 +24,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleManager;
 /**
  * {@code EventAnalyzerListener} represents the callback when OAP does the event data analysis.
  */
+// event data analyzer
+
 public interface EventAnalyzerListener {
     /**
      * Parse the raw data from the proto buffer messages.

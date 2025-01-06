@@ -27,6 +27,8 @@ import org.apache.skywalking.oap.server.analyzer.event.listener.EventAnalyzerLis
 import org.apache.skywalking.oap.server.library.module.ModuleManager;
 import org.apache.skywalking.oap.server.analyzer.event.listener.IEventAnalyzerListenerManager;
 
+// EventAnalyzer: service impl
+
 @Slf4j
 @RequiredArgsConstructor
 public class EventAnalyzerServiceImpl implements EventAnalyzerService, IEventAnalyzerListenerManager {

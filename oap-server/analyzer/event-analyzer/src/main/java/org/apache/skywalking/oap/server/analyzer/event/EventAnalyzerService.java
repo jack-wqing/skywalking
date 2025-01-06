@@ -21,6 +21,8 @@ package org.apache.skywalking.oap.server.analyzer.event;
 import org.apache.skywalking.apm.network.event.v3.Event;
 import org.apache.skywalking.oap.server.library.module.Service;
 
+// Event: AnalyzerService
+
 public interface EventAnalyzerService extends Service {
     void analyze(final Event event);
 }

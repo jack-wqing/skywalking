@@ -30,6 +30,8 @@ import org.apache.skywalking.oap.server.library.module.ModuleManager;
 /**
  * Analyze the collected event data, is the entry point for event analysis.
  */
+// Event analyzer: entry point
+
 @Slf4j
 @RequiredArgsConstructor
 public class EventAnalyzer {

@@ -20,6 +20,8 @@ package org.apache.skywalking.oap.server.analyzer.event.listener;
 
 import java.util.List;
 
+// EventAnalyzer
+
 public interface IEventAnalyzerListenerManager {
 
     void add(EventAnalyzerListener.Factory factory);
